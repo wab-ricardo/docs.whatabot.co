@@ -7,7 +7,7 @@ description: >-
 
 # User Guide
 
-## TTechnical concepts
+## Technical concepts
 
 WhatABot is a conversational service of automatic response, where technologies of chats \(platforms of conversation\) and Bots \(Systems of automatic responses\) are integrated. It works when in a conversation the end- user sends a message to the Bot and this automatically returns another message as a response by following a set of business rules which are easily defined by simple flow charts.
 
@@ -21,7 +21,7 @@ The Bot must know the exact point where a conversation is going on in order to g
 
 There is an initial status for new conversations and as many status are needed can be defined depending on the topics the Bot will be able to respond. Every time the Bot responds it is possible to do, or not, a transition to a different status in the conversation itself.
 
-### Bot variables
+### BBBot variables
 
 To get the Bot can more accurately determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as necessary depending on the rules and scope given to the Bot.
 
