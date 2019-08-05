@@ -7,7 +7,7 @@ description: >-
 
 # User Guide
 
-## Technical concepts
+## TTechnical concepts
 
 WhatABot is a conversational service of automatic response, where technologies of chats \(platforms of conversation\) and Bots \(Systems of automatic responses\) are integrated. It works when in a conversation the end- user sends a message to the Bot and this automatically returns another message as a response by following a set of business rules which are easily defined by simple flow charts.
 
