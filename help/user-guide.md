@@ -7,28 +7,6 @@ description: >-
 
 # User Guide
 
-### Interface
-
-The WhatABot portal presents all its functionalities on the interface described below:
-
-#### General Description
-
-There are 8 items that are kept fixed through all sections of Chat-bots, below is described each and its function.
-
-1. **Logo:** logo of the brand WhatABot, by clicking on it will always be directed to Dashboard
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img132.jpg) 2. **Reseller and User:** Reseller logo and user’s button.
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img133.jpg) 3. **Main Menu:** Menu of the most important sections of the platform.
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img135.jpg) 4. **Navigation \(bread crumb-trail\):** the exact route where the user is located .
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img136.jpg) 5. **Title section:** title of the current section
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img137.jpg) 6. **Content**: section where the content of the current section is displayed.
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img138.jpg)
-
 ## Technical concepts
 
 WhatABot is a conversational service of automatic response, where technologies of chats \(platforms of conversation\) and Bots \(Systems of automatic responses\) are integrated. It works when in a conversation the end- user sends a message to the Bot and this automatically returns another message as a response by following a set of business rules which are easily defined by simple flow charts.
