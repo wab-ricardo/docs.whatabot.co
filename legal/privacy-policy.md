@@ -1,5 +1,5 @@
 ---
-description: 'Last Updated August 2, 2019'
+description: 'Last Updated August 12, 2019'
 ---
 
 # Privacy Policy
@@ -16,7 +16,7 @@ Some key terms are defined as follows, and throughout this document:
 
 ## 2. About WhatABot
 
-WhatABot \(“**Scadco**”,“**WhatABot**”,“**we**”, “**us**”, or “**our**”\) provides a Software as a Service \(SaaS\) cloud-based platform that allows our customers to build, test and monitor bots that are able to transfer messages between their business systems and their customers on a variety of WhatABot-provided and third party messaging channels \(the “**Service**”\). 
+WhatABot \(“**Scadco**”,“**WhatABot**”,“**we**”, “**us**”, or “**our**”\) provides a Software as a Service \(SaaS\) cloud-based platform that allows our customers to build, test, deploy and monitor bots that are able to transfer messages between their business systems and their customers on a variety of WhatABot-provided and third party messaging channels \(the “**Service**”\). 
 
 WhatABot is committed to the protection of Personal Data, including data that we use for our own purposes, and that we eventually maintain on behalf of our Customers.
 
@@ -27,13 +27,12 @@ WhatABot collects information, including Personal Data, for the following purpos
 1. Providing and managing the Service
 2. Internal business purposes
    1. Communicating with you and marketing
-   2. Recruiting and managing personnel
-   3. Collecting payment for the Service
-   4. To understand and improve our Service and Website
+   2. Collecting payment for the Service
+   3. To understand and improve our Service and Website
 
 This Policy is not intended to place any limits on what we do with data that is aggregated and/or de-identified so it is no longer associated with an identifiable individual \(Data Subject\) or Customer of the Services.
 
-WhatABot Services are not directed to children under 16. If you learn that a child under 16 has provided us with Personal Data without consent, please contact us.
+WhatABot Services are not directed to children under 18. If you learn that a child under 18 has provided us with Personal Data without consent, please contact us.
 
 #### Providing and managing the Service
 
@@ -112,9 +111,9 @@ Please contact WhatABot if:
 2. you wish to access, update, and/or correct inaccuracies in your Personal Data; or
 3. you otherwise have a question or complaint about the manner in which we or our service providers treat your Personal Data.
 
-You can reach the Chief Privacy Officer by emailing [privacy@whatabot.co](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=privacy@smooch.io) or at our mailing address below:
+You can reach the Chief Privacy Officer by emailing [wab.privacy@whatabot.co](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=privacy@smooch.io) or at our mailing address below:
 
-Scadco, Inc.  
+**Scadco, Inc.**  
 Attn: Chief Privacy Officer  
 9835 Blue Stone Cir  
 Fort Myers, FL 33913 \(USA\)
