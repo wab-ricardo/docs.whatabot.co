@@ -21,7 +21,7 @@ The Bot must know the exact point where a conversation is going on in order to g
 
 There is an initial status for new conversations and as many status are needed can be defined depending on the topics the Bot will be able to respond. Every time the Bot responds it is possible to do, or not, a transition to a different status in the conversation itself.
 
-### BBBot variables
+### Bot variables
 
 To get the Bot can more accurately determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as necessary depending on the rules and scope given to the Bot.
 
@@ -61,20 +61,32 @@ They are defined within an object called msg and represent the message sent by t
 
 The Bot model is defined in the designer by simple flow diagrams, which are composed of Steps and Connectors.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img139.jpg) Each diagram starts with a ‘Status’ step \(represented in green\) and via Connectors links to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
+![Flow bot](../.gitbook/assets/image%20%283%29.png)
+
+Each diagram starts with a ‘Status’ step \(represented in green\) and via Connectors links to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
 
 As many diagrams as states will have the conversation are defined. The designer draws a lane for each.
 
 ### Types of steps
 
 **Status step**  
-This step represents the conversation status. It is the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation. ![imagen](https://chat-bots.co/assets/img/docs/es/img009.jpg)
+This step represents the conversation status. It is the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation.
 
-**Condition step** Through this step the Bot evaluates a condition to determine which path to continue in flow. ![imagen](https://chat-bots.co/assets/img/docs/es/img010.jpg)
+![Initial bot](../.gitbook/assets/image%20%286%29.png)
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img009.jpg)
+
+**Condition step** Through this step the Bot evaluates a condition to determine which path to continue in flow.
+
+![Condition](../.gitbook/assets/image%20%287%29.png)
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img010.jpg)
 
 **Process Step**
 
 Through this step the Bot can be connected to external systems \(ERP, CRM, etc\) and obtain or send information by using webhooks.
+
+![Process](../.gitbook/assets/image%20%282%29.png)
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img011.jpg)
 
@@ -82,11 +94,17 @@ Through this step the Bot can be connected to external systems \(ERP, CRM, etc\)
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
+![Expression ](../.gitbook/assets/image%20%2810%29.png)
+
 ![imagen](https://chat-bots.co/assets/img/docs/es/img012.jpg) **Tracing step**
 
 Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot.
 
+![Trace](../.gitbook/assets/image%20%284%29.png)
+
 ![imagen](https://chat-bots.co/assets/img/docs/es/img013.jpg) **Step Message** Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status as necessary.
+
+![Message](../.gitbook/assets/image%20%281%29.png)
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img014.jpg)
 
@@ -113,34 +131,37 @@ In this section you will find everything you need to create, edit and delete bot
 
 To view the available bots, click the "bots" button on the side menu, to be directed to the bots section.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img001.jpg)
-
 In this section, available bots appear on cards, grouped into drop down containers, separated by customer.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img002.jpg)
+![Button bots](../.gitbook/assets/image%20%285%29.png)
 
-Each card shows the name, image, status and description of a bot.
+Each card shows the name, image, status and description of a bo
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img003.jpg)
+![content bot](../.gitbook/assets/image%20%288%29.png)
 
 ### Open bot
 
 Identify the bot to open and position the cursor on it.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img004.jpg)
+![module bot](../.gitbook/assets/image.png)
 
 Two buttons appear on the card: "Open" \(in blue\), opens the bot in the designer; "Delete" \(in red\) offers the option to remove the bot.
 
-Click "Open" The bot will open in the designer to be viewed or edited.
+Click "Open" The bot will open in the designer to be viewed or edited
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img005.jpg)  
+![Designer](../.gitbook/assets/imagen%20%281%29.png)
+
 `watch video`
 
 ### Designer Interface
 
-The designer interface is the space where you can create and edit the models. It is composed of 4 parts:
+![option open bot](../.gitbook/assets/image%20%289%29.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img006.jpg) 1. Image \(with status\), name and client of the bot. 2. Toolbar of the bot. The toolbar offers the following options:
+The designer interface is the space where you can create and edit the models. It is composed of 4 parts: 
+
+![Interface](../.gitbook/assets/imagen.png)
+
+1. Image \(with status\), name and client of the bot. 2. Toolbar of the bot. The toolbar offers the following options:
 
 | Tool | Icon | Function |
 | :--- | :--- | :--- |
