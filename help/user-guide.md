@@ -78,7 +78,7 @@ This step represents the conversation status. It is the initial step that the Bo
 
 **Condition step** Through this step the Bot evaluates a condition to determine which path to continue in flow.
 
-![Condition](../.gitbook/assets/image%20%287%29.png)
+![Condition](../.gitbook/assets/image%20%288%29.png)
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img010.jpg)
 
@@ -94,7 +94,7 @@ Through this step the Bot can be connected to external systems \(ERP, CRM, etc\)
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
-![Expression ](../.gitbook/assets/image%20%2810%29.png)
+![Expression ](../.gitbook/assets/image%20%2811%29.png)
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img012.jpg) **Tracing step**
 
@@ -137,7 +137,7 @@ In this section, available bots appear on cards, grouped into drop down containe
 
 Each card shows the name, image, status and description of a bo
 
-![content bot](../.gitbook/assets/image%20%288%29.png)
+![content bot](../.gitbook/assets/image%20%289%29.png)
 
 ### Open bot
 
@@ -147,19 +147,19 @@ Identify the bot to open and position the cursor on it.
 
 Two buttons appear on the card: "Open" \(in blue\), opens the bot in the designer; "Delete" \(in red\) offers the option to remove the bot.
 
-Click "Open" The bot will open in the designer to be viewed or edited
+Click "Open" The bot will open in the designer to be viewed or edited.
 
-![Designer](../.gitbook/assets/imagen%20%281%29.png)
+![Designer](../.gitbook/assets/image%20%2812%29.png)
 
 `watch video`
 
 ### Designer Interface
 
-![option open bot](../.gitbook/assets/image%20%289%29.png)
+![option open bot](../.gitbook/assets/image%20%2810%29.png)
 
-The designer interface is the space where you can create and edit the models. It is composed of 4 parts: 
+The designer interface is the space where you can create and edit the models. It is composed of 4 parts:
 
-![Interface](../.gitbook/assets/imagen.png)
+![Interface](../.gitbook/assets/image%20%287%29.png)
 
 1. Image \(with status\), name and client of the bot. 2. Toolbar of the bot. The toolbar offers the following options:
 
