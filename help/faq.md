@@ -20,13 +20,13 @@ A bubble is a single message submitted by any participant in a conversation.
 
 A message is a set of one or more bubbles sent by a participant in a conversation before its counterpart sends a response.
 
-## What is an conversation?
+## What is a conversation?
 
 A conversation is any number of messages interchanged between participants. A conversation usually has a beginning and an end. It also has a purpose.
 
 ## How do we count messages?
 
-Based on the previous definitions, WhatABot plans count single side messages. This means it counts the number of messages a bot sends to a user. For instance, our Advanced plan allows customers to get as many as 20.000 responses from bots to users.
+Based on the previous definitions, WhatABot plans count single side messages. This means it counts the number of messages a bot sends to a user. For instance, our Advanced plan allows customers to get as many as 20.000 automated responses from bots to users.
 
 ## How do we count conversations?
 
