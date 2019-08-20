@@ -69,18 +69,17 @@ As many diagrams as states will have the conversation are defined. The designer 
 
 ### Types of steps
 
-**Status step**  
+**Status step**
+
 This step represents the conversation status. It is the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation.
 
 ![Initial bot](../.gitbook/assets/image%20%286%29.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img009.jpg)
+**Condition step** 
 
-**Condition step** Through this step the Bot evaluates a condition to determine which path to continue in flow.
+Through this step the Bot evaluates a condition to determine which path to continue in flow.
 
 ![Condition](../.gitbook/assets/image%20%288%29.png)
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img010.jpg)
 
 **Process Step**
 
@@ -88,25 +87,23 @@ Through this step the Bot can be connected to external systems \(ERP, CRM, etc\)
 
 ![Process](../.gitbook/assets/image%20%282%29.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img011.jpg)
-
 **Expression Step**
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
 ![Expression ](../.gitbook/assets/image%20%2811%29.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img012.jpg) **Tracing step**
+ **Tracing step**
 
 Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot.
 
 ![Trace](../.gitbook/assets/image%20%284%29.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img013.jpg) **Step Message** Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status as necessary.
+ **Step Message** 
+
+Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status as necessary.
 
 ![Message](../.gitbook/assets/image%20%281%29.png)
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img014.jpg)
 
 ### Webhook
 
