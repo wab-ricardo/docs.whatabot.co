@@ -176,13 +176,19 @@ The designer interface is the space where you can create and edit the models. It
 
    In the "Bots" section at the bottom right, a button with the icon \(+\) appears. Click on it.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img007.jpg) The designer where you can start building the bot will be opened.
+![imagen](https://chat-bots.co/assets/img/docs/es/img007.jpg) 
+
+
+
+The designer where you can start building the bot will be opened.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img008.jpg)
 
-### Create status step
+### Create status step 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img009.jpg) Identified with green color and icon \( \). Status step is used to create different states in a conversation.
+![Initial](../.gitbook/assets/initial.PNG)
+
+Identified with green color and icon \( \). Status step is used to create different states in a conversation.Inia
 
 To create a status step, go to the toolbar, then click the "Create Status" button, identified with the icon \( \).
 
@@ -194,21 +200,37 @@ The new status step, will appear at the bottom which divides the workspace with 
 
 #### Properties of the  Status step.
 
-To open the properties of a state step, click the "Options" button on it, a _modal_ like the following will appear:
+To open the properties of a state step, click the "Options" button on it, a _modal_ like the following will appear: 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img019.jpg) A Status step has two properties: 1. **Name:** Enter the name that will have the status step. 2. **Next step:** next step in the flow of the model.
+![options\_step](../.gitbook/assets/options_step.PNG)
 
-### Create Condition step
+A Status step has two properties: 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img010.jpg) Identified with the color yellow and the icon \( \). The step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+1. **Name:** Enter the name that will have the status step. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img020.jpg) Click on "Condition", then the condition step connected with the previous step will appear.
+2. **Next step:** next step in the flow of the model.
+
+### Create Condition step 
+
+![Condition](../.gitbook/assets/flowbot_cb-02.png)
+
+Identified with the color yellow and the icon \( \). The step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img020.jpg) 
+
+Click on "Condition", then the condition step connected with the previous step will appear.
 
 #### Properties of Step Condition
 
-To open the properties of a condition step, click on the "Options" button , a _modal_ like the following will appear:
+To open the properties of a condition step, click on the "Options" button , a _modal_ like the following will appear: 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img026.jpg) A condition step has 4 properties: 1. Name: enter the name that will have the step condition. 2. Condition: condition to evaluate. You have the following options:
+![options\_condition](../.gitbook/assets/options_condition.PNG)
+
+A condition step has 4 properties: 
+
+1. Name: enter the name that will have the step condition. 
+
+2. Condition: condition to evaluate. You have the following options:
 
 * The variable to evaluate \(`a`\). 
 * Comparison operator, you can choose any of the following options:
@@ -234,38 +256,54 @@ To open the properties of a condition step, click on the "Options" button , a _m
 
      `watch video`
 
-### Create Process step
+### Create Process step 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img011.jpg) Identified with the blue color and the icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+![Process](../.gitbook/assets/flowbot_cb-03.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img021.jpg) Click on "Process", then the process step connected with the previous step will appear.
+Identified with the blue color and the icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img021.jpg) 
+
+Click on "Process", then the process step connected with the previous step will appear.
 
 #### Properties of a process step.
 
-To open the properties of a process step, click on the options button of the process, a modal will appear as follows:
+To open the properties of a process step, click on the options button of the process, a modal will appear as follows: 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img027.jpg) The Process step has 3 properties:
+![option\_process](../.gitbook/assets/options_process.PNG)
+
+The Process step has 3 properties:
 
 1. **Name** : Enter the name that will have the process step.
 2. **Webhook** : method, url and  necessary variables for the webhook operation:
 3. Method: you can choose between GET or POST to make the request.
 4. Variables: you can send and receive variables as follows:
    * Webhook variables: \(GET/POST\) define the variables that the Webhook will return.
-   * POST variables: \(POST\) select the variables you are sending to the Webhook.
+   * POST variables: \(POST\) select the variables you are sending to the Webhook. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img028.jpg) 3. **Next step:** next step in the flow of the model. `watch video`
+![](../.gitbook/assets/options_process2.PNG)
 
-### Create Expression step
+3. **Next step:** next step in the flow of the model. `watch video`
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img012.jpg) Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) of the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+### Create Expression step 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img022.jpg) Click on "Expression", then the expression step connected to the previous step will appear.
+ 
+
+![Expression](../.gitbook/assets/flowbot_cb-04.png)
+
+Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) of the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img022.jpg) 
+
+Click on "Expression", then the expression step connected to the previous step will appear.
 
 #### Properties of step expression.
 
 To open the properties of an expression step, click the "Options" button on the expression step, a modal like the following will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img029.jpg) A expression step has four properties: 1. **Name:** enter the name that will have the expression step. 2. **Variable bot** : the variable where the result of evaluating the expression will be saved, note that you can create it \(by writing the name\) or use an existing variable \(selecting it from the drop-down field\). Remember that it is a conversation variable `chat.`as seen at the beginning of the field. 3. **Expression** : Enter in this field the expression you want to evaluate, note that literal values as text \(strings\) must be enclosed in quotes: `"Good morning"`, integer values are entered without quotation marks: `12`if you use decimal point should go to: `12.56`. It can also include variables \(of conversation or message\) that must go between symbols "greater than" and "less than": `<msg.body>`, `<chat.myVariable>`. In the expression you can do arithmetic operations: `3 + 6`and use functions. An expression has the following options:
+![](../.gitbook/assets/options_expression.PNG)
+
+A expression step has four properties: 1. **Name:** enter the name that will have the expression step. 2. **Variable bot** : the variable where the result of evaluating the expression will be saved, note that you can create it \(by writing the name\) or use an existing variable \(selecting it from the drop-down field\). Remember that it is a conversation variable `chat.`as seen at the beginning of the field. 3. **Expression** : Enter in this field the expression you want to evaluate, note that literal values as text \(strings\) must be enclosed in quotes: `"Good morning"`, integer values are entered without quotation marks: `12`if you use decimal point should go to: `12.56`. It can also include variables \(of conversation or message\) that must go between symbols "greater than" and "less than": `<msg.body>`, `<chat.myVariable>`. In the expression you can do arithmetic operations: `3 + 6`and use functions. An expression has the following options:
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img030.jpg)
 
