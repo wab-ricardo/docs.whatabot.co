@@ -158,7 +158,9 @@ The designer interface is the space where you can create and edit the models. It
 
 ![Interface](../.gitbook/assets/image%20%287%29.png)
 
-1. Image \(with status\), name and client of the bot. 2. Toolbar of the bot. The toolbar offers the following options:
+1. Image \(with status\), name and client of the bot.
+
+2. Toolbar of the bot. The toolbar offers the following options:
 
 | Tool | Icon | Function |
 | :--- | :--- | :--- |
@@ -169,20 +171,19 @@ The designer interface is the space where you can create and edit the models. It
 | Save bot |  | Saves changes made in the bot |
 | Bot options |  | Opens the options menu for the bot |
 
-1. Initial Status
-2. Work space
+3. Initial Status.
 
-   **Creation of a bot**
+4. Work space
 
-   In the "Bots" section at the bottom right, a button with the icon \(+\) appears. Click on it.
+### **Creation of a bot**
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img007.jpg) 
+In the "Bots" section at the bottom right, a button with the icon \(+\) appears. Click on it.
 
-
+![New bot](../.gitbook/assets/new-bot_wab.png)
 
 The designer where you can start building the bot will be opened.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img008.jpg)
+![Initial bot](../.gitbook/assets/initial_wab.png)
 
 ### Create status step 
 
@@ -192,11 +193,11 @@ Identified with green color and icon \( \). Status step is used to create differ
 
 To create a status step, go to the toolbar, then click the "Create Status" button, identified with the icon \( \).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img016.jpg)
+![Create Status](../.gitbook/assets/status_wab.png)
 
 The new status step, will appear at the bottom which divides the workspace with a dark blue horizontal line \(rail\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img017.jpg)
+![State 1](../.gitbook/assets/state_1_wab.png)
 
 #### Properties of the  Status step.
 
@@ -214,9 +215,9 @@ A Status step has two properties:
 
 ![Condition](../.gitbook/assets/flowbot_cb-02.png)
 
-Identified with the color yellow and the icon \( \). The step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+Identified with the color yellow and the icon \( \). The step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img020.jpg) 
+![Condition](../.gitbook/assets/condition_wab.png)
 
 Click on "Condition", then the condition step connected with the previous step will appear.
 
@@ -260,9 +261,9 @@ A condition step has 4 properties:
 
 ![Process](../.gitbook/assets/flowbot_cb-03.png)
 
-Identified with the blue color and the icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+Identified with the blue color and the icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img021.jpg) 
+![Process](../.gitbook/assets/process_wab.png)
 
 Click on "Process", then the process step connected with the previous step will appear.
 
@@ -276,14 +277,17 @@ The Process step has 3 properties:
 
 1. **Name** : Enter the name that will have the process step.
 2. **Webhook** : method, url and  necessary variables for the webhook operation:
-3. Method: you can choose between GET or POST to make the request.
-4. Variables: you can send and receive variables as follows:
-   * Webhook variables: \(GET/POST\) define the variables that the Webhook will return.
-   * POST variables: \(POST\) select the variables you are sending to the Webhook. 
+
+Method: you can choose between GET or POST to make the request.
+
+Variables: you can send and receive variables as follows:
+
+* Webhook variables: \(GET/POST\) define the variables that the Webhook will return.
+* POST variables: \(POST\) select the variables you are sending to the Webhook. 
 
 ![](../.gitbook/assets/options_process2.PNG)
 
-3. **Next step:** next step in the flow of the model. `watch video`
+3.**Next step:** next step in the flow of the model. `watch video`
 
 ### Create Expression step 
 
@@ -291,9 +295,9 @@ The Process step has 3 properties:
 
 ![Expression](../.gitbook/assets/flowbot_cb-04.png)
 
-Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) of the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) of the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img022.jpg) 
+![Expression](../.gitbook/assets/expression_wab.png)
 
 Click on "Expression", then the expression step connected to the previous step will appear.
 
@@ -303,12 +307,27 @@ To open the properties of an expression step, click the "Options" button on the 
 
 ![](../.gitbook/assets/options_expression.PNG)
 
-A expression step has four properties: 1. **Name:** enter the name that will have the expression step. 2. **Variable bot** : the variable where the result of evaluating the expression will be saved, note that you can create it \(by writing the name\) or use an existing variable \(selecting it from the drop-down field\). Remember that it is a conversation variable `chat.`as seen at the beginning of the field. 3. **Expression** : Enter in this field the expression you want to evaluate, note that literal values as text \(strings\) must be enclosed in quotes: `"Good morning"`, integer values are entered without quotation marks: `12`if you use decimal point should go to: `12.56`. It can also include variables \(of conversation or message\) that must go between symbols "greater than" and "less than": `<msg.body>`, `<chat.myVariable>`. In the expression you can do arithmetic operations: `3 + 6`and use functions. An expression has the following options:
+A expression step has four properties: 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img030.jpg)
+1. **Name:** enter the name that will have the expression step.
+
+2. **Variable bot:** the variable where the result of evaluating the expression will be saved, note that you can create it \(by writing the name\) or use an existing variable \(selecting it from the drop-down field\).
+
+Remember that it is a conversation variable `chat.`as seen at the beginning of the field.
+
+3. **Expression:** Enter in this field the expression you want to evaluate, note that literal values as text \(strings\) must be enclosed in quotes:
+
+`"Good morning"`, integer values are entered without quotation marks: `12`if you use decimal point should go to: `12.56`.
+
+It can also include variables \(of conversation or message\) that must go between symbols "greater than" and "less than": `<msg.body>`, `<chat.myVariable>`. 
+
+In the expression you can do arithmetic operations: `3 + 6`and use functions. An expression has the following options:
+
+![Step properties](../.gitbook/assets/step-properties.png)
 
 1. **Insert variable:** you can insert an existing variable. 
-   1. **Functions:** The available functions are:
+
+2. **Functions:** The available functions are:
 
 | Kind | Function / Operator | Description |
 | :--- | :--- | :--- |
@@ -363,31 +382,55 @@ A expression step has four properties: 1. **Name:** enter the name that will hav
 |  | **&lt;=** | **Less than or equal to** : checks if the first of 2 values ​​of the same type is less than or equal to the second `3 <= 3`returns True. |
 |  | &lt;&gt; | **Different** : check if 2 values ​​of the same type are different `3 <> 3`returns False. |
 
-1. In the literal text values \(Strings\)  between quotes you can insert emojis.
+3. In the literal text values \(Strings\)  between quotes you can insert emojis.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img031.jpg) 4. **Next step:** next step in the flow of the model. `watch video`
+![](../.gitbook/assets/emoticones.png)
 
-### Create Tracing step
+4. **Next step:** next step in the flow of the model. `watch video`
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img013.jpg) Identified with the gray color and the icon \( \). This step allows to generate a trace with up to 3 dimensions that is recorded in the system each time the conversation passes through it. It is useful for creating reports and statistics on the use of the Bot.
+### Create Tracing step 
 
-Position yourself on any intermediate step, click the "Next button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+![Trace log](../.gitbook/assets/flowbot_cb-05.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img023.jpg) Click on "Trace", then the trace step connected to the previous step will appear.
+Identified with the gray color and the icon \( \). This step allows to generate a trace with up to 3 dimensions that is recorded in the system each time the conversation passes through it. It is useful for creating reports and statistics on the use of the Bot.
+
+Position yourself on any intermediate step, click the "Next button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+
+![](../.gitbook/assets/trace-log_wab.png)
+
+Click on "Trace", then the trace step connected to the previous step will appear.
 
 #### Properties of the tracing step.
 
 To open the properties of a trace step, click on the "Options" button, a modal like the following will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img032.jpg) A trace step has 4 properties: 1. **Name:** enter the name that will have the trace step. **Remember that with this name the traceability reports will be generated.** 2.  **Dimensions:** you can save up to 3 different values. You can include variables.
+![](../.gitbook/assets/trace-step.png)
 
-> Remember that the trace includes 3 default dimensions that are date/time, line and contact. 3. **Annotation:** you can generate a note to your liking or need, this note can contain the amount of variables you need. 4. **Next step:** next step in the flow of the model. `watch video`
+A trace step has 4 properties: 
 
-### Create Message step
+1. **Name:** enter the name that will have the trace step. **Remember that with this name the traceability reports will be generated.** 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img014.jpg) Identified with the color red and the icon \( \). The message step is used to send a message to the user interacting with the bot, capture the answer in a variable and jump to a status. This step just as jump, is the last of a flow within a status, therefore, does not allow descending steps. Position yourself on any intermediate step , click on the "Next" button, "Yes" / "No" \(in condition\), a contextual menu with the available steps will appear.
+2.  **Dimensions:** you can save up to 3 different values. You can include variables.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img024.jpg)
+> Remember that the trace includes 3 default dimensions that are date/time, line and contact. 
+>
+> 3. **Annotation:** you can generate a note to your liking or need, this note can contain the amount of variables you need. 
+>
+> 4. **Next step:** next step in the flow of the model. `watch video`
+
+### Create Message step 
+
+![](../.gitbook/assets/flowbot_cb-06.png)
+
+Identified with the color red and the icon \( \).
+
+The message step is used to send a message to the user interacting with the bot, capture the answer in a variable and jump to a status.
+
+This step just as jump, is the last of a flow within a status, therefore, does not allow descending steps.
+
+Position yourself on any intermediate step , click on the "Next" button, "Yes" / "No" \(in condition\), a contextual menu with the available steps will appear.
+
+![Message](../.gitbook/assets/message_wab.png)
 
 Click on "Message", the message step connected to the previous step will appear.
 
