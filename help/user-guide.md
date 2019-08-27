@@ -555,19 +555,21 @@ Then move the cursor to the card, the "Delete" button will appear, click it.
 
 A confirmation mode will appear, click the "Delete" button to delete the bot or click "Cancel" to abandon the operation.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img150.jpg)
+![Button delete](../.gitbook/assets/delete_bot3.png)
 
 ### Bot options
 
-Each bot has a panel with multiple options, to access it you must go to the toolbar "Options" button, then click on it.
+Each bot has a panel with multiple options, to access it you must go to the toolbar "Options" button, then click on it. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img043.jpg) A panel with the available options will appear.
+![](../.gitbook/assets/options_tool_key.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img044.jpg)
+A panel with the available options will appear.
+
+![](../.gitbook/assets/options_tool_key1.png)
 
 To hide the options pane, move the cursor to the toolbar and click the "Close" button \(same as you used to open the panel, but in this case with the icon \( \) and a slightly darker background\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img045.jpg)
+![](../.gitbook/assets/options_close_ok.png)
 
 #### Tools
 
@@ -581,39 +583,61 @@ This option allows to check if the current model is valid. Among the validations
 * Orphaned steps.
 * Configuration of the parameters of each step.
 
-This option only validates the structure of the bot, not its overall performance. To validate a bot, click Options&gt;Validate. If you have a validation error, the program will indicate it with a notification at the bottom right \(2\); it will also mark the specific step where the error is \(1\).
+This option only validates the structure of the bot, not its overall performance. To validate a bot, click Options&gt;Validate. If you have a validation error, the program will indicate it with a notification at the bottom right \(2\); it will also mark the specific step where the error is \(1\). 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img046.jpg) When the bot has passed the validation successfully, a notification will appear at the bottom right indicating that the model was validated correctly.
+![](../.gitbook/assets/option_error_ok.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img047.jpg) `watch video`
+When the bot has passed the validation successfully, a notification will appear at the bottom right indicating that the model was validated correctly. 
+
+![](../.gitbook/assets/validate-bot.png)
+
+`watch video`
 
 **Select all**
 
-This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semitransparent border\), then you can position the cursor on any step and drag. All steps will move at the same time.
+This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semitransparent border\), then you can position the cursor on any step and drag. All steps will move at the same time. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img049.jpg) To remove the selection, simply click on any empty part of the workspace. `ver video`
+![](../.gitbook/assets/select-all.png)
+
+To remove the selection, simply click on any empty part of the workspace. `ver video`
 
 **Dialogue Timeout**
 
 All conversations in which a bot interacts have an expiration period, this is known as "dialogue timeout", and refers to the maximum time a user can restart a conversation. After the inactivity period, the conversation will return to the initial status and all the conversation variables will be reset.
 
-To modifyl the default time \(20 minutes\), click on Options&gt;_timeout of the dialog_, a modal with three fields will appear: Days, Hours, Minutes
+To modifyl the default time \(20 minutes\), click on Options&gt;_timeout of the dialog_, a modal with three fields will appear: Days, Hours, Minutes.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img050.jpg)
+![](../.gitbook/assets/dialogue-timeout.png)
 
-> Minimum time is 5 minutes and maximum time is 365 days
+> Minimum time is 5 minutes and maximum time is 365 days.
 >
 > **Show texts**
 >
 > When the structure of a model has increased quite, it may be useful to see all texts sent to the user by means of the message steps, instead of having to access the properties of each step to see them. To display all the texts of the message steps, click _Options&gt;View texts_. Next to each message will appear a blue box with its respective text.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img051.jpg) To hide texts, click _Options&gt;View texts_,each time you show or hide the texts, an icon \(next to the option\) will indicate if they are active \( \) or inactive \( \).
+![](../.gitbook/assets/show-texts-ok.png)
+
+To hide texts, click _Options&gt;View texts_,each time you show or hide the texts, an icon \(next to the option\) will indicate if they are active \( \) or inactive \( \).
 
 **Create copy**
 
-When you need to work on a bot without altering its original structure or creating a new bot from an existing one, the platform offers you the option to create a copy of the bot, to do so follow these instructions: 1. Go to the bots section. 2. Locate the bot you are going to copy. 3. Click "Open". \(see existing bots\) 4. Then click _Options&gt;Create copy._ 5. A modal with the information of the bot you are copying \(similar to the save bot\) will appear.
+When you need to work on a bot without altering its original structure or creating a new bot from an existing one, the platform offers you the option to create a copy of the bot, to do so follow these instructions: 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img052.jpg) 6. Modify the data and image of the bot to your liking \(it is mandatory to change the name unless you choose to assign the bot to another customer\), when you have finished, click "Save" 7. A notification will appear at the bottom right, indicating that the operation was successful.
+1. Go to the bots section.
+
+2. Locate the bot you are going to copy.
+
+3. Click "Open". \(see existing bots\).
+
+4. Then click _Options&gt;Create copy._ 
+
+5. A modal with the information of the bot you are copying \(similar to the save bot\) will appear. 
+
+![](../.gitbook/assets/create-copy.png)
+
+6. Modify the data and image of the bot to your liking \(it is mandatory to change the name unless you choose to assign the bot to another customer\), when you have finished, click "Save" 
+
+7. A notification will appear at the bottom right, indicating that the operation was successful.
 
 > The bot you just copied will be automatically loaded into the designer. `watch video`
 >
@@ -621,17 +645,39 @@ When you need to work on a bot without altering its original structure or creati
 >
 > You can export any bot to an external file \(.bot\) to later upload it to the platform. To do so, open the export bot \(if you don’t know how, see available bots\), click _Options&gt;Export._ The file will automatically be saved in the "Downloads" folder or it will ask for a path to be stored \(depending on your browser settings\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img053.jpg) `watch video`
+![](../.gitbook/assets/exporting-ok.png)
+
+ `watch video`
 
 **Importing**
 
-In order to import a bot you must: 1. Go to the bots section. 2. Click on the "Create bot" button, identified with the icon \( + \) or open a bot you want to overwrite. 3. In the "Designer" section, click _Options&gt;Import_. 4. A file manager will appear \(varies depending on the operating system\), to choose the file with the desired bot. Select it and click "Open". 5. The bot will be loaded into the designer keeping all the settings you had at the time of exporting. 6. Save the changes. `watch video`
+In order to import a bot you must: 
+
+1. Go to the bots section.
+
+2. Click on the "Create bot" button, identified with the icon \( + \) or open a bot you want to overwrite.
+
+3. In the "Designer" section, click _Options&gt;Import_.
+
+4. A file manager will appear \(varies depending on the operating system\), to choose the file with the desired bot. Select it and click "Open".
+
+5. The bot will be loaded into the designer keeping all the settings you had at the time of exporting.
+
+6. Save the changes. `watch video`
 
 **Web chat**
 
 Chat-Bots allows you to create a bot that can be used to answer your customers' requests directly on your website. To generate a Web Chat click _Options&gt;Web chat._ A modal like this will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img151.jpg) 1. Click the "Enable Web Chat for this Bot" box. 2. Enter a welcome text for your Web Chat. 3. Click the \( \) button to copy the code to the clipboard. 4. Click "OK". The code you copied to the clipboard must be sent to the website programmer for insertion before the tag `</body` closes on the website. Then, on the web page, on the bottom right the Web Chat window will appear, you can open or close it by clicking on the blue bar.
+![imagen](https://chat-bots.co/assets/img/docs/es/img151.jpg) 
+
+1. Click the "Enable Web Chat for this Bot" box.
+
+2. Enter a welcome text for your Web Chat.
+
+3. Click the \( \) button to copy the code to the clipboard.
+
+4. Click "OK". The code you copied to the clipboard must be sent to the website programmer for insertion before the tag `</body` closes on the website. Then, on the web page, on the bottom right the Web Chat window will appear, you can open or close it by clicking on the blue bar.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img152.jpg)
 
@@ -639,11 +685,17 @@ Chat-Bots allows you to create a bot that can be used to answer your customers' 
 
 The Chat-Bots platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TRY BOT_
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img097.jpg) Enter your messages in the "Message" field and click the "Send" button or press `enter` to send the message. At the top the messages and responses of the bot will show.
+![imagen](https://chat-bots.co/assets/img/docs/es/img097.jpg) 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img098.jpg) Notice also that this tool allows you to see the _status_ and current value of the variables as you try the bot; to do this, click the blue button with the icon \( \)
+Enter your messages in the "Message" field and click the "Send" button or press `enter` to send the message. At the top the messages and responses of the bot will show.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img099.jpg) A window with the current status , the variables defined in the conversation and the value they contain will appear.
+![imagen](https://chat-bots.co/assets/img/docs/es/img098.jpg) 
+
+Notice also that this tool allows you to see the _status_ and current value of the variables as you try the bot; to do this, click the blue button with the icon \( \)
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img099.jpg) 
+
+A window with the current status , the variables defined in the conversation and the value they contain will appear.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) `watch video`
 
