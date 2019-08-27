@@ -438,13 +438,22 @@ Click on "Message", the message step connected to the previous step will appear.
 
 To open the properties of a message step, click on the "Options", a modal like the following will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img033.jpg)
+![Message\_Step1](../.gitbook/assets/message_step.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img033.jpg)![imagen](https://chat-bots.co/assets/img/docs/es/img127.jpg) The message step has 3 properties: 1.**Name:** enter the name that will have the message step. 2. **Message**
+![Message\_Step2](../.gitbook/assets/message_step2.png)
+
+The message step has 3 properties: 
+
+1.**Name:** enter the name that will have the message step. 
+
+2. **Message**
 
 * SENDING A MESSAGE
   * **Send message:**  compose in this field the message you want to send to the user, remember that this text can include variables, emojis and multimedia content; to insert them you can use the options \(buttons\) that are on the right side of the field.
-    * **Quick answers:** Quick answers allow you to insert buttons \(not applicable in WhastApp\) selectable by the user with a number of options to choose from. If you want the button to have a label \(text\) different from its value, separate the value of the label with a pipeline \(\|\); in this way `size S | a`, it would present a button with the label "Size S" but when selecting it the returned value would be "a". If you only use the label, that will be the value of the button when selected: it `size S`presents a button with the label "size S" and returns the value "size S" when selected.
+
+    \*\*\*\*
+
+  * **Quick answers:** Quick answers allow you to insert buttons \(not applicable in WhastApp\) selectable by the user with a number of options to choose from. If you want the button to have a label \(text\) different from its value, separate the value of the label with a pipeline \(\|\); in this way `size S | a`, it would present a button with the label "Size S" but when selecting it the returned value would be "a". If you only use the label, that will be the value of the button when selected: it `size S`presents a button with the label "size S" and returns the value "size S" when selected.
 
 > Separate each "quick response" with a comma \(,\) or press the key `ENTER`.
 >
@@ -457,28 +466,36 @@ To open the properties of a message step, click on the "Options", a modal like t
 
 1. **Change bot to status:** You can pass the conversation to another state or continue in the current state. After you define the next state, you will notice a mark in the step that tells you which state will follow the flow of the conversation.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img034.jpg)
+![Message\_Initial](../.gitbook/assets/message_initial_ok.png)
 
-### Create jump step
+### Create jump step 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img015.jpg) Identified with the orange color and the icon \( \). The jump step is used to pass the conversation to another bot. This step as well as message step, is the last of a flow within a state, therefore, does not allow descending steps. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps.
+![Jump](../.gitbook/assets/flowbot_wab-07.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img025.jpg) Click on "Jump", then the jump step connected to the previous step will appear.
+Identified with the orange color and the icon \( \). The jump step is used to pass the conversation to another bot. This step as well as message step, is the last of a flow within a state, therefore, does not allow descending steps. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+
+![Jump](../.gitbook/assets/jump_wab.png)
+
+Click on "Jump", then the jump step connected to the previous step will appear.
 
 #### Jump step properties
 
 To open the properties of a jump step, click the "Options" button on it, a modal like the following will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img035.jpg)
+![jump Step](../.gitbook/assets/options_jump.png)
 
-The jump step has 2 properties: 1. **Name:** type the name that will have the jump step. 2. **Go to bot:** bot to which you are going to pass the conversation, this property is divided into 2 fields:
+The jump step has 2 properties: 
+
+1. **Name:** type the name that will have the jump step. 
+
+2. **Go to bot:** bot to which you are going to pass the conversation, this property is divided into 2 fields:
 
 * **Customer:** select the client where the bot you are going to use is located. 
 * **Bot:** select the bot to which the conversation is going to go.
 
-> A mark on the step will indicate which bot will continue the conversation
+> A mark on the step will indicate which bot will continue the conversation.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img036.jpg)
+![Jum\_new bot](../.gitbook/assets/jump_new-bot_ok.png)
 
 > The conversation variables persist in the bot to which you made the jump.
 
@@ -486,37 +503,55 @@ The jump step has 2 properties: 1. **Name:** type the name that will have the ju
 
 ### Save bot
 
-To save a new bot, click on the image, name, status and customer area, as shown in the image.
+To save a new bot, click on the image, name, status and customer area, as shown in the image. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img048.jpg) A modal will appear as follows:
+![Save bot](../.gitbook/assets/save_bot_ok.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img038.jpg) In this modal you will find 4 options: 1. **Name of the bot:** enter a name for the bot. 2. **Customer:** select a customer for the bot. 3. **Description:** type a description for the bot. 4. **Bot image:** \(optional\) you can assign an image to the bot.
+A modal will appear as follows: 
 
-* To do this, click the "Choose Image" button
+![Modal](../.gitbook/assets/modal-save.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img039.jpg) A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
+In this modal you will find 4 options:
+
+1. **Name of the bot:** enter a name for the bot.
+
+2. **Customer:** select a customer for the bot.
+
+3. **Description:** type a description for the bot.
+
+4. **Bot image:** \(optional\) you can assign an image to the bot.
+
+* To do this, click the "Choose Image" button:
+
+![Chosse image](../.gitbook/assets/bot-picture_not.png)
+
+A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
 
 * The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, you can also make it bigger \(to the right\) or smaller \(to the left\) by moving the slider which is at the bottom.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img041.jpg)
+![Picture bot](../.gitbook/assets/bot-picture.png)
 
 * After entering all parameters correctly, click the "Save" button, a notification will appear at the bottom right indicating that the bot has been successfully saved.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img042.jpg)
+![Bot save](../.gitbook/assets/bot-save-ok.png)
 
 > If you need to modify any of the parameters described above, repeat the process.
 
-To save later modifications to the structure or data of the bot, click the "Save" button.
+To save later modifications to the structure or data of the bot, click the "Save" button. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img037.jpg) `watch video`
+![Button save ](../.gitbook/assets/save_bot_botton.png)
+
+`watch video`
 
 ### Delete bot
 
-To delete a bot you must go to the "Bots" section and identify the card of the bot that you are going to delete.
+To delete a bot you must go to the "Bots" section and identify the card of the bot that you are going to delete. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img148.jpg) Then move the cursor to the card, the "Delete" button will appear, click it.
+![](../.gitbook/assets/delete_bot1.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img149.jpg)
+Then move the cursor to the card, the "Delete" button will appear, click it.
+
+![Delete bot](../.gitbook/assets/delete_bot2.png)
 
 A confirmation mode will appear, click the "Delete" button to delete the bot or click "Cancel" to abandon the operation.
 
