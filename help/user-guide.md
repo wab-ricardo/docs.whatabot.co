@@ -669,7 +669,7 @@ In order to import a bot you must:
 
 Chat-Bots allows you to create a bot that can be used to answer your customers' requests directly on your website. To generate a Web Chat click _Options&gt;Web chat._ A modal like this will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img151.jpg) 
+![](../.gitbook/assets/web-chat-ok.png)
 
 1. Click the "Enable Web Chat for this Bot" box.
 
@@ -683,9 +683,9 @@ Chat-Bots allows you to create a bot that can be used to answer your customers' 
 
 #### Try Bot
 
-The Chat-Bots platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TRY BOT_
+The WhatABot platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TRY BOT_ 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img097.jpg) 
+![](../.gitbook/assets/test-bot-ok.png)
 
 Enter your messages in the "Message" field and click the "Send" button or press `enter` to send the message. At the top the messages and responses of the bot will show.
 
@@ -701,9 +701,21 @@ A window with the current status , the variables defined in the conversation and
 
 #### Try Whatsapp
 
-To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. ![imagen](https://chat-bots.co/assets/img/docs/es/img103.jpg) Choose a country from the dropdown list, then enter the cell phone number you want to register and click the "Register" button. ![imagen](https://chat-bots.co/assets/img/docs/es/img104.jpg) A table with the number of the line you can test, the cell number registered, the validity and the option to delete the registered number will appear. If you want to register another number, repeat the previous step.
+To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img105.jpg) When you have finished registering the cell phone numbers, click the "Go to WhatsApp" button. The WhatsApp application \(on the mobile\) or WhatsApp Web \(in the browser\) will open. ![imagen](https://chat-bots.co/assets/img/docs/es/img106.jpg)
+![](../.gitbook/assets/test-whatsapp1.png)
+
+Choose a country from the dropdown list, then enter the cell phone number you want to register and click the "Register" button. 
+
+![](../.gitbook/assets/test-whatsapp2.png)
+
+A table with the number of the line you can test, the cell number registered, the validity and the option to delete the registered number will appear. If you want to register another number, repeat the previous step. 
+
+![](../.gitbook/assets/test-whatsapp3.png)
+
+When you have finished registering the cell phone numbers, click the "Go to WhatsApp" button. The WhatsApp application \(on the mobile\) or WhatsApp Web \(in the browser\) will open.
+
+![](../.gitbook/assets/test-whatsapp4.png)
 
 > Remember that you can only do tests with the cell numbers you registered for 24 hours
 >
@@ -713,31 +725,53 @@ To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an 
 >
 > #### Connectors
 >
-> Each step of the bot model is joined to another by means of a connector. The designer has 2 types of connectors: 1. **Default connector \(YES, in condition\):** blue, with arrow point in the center indicating the direction of the flow.
+> Each step of the bot model is joined to another by means of a connector.
+>
+> The designer has 2 types of connectors: 
+>
+> 1. **Default connector \(YES, in condition\):** blue, with arrow point in the center indicating the direction of the flow.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img055.jpg)
 
-1. **Exception connector \(NO in condition\)**: red, with arrow point in the center indicating the direction of the flow.
+2. **Exception connector \(NO in condition\)**: red, with arrow point in the center indicating the direction of the flow.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img056.jpg) To delete a connector you have 2 options:
+![imagen](https://chat-bots.co/assets/img/docs/es/img056.jpg)
 
-1. Take the cursor to the center of the connector, a button with the icon \( \) will appear, click it and the connector will disappear.
+To delete a connector you have 2 options:
 
-   ![imagen](https://chat-bots.co/assets/img/docs/es/img057.jpg) 2. Place the cursor on the first of 2 connected steps \(source step\), click the "Options" button, a modal will appear \(varies depending on the type of step\). In the option "Next step:" \(status, process, expression, trace\), "Yes:"/"No:" \(condition\), the name of the step which you are connected with will appear, click the red button "Disconnect step" with the icon \( \), then click on "OK". ![imagen](https://chat-bots.co/assets/img/docs/es/img058.jpg)
+1. Take the cursor to the center of the connector, a button with the icon \( \) will appear, click it and the connector will disappear. 
 
-To connect steps you have the following options: 1.Place the cursor on the first of the 2 steps \(source step\) you are going to connect, a button will appear with the text "Next", click and drag to the step you want to connect with \(destination step\), drop the mouse button and the two steps will be connected. ![imagen](https://chat-bots.co/assets/img/docs/es/img059.jpg) 2. Place the cursor on the first of the two steps you want to connect \(source step\), click on "Options" button, a modal will appear \(it varies depending on the type of step\). In the option "Next Step:" \(status, process, expression, trace\), "Yes:" and "No:" \(condition\), a list of steps which you can join the current step will appear, select the step to connect and click "OK". ![imagen](https://chat-bots.co/assets/img/docs/es/img060.jpg)
+![](../.gitbook/assets/connector-delete.png)
+
+2. Place the cursor on the first of 2 connected steps \(source step\), click the "Options" button, a modal will appear \(varies depending on the type of step\). In the option "Next step:" \(status, process, expression, trace\), "Yes:"/"No:" \(condition\), the name of the step which you are connected with will appear, click the red button "Disconnect step" with the icon \( \), then click on "OK".
+
+![](../.gitbook/assets/connector-step.png)
+
+To connect steps you have the following options:
+
+1. Place the cursor on the first of the 2 steps \(source step\) you are going to connect, a button will appear with the text "Next", click and drag to the step you want to connect with \(destination step\), drop the mouse button and the two steps will be connected.  
+
+![](../.gitbook/assets/connector-trace_message.png)
+
+2. Place the cursor on the first of the two steps you want to connect \(source step\), click on "Options" button, a modal will appear \(it varies depending on the type of step\). In the option "Next Step:" \(status, process, expression, trace\), "Yes:" and "No:" \(condition\), a list of steps which you can join the current step will appear, select the step to connect and click "OK".
+
+![](../.gitbook/assets/connetor-place.png)
 
 #### Move a step
 
-Move any of the steps of the model is very easy. To do so, place the cursor on the step you want to move, the cursor will change its shape indicating that the step allows to be moved.
+Move any of the steps of the model is very easy. To do so, place the cursor on the step you want to move, the cursor will change its shape indicating that the step allows to be moved. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img012.jpg) Click and drag the step to the desired position, then drop the mouse button and the step will be placed in the new position.
+![](../.gitbook/assets/flowbot_cb-04.png)
+
+Click and drag the step to the desired position, then drop the mouse button and the step will be placed in the new position.
 
 #### Move several steps
 
 If you need to move several steps at a time, click on any empty part of the workspace, drag the cursor until the semitransparent blue rectangle that appears covers all the steps you need to move.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img061.jpg) Release the mouse button and you will notice that the steps are selected \(with a semitransparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
+![imagen](https://chat-bots.co/assets/img/docs/es/img061.jpg) 
+
+Release the mouse button and you will notice that the steps are selected \(with a semitransparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
 
 > If you need to move steps that cannot be selected in the way described above, an alternative form of selection is to hold down the `CTRL` \(Control\) key and without dropping it, click on each step you are going to move. Then you can drop the control key and move the selected steps as it was explained before
 
@@ -753,7 +787,9 @@ If you need to move a rail and all the steps it contains, bring the cursor close
 
 In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the icon \( \). To make it easier to enter the variables, click on the button mentioned above, a context menu will appear with the available variables.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img096.jpg) Then click on the variable you want to insert.
+![imagen](https://chat-bots.co/assets/img/docs/es/img096.jpg) 
+
+Then click on the variable you want to insert.
 
 #### Delete a step
 
