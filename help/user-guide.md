@@ -805,23 +805,23 @@ A confirmation window will appear, click on _delete_ to finish the process.
 
 In this section you can filter the conversations by client, date, bot and line to view in **real time** the incomming chats of each contact. To access the conversations section, click on the "Conversations" button on the left side menu.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img065.jpg)
+![](../.gitbook/assets/conversations1.png)
 
 ### Filter
 
-To filter the conversations you want to view, click _Filter_ \(1\); then click _Date_ field\(2\), a calendar will be displayed, select the deadline, then choose the customer by clicking on the _Customer_ field \(3\). Now mark the bots and the lines you want to filter \(4\). Click on the "View conversations" button
+To filter the conversations you want to view, click _Filter_ \(1\); then click _Date_ field\(2\), a calendar will be displayed, select the deadline, then choose the customer by clicking on the _Customer_ field \(3\). Now mark the bots and the lines you want to filter \(4\). Click on the "View conversations" button.
 
-![image](https://chat-bots.co/assets/img/docs/es/img067.jpg)
+![](../.gitbook/assets/conversations2.png)
 
-The conversations that met the filter criteria will be displayed in the _Conversations_ tab \(1\), you can see the amount of chats for the chosen date\(2\) , if there are new messages in a chat you will be informed with an identifier \(3\), select any conversation by clicking on it\(4\) , date of conversation\(5\), chat messages \(6\), to return to the last messages of the selected chat click the _download_ button \(7\)
+The conversations that met the filter criteria will be displayed in the _Conversations_ tab \(1\), you can see the amount of chats for the chosen date\(2\) , if there are new messages in a chat you will be informed with an identifier \(3\), select any conversation by clicking on it\(4\) , date of conversation\(5\), chat messages \(6\), to return to the last messages of the selected chat click the _download_ button \(7\).
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img068.jpg)
 
-## Filter search
+### Filter search
 
 **Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam deleniti quisquam aperiam sunt voluptas inventore dignissimos ipsum. Eius error maiores illo discomfort sunt eligendi iste dolore, earum pain assumenda unde.????\(Esto es lo que aparece en el documento original\)**
 
-## Complement conversation
+### Complement conversation
 
 At any time an agent \( registered user on the platform\) can complement a conversation by taking \(provisionally\) the bot place and answer a user´s requests. To complement any conversation execute first the _filter process_, then write the answer message in the _send message_ field and click _send_ or press `Enter`key.
 
@@ -832,38 +832,40 @@ Notice that when complementing a conversation, the platform automatically adds t
 ![imagen](https://chat-bots.co/assets/img/docs/es/img102.jpg)
 
 > In order to complement a conversation, a user must have permission from the agent.
->
-> ## Broadcast
->
-> In this section you can program messages which will be sent massively to your clients or prospects. In order to access the Broadcasting section, click _Broadcast_ on the left side menu.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img093.jpg)
+## Broadcast
+
+In this section you can program messages which will be sent massively to your clients or prospects. In order to access the Broadcasting section, click _Broadcast_ on the left side menu.
+
+![](../.gitbook/assets/broadcast1.png)
 
 ### Create broadcast
 
-In this section you can program messages which will be sent massively to your customers or prospects. To create a broadcast click on _Create broadcast_
+In this section you can program messages which will be sent massively to your customers or prospects. To create a broadcast click on _Create broadcast._
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img124.jpg)
+![](../.gitbook/assets/broadcast2.png)
 
 To surf between the broadcast steps click on circular buttons \(1, 2 , 3 and 4\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img125.jpg)
+![](../.gitbook/assets/broadcast3.png)
 
 You can also use _previous_ and _next_ buttons to move forward or go back between steps.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img126.jpg)
+![](../.gitbook/assets/broadcast4.png)
 
 #### 1: Name and line
 
 Enter a name for broadcasting \(1\), select a costumer from the dropdown list \(2\) and select a line for dissemination \(3\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img116.jpg) Click on the "Next" button or on the circular button with number 2 at the top to go to the next step.
+![](../.gitbook/assets/broadcast5.png)
+
+Click on the "Next" button or on the circular button with number 2 at the top to go to the next step.
 
 #### 2: Import recipients
 
 Click the "Import Recipients" button \(1\) and select the file \(.txt or .xlsx\) that contains the recipients to load. The system will tell you how many numbers were loaded \(2\). You can also download the list of imported recipients by clicking the "Download" button \(3\). \(3\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img117.jpg)
+![](../.gitbook/assets/broadcast6.png)
 
 > Only the numbers that have interacted with the selected line in step 1 will be filtered.
 >
@@ -873,33 +875,38 @@ Click the "Next" button or the circular button with number 3 at the top to move 
 
 #### 3: Write a message
 
-Write the message you are going to send in the text box that appears
+Write the message you are going to send in the text box that appears_._
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img118.jpg)
+![](../.gitbook/assets/broadcast7.png)
 
-You can divide your message in different bubbles by adding more text boxes ![imagen](https://chat-bots.co/assets/img/docs/es/img119.jpg)
+You can divide your message in different bubbles by adding more text boxes_._
 
-Each text box has the following options: ![imagen](https://chat-bots.co/assets/img/docs/es/img121.jpg) 1. **Emojis and multimedia content:**
+![](../.gitbook/assets/broadcast8.png)
+
+Each text box has the following options: 
+
+1. **Emojis and multimedia content:**
 
 * Click icon \(  \) to insert an emoji in the message.
 * Click icon \(  \) to insert a multimedia content \(audio, video, file\).
-  1. **Delete text box:**  Delete text box and its content.
+
+_2._ **Delete text box:**  Delete text box and its content.
 
 Click the "Next" button or the circular button with number 4 at the top to move on to the next step.
 
 #### 4: Send or schedule
 
-To send the broadcast, click on \*Send now"
+To send the broadcast, click on \*Send now".
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img121.jpg)
+![](../.gitbook/assets/broadcast9.png)
 
 You can also schedule the sending of the broadcast by checking the "Submit Later" box.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img122.jpg)
+![](../.gitbook/assets/broadcast10.png)
 
-Select date and time by using the calendar that appears and click on _program_ button \(2\)
+Select date and time by using the calendar that appears and click on _program_ button \(2\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img123.jpg)
+![](../.gitbook/assets/broadcast11.png)
 
 ### See broadcasts
 
@@ -907,9 +914,11 @@ All created broadcasts in previous steps can be viewed, edited, and deleted from
 
 ### Previously created broadcasts
 
-To view previously created broadcasts click on the "SEE BROADCASTS" tab
+To view previously created broadcasts click on the "SEE BROADCASTS" tab.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img129.jpg) A table with all the created broadcasts so far will appear .
+![](../.gitbook/assets/broadcast12.png)
+
+A table with all the created broadcasts so far will appear .
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img130.jpg)
 
@@ -920,11 +929,11 @@ In the table you will find the following options:
 * **Recipients:** number of recipients + button to download the list in a plain text file \(.txt\).
 * **Created:** date when the broadcast was created.
 * **Created by:** name of the user who created the broadcast \(taken from the system\).
-* **Scheduled:** Date and time when sending the broadcast is scheduled
+* **Scheduled:** date and time when sending the broadcast is scheduled
 * **Sent:** date and time the broadcast is sent.
 * **Status:** the broadcast can be in any of these 3 states:
 
-  \(icon here\) -   The broadcast has been scheduled and will begin to be sent on the date      and time indicated.
+  \(icon here\) - The broadcast has been scheduled and will begin to be sent on the date and time indicated.
 
   \(\)  -   The broadcast is currently being sent.
 
@@ -934,9 +943,11 @@ In the table you will find the following options:
 
 * **Actions:** edit or delete the broadcast.
 
-  **Reports**
+  \*\*\*\*
 
-  The reports section allows you to generate reports about the bot use. This section has 2 options: Traces and Indicators. To access the Reports section, click the "Reports" button on the main menu, as shown in the image.
+## **Reports**
+
+The reports section allows you to generate reports about the bot use. This section has 2 options: Traces and Indicators. To access the Reports section, click the "Reports" button on the main menu, as shown in the image.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img082.jpg)
 
