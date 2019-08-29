@@ -61,7 +61,7 @@ They are defined within an object called msg and represent the message sent by t
 
 The Bot model is defined in the designer by simple flow diagrams, which are composed of Steps and Connectors.
 
-![Flow bot](../.gitbook/assets/image%20%283%29.png)
+![Flow bot](../.gitbook/assets/image%20%282%29.png)
 
 Each diagram starts with a ‘Status’ step \(represented in green\) and via Connectors links to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
 
@@ -73,37 +73,37 @@ As many diagrams as states will have the conversation are defined. The designer 
 
 This step represents the conversation status. It is the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation.
 
-![Initial bot](../.gitbook/assets/image%20%286%29.png)
+![Initial bot](../.gitbook/assets/image%20%285%29.png)
 
 **Condition step** 
 
 Through this step the Bot evaluates a condition to determine which path to continue in flow.
 
-![Condition](../.gitbook/assets/image%20%288%29.png)
+![Condition](../.gitbook/assets/image%20%287%29.png)
 
 **Process Step**
 
 Through this step the Bot can be connected to external systems \(ERP, CRM, etc\) and obtain or send information by using webhooks.
 
-![Process](../.gitbook/assets/image%20%282%29.png)
+![Process](../.gitbook/assets/image%20%281%29.png)
 
 **Expression Step**
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
-![Expression ](../.gitbook/assets/image%20%2811%29.png)
+![Expression ](../.gitbook/assets/image%20%2810%29.png)
 
  **Tracing step**
 
 Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot.
 
-![Trace](../.gitbook/assets/image%20%284%29.png)
+![Trace](../.gitbook/assets/image%20%283%29.png)
 
  **Step Message** 
 
 Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status as necessary.
 
-![Message](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/flowbot_wab-06.png)
 
 ### Webhook
 
@@ -130,11 +130,11 @@ To view the available bots, click the "bots" button on the side menu, to be dire
 
 In this section, available bots appear on cards, grouped into drop down containers, separated by customer.
 
-![Button bots](../.gitbook/assets/image%20%285%29.png)
+![Button bots](../.gitbook/assets/image%20%284%29.png)
 
 Each card shows the name, image, status and description of a bo
 
-![content bot](../.gitbook/assets/image%20%289%29.png)
+![content bot](../.gitbook/assets/image%20%288%29.png)
 
 ### Open bot
 
@@ -146,17 +146,17 @@ Two buttons appear on the card: "Open" \(in blue\), opens the bot in the designe
 
 Click "Open" The bot will open in the designer to be viewed or edited.
 
-![Designer](../.gitbook/assets/image%20%2812%29.png)
+![Designer](../.gitbook/assets/image%20%2811%29.png)
 
 `watch video`
 
 ### Designer Interface
 
-![option open bot](../.gitbook/assets/image%20%2810%29.png)
+![option open bot](../.gitbook/assets/image%20%289%29.png)
 
 The designer interface is the space where you can create and edit the models. It is composed of 4 parts:
 
-![Interface](../.gitbook/assets/image%20%287%29.png)
+![Interface](../.gitbook/assets/image%20%286%29.png)
 
 1. Image \(with status\), name and client of the bot.
 
@@ -420,7 +420,7 @@ A trace step has 4 properties:
 
 ### Create Message step 
 
-![](../.gitbook/assets/flowbot_cb-06.png)
+![](../.gitbook/assets/flowbot_wab-06.png)
 
 Identified with the color red and the icon \( \).
 
@@ -767,27 +767,27 @@ Click and drag the step to the desired position, then drop the mouse button and 
 
 #### Move several steps
 
-If you need to move several steps at a time, click on any empty part of the workspace, drag the cursor until the semitransparent blue rectangle that appears covers all the steps you need to move.
+If you need to move several steps at a time, click on any empty part of the workspace, drag the cursor until the semitransparent blue rectangle that appears covers all the steps you need to move. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img061.jpg) 
+![](../.gitbook/assets/move_step1.png)
 
 Release the mouse button and you will notice that the steps are selected \(with a semitransparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
 
-> If you need to move steps that cannot be selected in the way described above, an alternative form of selection is to hold down the `CTRL` \(Control\) key and without dropping it, click on each step you are going to move. Then you can drop the control key and move the selected steps as it was explained before
+> If you need to move steps that cannot be selected in the way described above, an alternative form of selection is to hold down the `CTRL` \(Control\) key and without dropping it, click on each step you are going to move. Then you can drop the control key and move the selected steps as it was explained before.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img062.jpg)
+![](../.gitbook/assets/move_step2.png)
 
 #### Move rail
 
 If you need to move a rail and all the steps it contains, bring the cursor closer to the blue dividing line, you will notice that the cursor changes its shape, indicating that you can move the rail up or down.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img018.jpg)
+![](../.gitbook/assets/move_rail.png)
 
 #### Insert Variables
 
-In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the icon \( \). To make it easier to enter the variables, click on the button mentioned above, a context menu will appear with the available variables.
+In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the icon \( \). To make it easier to enter the variables, click on the button mentioned above, a context menu will appear with the available variables. 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img096.jpg) 
+![](../.gitbook/assets/variables1.png)
 
 Then click on the variable you want to insert.
 
@@ -795,11 +795,11 @@ Then click on the variable you want to insert.
 
 To delete a step, place the cursor on the step you need to delete. A button with the icon \( \) will appear, click on it.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img063.jpg)
+![](../.gitbook/assets/variables2.png)
 
 A confirmation window will appear, click on _delete_ to finish the process.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img064.jpg)
+![](../.gitbook/assets/variables3.png)
 
 ## Conversations
 
