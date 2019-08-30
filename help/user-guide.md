@@ -949,15 +949,29 @@ In the table you will find the following options:
 
 The reports section allows you to generate reports about the bot use. This section has 2 options: Traces and Indicators. To access the Reports section, click the "Reports" button on the main menu, as shown in the image.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img082.jpg)
+![](../.gitbook/assets/reports1.png)
 
 ### Traces
 
 Presents information from the traces defined in the bot logic. To generate a report with the traces of a bot, follow these instructions:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img084.jpg) 1. Click on the "Traces" menu to access the section. 2. **Date range:** select the desired range of days in the calendar. 3. **Customer:** select a customer from the drop down list. 4. **Bot:** select the bot you want to view from the drop down list. 5. **Traceability:** select a traceability from the dropdown list. 6. Click the "GENERATE REPORT" button. A table with the data of your report will appear.
+![](../.gitbook/assets/reports2.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img085.jpg) If you want to modify the entered data , you can click the "RETURN TO PARAMETERS" button and adjust the options again \(1\). You can also export the report to a document in Excel format by clicking the "EXPORT TO EXCEL" button \(2\).
+1. Click on the "Traces" menu to access the section.
+
+2. **Date range:** select the desired range of days in the calendar.
+
+3. **Customer:** select a customer from the drop down list.
+
+4. **Bot:** select the bot you want to view from the drop down list.
+
+5. **Traceability:** select a traceability from the dropdown list.
+
+6. Click the "GENERATE REPORT" button. A table with the data of your report will appear.
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img085.jpg) 
+
+If you want to modify the entered data , you can click the "RETURN TO PARAMETERS" button and adjust the options again \(1\). You can also export the report to a document in Excel format by clicking the "EXPORT TO EXCEL" button \(2\).
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img086.jpg)
 
@@ -965,9 +979,25 @@ Presents information from the traces defined in the bot logic. To generate a rep
 
 Allows to display key indicators of use and user penetration for a bot. To generate a report from the indicators, follow these instructions:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img153.jpg) 1. Click on the "Indicators" menu to access the section. 2. **Initial date:** select one month for the initial date. 3. **End date:** select a month for the final date 4. **Customer:** select a customer for the report. 5. **Bot:** select a bot for the report. 6. **Universe:** Enter a Universe number. 7. Click the "GENERATE REPORT" button. Graphics with your report data will appear .
+![](../.gitbook/assets/reports3.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img154.jpg) If you want to modify the entered data, you can click the "RETURN TO PARAMETERS" button and adjust the options again.
+1. Click on the "Indicators" menu to access the section.
+
+2. **Initial date:** select one month for the initial date.
+
+3. **End date:** select a month for the final date.
+
+4. **Customer:** select a customer for the report.
+
+5. **Bot:** select a bot for the report.
+
+6. **Universe:** Enter a Universe number.
+
+7. Click the "GENERATE REPORT" button. Graphics with your report data will appear.
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img154.jpg) 
+
+If you want to modify the entered data, you can click the "RETURN TO PARAMETERS" button and adjust the options again.
 
 ## Resources
 
@@ -983,9 +1013,23 @@ To access the Lines section, click the "Resources" button \(1\) on the main menu
 
 Identify the line to edit and click the "Edita" option, as shown in the image
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img141.jpg) A modal with the following fields will appear:
+![imagen](https://chat-bots.co/assets/img/docs/es/img141.jpg) 
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img142.jpg) 1. **Number:** \(no editable\) line number 2. **Name of the line:** line name 3. **Customer:** customer to which the line belongs. 4. **Bot:** bot to be used on the line. 5. **Active:** enable or disable the line. Edit the fields you need and click the "Save" button \(6\).
+A modal with the following fields will appear:
+
+![imagen](https://chat-bots.co/assets/img/docs/es/img142.jpg) 
+
+1. **Number:** \(no editable\) line number.
+
+2. **Name of the line:** line name.
+
+3. **Customer:** customer to which the line belongs.
+
+4. **Bot:** bot to be used on the line.
+
+5. **Active:** enable or disable the line. 
+
+Edit the fields you need and click the "Save" button \(6\).
 
 ### Pages
 
@@ -1001,15 +1045,35 @@ To link to a facebook page in the Chat-Bots platform, click the "Subscribe Faceb
 
 A modal with the following fields will appear
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img145.jpg) 1. **Name of the page:** name of the Facebook page, the list of names is automatically obtained when connecting to a Facebook account. 2. **"Get Pages" button:** click to open the Facebok manager, log in to your account and allow Chat-Bots to connect to your facebook account, The list of your pages will appear in the **Name of the page** field. 3. **Customer:** select the customer to which the page will be linked. 4. **Bot:** bot to be used on the page 5. **Active:** enable or disable the page. 6. Click the "Save" button to keep your changes.
+![imagen](https://chat-bots.co/assets/img/docs/es/img145.jpg) 
+
+1. **Name of the page:** name of the Facebook page, the list of names is automatically obtained when connecting to a Facebook account.
+
+2. **"Get Pages" button:** click to open the Facebok manager, log in to your account and allow Chat-Bots to connect to your facebook account, The list of your pages will appear in the **Name of the page** field.
+
+3. **Customer:** select the customer to which the page will be linked.
+
+4. **Bot:** bot to be used on the page.
+
+5. **Active:** enable or disable the page.
+
+6. Click the "Save" button to keep your changes.
 
 #### Edit-page
 
-Identify the page you want to edit and click the "Edit" option, as shown in the image
+Identify the page you want to edit and click the "Edit" option, as shown in the image.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img146.jpg)
 
-A modal with the following fields will appear : ![imagen](https://chat-bots.co/assets/img/docs/es/img147.jpg) 1. **Name of the page:** \(no editable\) name of the chosen page . 2. **Customer:** customer to which the page belongs. 3. **Bot:** bot to be used on page. 4. **Active:** enable or disable the page.
+A modal with the following fields will appear : ![imagen](https://chat-bots.co/assets/img/docs/es/img147.jpg) 
+
+1. **Name of the page:** \(no editable\) name of the chosen page.
+
+2. **Customer:** customer to which the page belongs.
+
+3. **Bot:** bot to be used on page.
+
+4. **Active:** enable or disable the page.
 
 Edit the fields you need and click "Save" \(5\).
 
@@ -1027,7 +1091,17 @@ To create a client, click on the "Create Customer" button, which is located at t
 
 Then a modal with the following form will appear :
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img112.jpg) 1. **Name**: name of customer or company. 2. **Contact**: name of a contact in the company. 3. **E-mail**: customer contact email. 4. **Active**: button to enable or disable customer. 5. **Choose image**: click the button to assign an image to the client.
+![imagen](https://chat-bots.co/assets/img/docs/es/img112.jpg) 
+
+1. **Name**: name of customer or company. 
+
+2. **Contact**: name of a contact in the company. 
+
+3. **E-mail**: customer contact email.
+
+4. **Active**: button to enable or disable customer.
+
+5. **Choose image**: click the button to assign an image to the client.
 
 * A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
   * The image will be loaded into the box \(as shown below\), you can move it by clicking and dragging to place it in the desired position. You can also make it bigger \(right\) or smaller \(left\) by moving the slider located at the bottom.
@@ -1038,9 +1112,11 @@ Then a modal with the following form will appear :
 
 1. Click on "Save" button to create a new customer. 
 
-   **Edit a  customer**
+   \*\*\*\*
 
-   To edit a customer, locate it in the customer table and click the "Edit" option.
+**Edit a  customer**
+
+To edit a customer, locate it in the customer table and click the "Edit" option.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img115.jpg)
 
