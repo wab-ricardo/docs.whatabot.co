@@ -999,15 +999,15 @@ Allows to display key indicators of use and user penetration for a bot. To gener
 
 If you want to modify the entered data, you can click the "RETURN TO PARAMETERS" button and adjust the options again.
 
-## Resources
+## Channels
 
 In this section you will find everything you need to create, assign and modify WhatsApp lines and Facebook pages, as well as create and edit customers.
 
 ### Lines
 
-To access the Lines section, click the "Resources" button \(1\) on the main menu and then click the "Lines" option \(2\) as shown in the image.
+To access the Lines section, click the "Channels" button \(1\) on the main menu and then click the "Lines" option \(2\) as shown in the image.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img140.jpg)
+![](../.gitbook/assets/channels_wa.png)
 
 #### Edit line
 
@@ -1035,17 +1035,17 @@ Edit the fields you need and click the "Save" button \(6\).
 
 To access the Pages section, click the "Resources" button \(1\) on the main menu and then click the "Pages" option \(2\) as shown in the image.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img143.jpg)
+![](../.gitbook/assets/channels_wa01.png)
 
 #### Subscribe page
 
 To link to a facebook page in the Chat-Bots platform, click the "Subscribe Facebook Page" button.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img144.jpg)
+![](../.gitbook/assets/channels_wa02.png)
 
-A modal with the following fields will appear
+A modal with the following fields will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img145.jpg) 
+![](../.gitbook/assets/channels_wa03.png)
 
 1. **Name of the page:** name of the Facebook page, the list of names is automatically obtained when connecting to a Facebook account.
 
@@ -1063,9 +1063,11 @@ A modal with the following fields will appear
 
 Identify the page you want to edit and click the "Edit" option, as shown in the image.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img146.jpg)
+![](../.gitbook/assets/channels_wa04.png)
 
-A modal with the following fields will appear : ![imagen](https://chat-bots.co/assets/img/docs/es/img147.jpg) 
+A modal with the following fields will appear:
+
+![](../.gitbook/assets/channels_wa05.png)
 
 1. **Name of the page:** \(no editable\) name of the chosen page.
 
@@ -1081,17 +1083,17 @@ Edit the fields you need and click "Save" \(5\).
 
 To access the Customers section, click the "Resources" button \(1\) on the main menu and then click the "Customers" option \(2\) as shown in the image.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img110.jpg)
+![](../.gitbook/assets/customers1.png)
 
 ### Create/edit customer
 
 To create a client, click on the "Create Customer" button, which is located at the bottom.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img111.jpg)
+![](../.gitbook/assets/customers2.png)
 
-Then a modal with the following form will appear :
+Then a modal with the following form will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img112.jpg) 
+![](../.gitbook/assets/customers3.png)
 
 1. **Name**: name of customer or company. 
 
@@ -1114,15 +1116,15 @@ Then a modal with the following form will appear :
 
    \*\*\*\*
 
-**Edit a  customer**
+### **Edit a  customer**
 
 To edit a customer, locate it in the customer table and click the "Edit" option.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img115.jpg)
+![](../.gitbook/assets/customers4.png)
 
-A modal with a form that contains the customer information will appear
+A modal with a form that contains the customer information will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img114.jpg)
+![](../.gitbook/assets/customers5.png)
 
 Edit the needed fields and click on "Save" button.
 
@@ -1130,23 +1132,45 @@ Edit the needed fields and click on "Save" button.
 
 The functionalities of the Chat-Bots portal are enabled depending on the access given to each user, in this section they are managed. To access the Users section, click the "Users" button on the main menu, as shown in the image.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img088.jpg)
+![](../.gitbook/assets/users1.png)
 
 ### Create/edit user
 
 To create a user, click on the "Create User" button, which is located at the bottom.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img089.jpg)
+![](../.gitbook/assets/users2.png)
 
-Next, a modal with the following form will appear: ![imagen](https://chat-bots.co/assets/img/docs/es/img090.jpg) 1. **Login**: email used to access the application. 2. **Customer**: customer to which the user belongs. 3. **Names**: user names. 4. **Surname**: user surnames. 5. **Password**: password to be used. 6. **Confirm password**: confirm previously entered password. 7. **Active**: indicate whether or not the user can log in to the application. 8. Click the "Save" button to create the new user.
+Next, a modal with the following form will appear:
 
-#### Edit user
+![](../.gitbook/assets/users3.png)
+
+1. **Login**: email used to access the application.
+
+2. **Customer**: customer to which the user belongs.
+
+3. **Names**: user names.
+
+4. **Surname**: user surnames.
+
+5. **Password**: password to be used.
+
+6. **Confirm password**: confirm previously entered password.
+
+7. **Active**: indicate whether or not the user can log in to the application.
+
+8. Click the "Save" button to create the new user.
+
+### Edit user
 
 To edit a user, place it in the user table and click the "Edit" option.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img108.jpg) A modal with a form containing user information will appear
+![](../.gitbook/assets/users4.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img109.jpg) Edit the needed fields and click on "Save" button.
+A modal with a form containing user information will appear:
+
+![](../.gitbook/assets/users5.png)
+
+Edit the needed fields and click on "Save" button.
 
 ### User permissions
 
@@ -1156,13 +1180,29 @@ Each user has a series of permissions that define what they can \(or cannot\) do
 
 The permissions define which sections of the platform a user can access. To modify them, follow these instructions:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img091.jpg) 1. Click on the "PERMISSIONS" tab. 2. Check or uncheck the clients to whom the user will have permission. 3. Check or uncheck the sections to which the user will have access. 4. Click on the "Save" button to keep the changes.
+![](../.gitbook/assets/users6.png)
+
+1. Click on the "PERMISSIONS" tab.
+
+2. Check or uncheck the clients to whom the user will have permission.
+
+3. Check or uncheck the sections to which the user will have access.
+
+4. Click on the "Save" button to keep the changes.
 
 #### Sections
 
 In the SECTIONS tab you can define which of the main menu sections the user will have access to. To modify the sections follow these instructions:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img107.jpg) 1. Click on the "SECTIONS" tab 2. Available sections 3. Mark or uncheck the sections that the user can access. 4. Click the "Save" button to keep the changes
+![](../.gitbook/assets/users7.png)
+
+1. Click on the "SECTIONS" tab.
+
+2. Available sections.
+
+3. Mark or uncheck the sections that the user can access.
+
+4. Click the "Save" button to keep the changes.
 
 ## General
 
@@ -1172,7 +1212,19 @@ This section presents functionality concepts that you will find throughout the p
 
 In various parts of the platform you will find tables that gather information easily and legibly for the user. These tables have a number of features that make it easier to interact with the data.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img069.jpg) 1. **Number of elements**: Number of rows \(rows\) per screen. 2. **Browser**: searches and filters the results in all columns \(containing text\) in the table. 3. **Sort by column**: Sort the rows in the table up or down based on the selected column. 4. **Element Actions**: Actions that can be applied to the selected element \(row\) : Delete, Edit, View... etc, varies depending on the data. To see the options of a row, pass the cursor over it. 5. **Current data**: shows the range and total of items being displayed. 6. **Paging**: Depending on the number of items chosen \(1\) and the total amount of items \(5\), the table will be divided into pages, use this item to browse between pages.
+![](../.gitbook/assets/general1.png)
+
+1. **Number of elements**: Number of rows \(rows\) per screen.
+
+2. **Browser**: searches and filters the results in all columns \(containing text\) in the table.
+
+3. **Sort by column**: Sort the rows in the table up or down based on the selected column.
+
+4. **Element Actions**: Actions that can be applied to the selected element \(row\) : Delete, Edit, View... etc, varies depending on the data. To see the options of a row, pass the cursor over it.
+
+5. **Current data**: shows the range and total of items being displayed.
+
+6. **Paging**: Depending on the number of items chosen \(1\) and the total amount of items \(5\), the table will be divided into pages, use this item to browse between pages.
 
 ### Calendar
 
@@ -1180,31 +1232,33 @@ When inserting Date/Time data, the platform has a calendar that makes easier the
 
 To use it, place the cursor at any field that requires date/time data, click on it.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img070.jpg)
+![](../.gitbook/assets/general2.png)
 
 A calendar like this will appear:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img071.jpg)
+![](../.gitbook/assets/general3.png)
 
-1. **Month alternators**: left to go to the previous month, right to go to the next month. 
-2. **Year selector**: you can type or select the year with the drivers that appear when you approach the cursor. 
-3. **Current day**: current system date 
-4. **Day selected**: date selected by the user. 
-5. **Time selector**: \(only in date/time fields\) you can type or select the time with the drivers that appear when you zoom in. 
-6. **Minute selector**: \(only in date/time fields\) you can type or select the minutes with the drivers that appear when you zoom in. 
+1. **Month alternators**: left to go to the previous month, right to go to the next month.
+2. **Year selector**: you can type or select the year with the drivers that appear when you approach the cursor.
+3. **Current day**: current system date.
+4. **Day selected**: date selected by the user.
+5. **Time selector**: \(only in date/time fields\) you can type or select the time with the drivers that appear when you zoom in.
+6. **Minute selector**: \(only in date/time fields\) you can type or select the minutes with the drivers that appear when you zoom in.
 7. **AM/PM selector**: \(date/time fields only\) click to toggle between AM and PM.
 
 #### Select range
 
 Sometimes the system will ask you to enter a date range. To do this, click the form field, when the calendar appears, select the first date and then the second date.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img072.jpg)
+![](../.gitbook/assets/general4.png)
 
 ### Multimedia Content
 
 In the application, some text fields allow to insert a rich text format or multimedia content. To do that, click on the button with the icon \( \) A menu with the following options will be displayed:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img128.jpg) Insert the code needed to send multimedia, the URL of the file will be requested. _\*\*hyperlink_ Insert the needed code to send a hyperlink, the link URL will be requested.
+![imagen](https://chat-bots.co/assets/img/docs/es/img128.jpg) 
+
+Insert the code needed to send multimedia, the URL of the file will be requested. _\*\*hyperlink_ Insert the needed code to send a hyperlink, the link URL will be requested.
 
 | Tipo | Función | Descripción |
 | :--- | :--- | :--- |
@@ -1219,37 +1273,47 @@ In the application, some text fields allow to insert a rich text format or multi
 
 ### Edit Profile
 
-WhatABot, stores basic information for each user \(e-mail, name, password, photo\), in this way you can identify who is interacting with the platform. To modify your data, click the "User" button \(top right\), then click "Edit profile"
+WhatABot, stores basic information for each user \(e-mail, name, password, photo\), in this way you can identify who is interacting with the platform. To modify your data, click the "User" button \(top right\), then click "Edit profile".
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img073.jpg) You will be directed to the "Edit profile" page.
+![](../.gitbook/assets/profile1.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img074.jpg)
+You will be directed to the "Edit profile" page.
+
+![](../.gitbook/assets/profile2.png)
 
 The editing options for a profile are:
 
-* **Names**: User name 
-* **Surname**: User lastname 
-* **Password**: Access password 
-* **Confirm password**: Confirmation of the  entered  password  in the "Password" field 
-* **Profile image**: Profile photo change
+* **Names**: User name.
+* **Surname**: User lastname.
+* **Password**: Access password.
+* **Confirm password**: Confirmation of the  entered  password  in the "Password" field.
+* **Profile image**: Profile photo change.
 
-To modify your profilr photo you must: 1. Click "Choose image"
+To modify your profile photo you must:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img077.jpg) 2. A file manager will appear \(varies depending on the operating system\), select the image you want to upload. 3. The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, you can also make it bigger \(to the right\) or smaller \(to the left\) by moving the slider at the bottom.
+1. Click "Choose image".
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img075.jpg) 4. After you have entered all the parameters correctly, click the "Save" button; if all goes well, a notification will appear at the bottom right indicating that the bot has been saved successfully.
+![](../.gitbook/assets/profile3.png)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img078.jpg)
+2. A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
+
+3. The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, you can also make it bigger \(to the right\) or smaller \(to the left\) by moving the slider at the bottom.
+
+![](../.gitbook/assets/profile4.png)
+
+4. After you have entered all the parameters correctly, click the "Save" button; if all goes well, a notification will appear at the bottom right indicating that the bot has been saved successfully.
+
+![](../.gitbook/assets/profile5.png)
 
 If you updated your profile image, you will notice that a thumbnail is now displayed on the top right.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img079.jpg)
+![](../.gitbook/assets/profile6.png)
 
 > The "**Password**" and "**\*Confirm password**" fields should not be changed unless you want to change your password, otherwise you can ignore them.
 
 When you try to update your password, for security reasons, you will be asked for the current password in order to perform the process.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img095.jpg)
+![](../.gitbook/assets/profile7.png)
 
 ## Send ticket
 
