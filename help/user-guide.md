@@ -1,29 +1,29 @@
 ---
 description: >-
-  You will learn about the user interface of the portal as well as the basic
-  concepts of the bots. We will guide you step by step in building your own
-  bots, showing you how you can monitor conversations
+  NOTE TO USERS: This User Guide is under revision.  If you feel you cannot find
+  or understand what you need please contact us at wab.tickets@whatabot.co for
+  help.  Sorry for the inconvenience.
 ---
 
 # User Guide
 
 ## Technical concepts
 
-WhatABot is a conversational service of automatic response, where technologies of chats \(platforms of conversation\) and Bots \(Systems of automatic responses\) are integrated. It works when in a conversation the end- user sends a message to the Bot and this automatically returns another message as a response by following a set of business rules which are easily defined by simple flow charts.
+WhatABot is a conversational automatic-response service, that integrates Chat technologies and Bots. Its goal is to serve users that need to request for information, services or products.  Bots are designed to return logic responses according to its purpose by following a set of business rules which are easily defined.
 
 ### Bot Model
 
-Such set of rules is known as Bot model. TheWhatABot website offers a tool called designer where it is possible to build the Bot model step by step.
+Such a set of rules is known as Bot Model. Customers can build Bot Models, step by step, in the Portal's Bot Designer.
 
 ### Status
 
-The Bot must know the exact point where a conversation is going on in order to generate responses that are coherent to the conversation context. To do so, the Bot uses a status machine that determines such context.
+The Bot must know the exact point where a conversation is going on to generate responses that are coherent to the conversation context. To do so, the Bot uses a status machine that determines such context. 
 
-There is an initial status for new conversations and as many status are needed can be defined depending on the topics the Bot will be able to respond. Every time the Bot responds it is possible to do, or not, a transition to a different status in the conversation itself.
+There is an initial status for new conversations and as many statuses are needed can be defined depending on the topics the Bot will be able to respond. Every time the Bot responds it is possible to do, or not, a transition to a different status in the conversation itself
 
-### Bot variables
+### Bot Variables
 
-To get the Bot can more accurately determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as necessary depending on the rules and scope given to the Bot.
+For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as necessary depending on the rules and scope given to the Bot.
 
 ### Conversation Variables
 
