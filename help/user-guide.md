@@ -63,7 +63,7 @@ The Bot model is defined in the designer by simple flow diagrams, which are comp
 
 ![Flow bot](../.gitbook/assets/image%20%282%29.png)
 
-Each diagram starts with a ‘Status’ step \(represented in green\) and via Connectors links to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
+Each diagram starts with a ‘Status’ step \(represented in green\) and via Connectors it  links to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
 
 As many diagrams as states will have the conversation are defined. The designer draws a lane for each.
 
@@ -71,13 +71,13 @@ As many diagrams as states will have the conversation are defined. The designer 
 
 **Status step**
 
-This step represents the conversation status. It is the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation.
+This step represents the conversation status. Its  the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation.
 
 ![Initial bot](../.gitbook/assets/image%20%285%29.png)
 
 **Condition step** 
 
-Through this step the Bot evaluates a condition to determine which path to continue in flow.
+Through this step the Bot evaluates a condition to determine which path to continue the flow of conversation. Yes, leading to one direction of conversation and no, leading in another.
 
 ![Condition](../.gitbook/assets/image%20%287%29.png)
 
@@ -99,15 +99,15 @@ Through this step the Bot can make a record of the conversation activity. It is 
 
 ![Trace](../.gitbook/assets/image%20%283%29.png)
 
- **Step Message** 
+ **Message Step**  
 
-Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status as necessary.
+Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status if necessary.
 
 ![](../.gitbook/assets/flowbot_wab-06.png)
 
 ### Webhook
 
-For the Bot to connect to external systems, it is necessary in the Process Step to specify a Webhook url which must be developed in the programming language of your choice and must meet the following specifications:
+For the Bot to connect to external systems, its necessary from within the Process Step to specify a Webhook url which must be developed in the programming language of your choice and must meet the following specifications:
 
 * The Web Service must be type RESTful with JSON format. 
 * Methods allowed GET and POST. 
@@ -126,13 +126,13 @@ In this section you will find everything you need to create, edit and delete bot
 
 ### Available Bots
 
-To view the available bots, click the "bots" button on the side menu, to be directed to the bots section.
+To view the available bots, click the "Bots" button on the side menu, to be directed to the Bots section.
 
 In this section, available bots appear on cards, grouped into drop down containers, separated by customer.
 
 ![Button bots](../.gitbook/assets/image%20%284%29.png)
 
-Each card shows the name, image, status and description of a bo
+Each card shows the name, image, status and description of a bot
 
 ![content bot](../.gitbook/assets/image%20%288%29.png)
 
@@ -142,9 +142,9 @@ Identify the bot to open and position the cursor on it.
 
 ![module bot](../.gitbook/assets/image.png)
 
-Two buttons appear on the card: "Open" \(in blue\), opens the bot in the designer; "Delete" \(in red\) offers the option to remove the bot.
+Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the designer; "Delete" \(in red\) this offers the option to remove the bot.
 
-Click "Open" The bot will open in the designer to be viewed or edited.
+Click "Open" the bot will open in the designer to be viewed or edited.
 
 ![Designer](../.gitbook/assets/image%20%2811%29.png)
 
@@ -189,9 +189,9 @@ The designer where you can start building the bot will be opened.
 
 ![Initial](../.gitbook/assets/initial.PNG)
 
-Identified with green color and icon \( \). Status step is used to create different states in a conversation.Inia
+Identified with green color and flag icon \( \). Status step is used to create different states in a conversation.Inia
 
-To create a status step, go to the toolbar, then click the "Create Status" button, identified with the icon \( \).
+To create a status step, go to the toolbar, then click the "Create Status" button, identified with the little flag icon \( \).
 
 ![Create Status](../.gitbook/assets/status_wab.png)
 
@@ -215,7 +215,7 @@ A Status step has two properties:
 
 ![Condition](../.gitbook/assets/flowbot_cb-02.png)
 
-Identified with the color yellow and the icon \( \). The step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the color yellow and the question mark icon \(? \). This step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
 ![Condition](../.gitbook/assets/condition_wab.png)
 
@@ -261,7 +261,7 @@ A condition step has 4 properties:
 
 ![Process](../.gitbook/assets/flowbot_cb-03.png)
 
-Identified with the blue color and the icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the blue color and the gear like icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
 ![Process](../.gitbook/assets/process_wab.png)
 
@@ -276,7 +276,7 @@ To open the properties of a process step, click on the options button of the pro
 The Process step has 3 properties:
 
 1. **Name** : Enter the name that will have the process step.
-2. **Webhook** : method, url and  necessary variables for the webhook operation:
+2. **Webhook** : method, url and  necessary variables for the webhook to operate correctly.
 
 Method: you can choose between GET or POST to make the request.
 
@@ -295,7 +295,7 @@ Variables: you can send and receive variables as follows:
 
 ![Expression](../.gitbook/assets/flowbot_cb-04.png)
 
-Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) of the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) from the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
 ![Expression](../.gitbook/assets/expression_wab.png)
 
@@ -307,17 +307,17 @@ To open the properties of an expression step, click the "Options" button on the 
 
 ![](../.gitbook/assets/options_expression.PNG)
 
-A expression step has four properties: 
+An expression step has four properties: 
 
-1. **Name:** enter the name that will have the expression step.
+1. **Name:** enter the name that you will give the expression step.
 
 2. **Variable bot:** the variable where the result of evaluating the expression will be saved, note that you can create it \(by writing the name\) or use an existing variable \(selecting it from the drop-down field\).
 
 Remember that it is a conversation variable `chat.`as seen at the beginning of the field.
 
-3. **Expression:** Enter in this field the expression you want to evaluate, note that literal values as text \(strings\) must be enclosed in quotes:
+3. **Expression:**  In this field enter the expression you want to evaluate, note that literal values as text \(strings\) must be enclosed in quotes " "
 
-`"Good morning"`, integer values are entered without quotation marks: `12`if you use decimal point should go to: `12.56`.
+`"Good morning"`,  values are entered without quotation marks: `12`if you use decimal point it should go to: `12.56`.
 
 It can also include variables \(of conversation or message\) that must go between symbols "greater than" and "less than": `<msg.body>`, `<chat.myVariable>`. 
 
