@@ -177,7 +177,7 @@ The designer interface is the space where you can create and edit the models. It
 
 ### **Creation of a bot**
 
-In the "Bots" section at the bottom right, a button with the icon \(+\) appears. Click on it.
+In the "Bots" section at the bottom right, a circular button with the \(+\)icon appears. Click on it.
 
 ![New bot](../.gitbook/assets/new-bot_wab.png)
 
@@ -195,7 +195,7 @@ To create a status step, go to the toolbar, then click the "Create Status" butto
 
 ![Create Status](../.gitbook/assets/status_wab.png)
 
-The new status step, will appear at the bottom which divides the workspace with a dark blue horizontal line \(rail\).
+The new status step, will appear at the bottom which divides the workspace with a dark blue horizontal line or \(rail\) this connects the different steps.
 
 ![State 1](../.gitbook/assets/state_1_wab.png)
 
@@ -223,13 +223,13 @@ Click on "Condition", then the condition step connected with the previous step w
 
 #### Properties of Step Condition
 
-To open the properties of a condition step, click on the "Options" button , a _modal_ like the following will appear: 
+To open the properties of a condition step, click on the "Options" button , a _an option window_ will appear.
 
 ![options\_condition](../.gitbook/assets/options_condition.PNG)
 
 A condition step has 4 properties: 
 
-1. Name: enter the name that will have the step condition. 
+1. Name: enter the name for the step condition. 
 
 2. Condition: condition to evaluate. You have the following options:
 
@@ -261,7 +261,7 @@ A condition step has 4 properties:
 
 ![Process](../.gitbook/assets/flowbot_cb-03.png)
 
-Identified with the blue color and the gear like icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the blue color and the gear like icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
 ![Process](../.gitbook/assets/process_wab.png)
 
@@ -269,25 +269,25 @@ Click on "Process", then the process step connected with the previous step will 
 
 #### Properties of a process step.
 
-To open the properties of a process step, click on the options button of the process, a modal will appear as follows: 
+To open the properties of a process step, click on the options button of the process, an option window will appear as follows: 
 
 ![option\_process](../.gitbook/assets/options_process.PNG)
 
 The Process step has 3 properties:
 
-1. **Name** : Enter the name that will have the process step.
+1. **Name** : Enter the name for the process step.
 2. **Webhook** : method, url and  necessary variables for the webhook to operate correctly.
 
 Method: you can choose between GET or POST to make the request.
 
 Variables: you can send and receive variables as follows:
 
-* Webhook variables: \(GET/POST\) define the variables that the Webhook will return.
-* POST variables: \(POST\) select the variables you are sending to the Webhook. 
+* Webhook variables: \(GET/POST\) define the variables that the Webhook will return from selected website URL 
+* POST variables: \(POST\) select the variables you are sending to the website via the Webhook. 
 
 ![](../.gitbook/assets/options_process2.PNG)
 
-3.**Next step:** next step in the flow of the model. `watch video`
+3.**Next step:** "next step" field in menu window sets next stage of flow for the model.  `watch video`
 
 ### Create Expression step 
 
@@ -295,7 +295,7 @@ Variables: you can send and receive variables as follows:
 
 ![Expression](../.gitbook/assets/flowbot_cb-04.png)
 
-Identified with the brown color and the icon \(&lt;/&gt;\). This step allows to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) from the conversation for later use. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the brown color and the icon \(&lt;/&gt;\). This step allows you to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) from the conversation for later use. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
 
 ![Expression](../.gitbook/assets/expression_wab.png)
 
@@ -303,13 +303,13 @@ Click on "Expression", then the expression step connected to the previous step w
 
 #### Properties of step expression.
 
-To open the properties of an expression step, click the "Options" button on the expression step, a modal like the following will appear:
+To open the properties of an expression step, click the "Options" button on the expression step, a menu window like the following will appear:
 
 ![](../.gitbook/assets/options_expression.PNG)
 
 An expression step has four properties: 
 
-1. **Name:** enter the name that you will give the expression step.
+1. **Name:** enter the name for the expression step.
 
 2. **Variable bot:** the variable where the result of evaluating the expression will be saved, note that you can create it \(by writing the name\) or use an existing variable \(selecting it from the drop-down field\).
 
@@ -321,7 +321,7 @@ Remember that it is a conversation variable `chat.`as seen at the beginning of t
 
 It can also include variables \(of conversation or message\) that must go between symbols "greater than" and "less than": `<msg.body>`, `<chat.myVariable>`. 
 
-In the expression you can do arithmetic operations: `3 + 6`and use functions. An expression has the following options:
+In the expression you can do arithmetic operations: `3 + 6`and use functions. An expression has the following menu options:
 
 ![Step properties](../.gitbook/assets/step-properties.png)
 
@@ -371,16 +371,16 @@ In the expression you can do arithmetic operations: `3 + 6`and use functions. An
 |  | **Or** | Given 2 values ​​of Boolean type, it returns True if any of the values ​​is evaluated as True.`True Or False`returns True. |
 |  | **Xor** | Given 2 values ​​of Boolean type, it returns True if only one of the values ​​is evaluated as True.`True Xor True`returns False. |
 |  | **Not** | Converts a value of Boolean type to its opposite `Not False`True- returns |
-|  | **Iif** | Check if a condition is met and return "yes value" if true or "no value" otherwise`iif(<chat.miVariable> = "hola", "valorSi", "ValorNo")` |
+|  | **Iif** | Checks if a condition is met and return "yes value" if true or "no value" otherwise`iif(<chat.miVariable> = "hola", "valorSi", "ValorNo")` |
 | Constants | **True** | True Counter \(true\) |
 |  | **False** | Constant False \(false\) |
 |  | **Now** | Current date and time of the system. |
-| Operators | **=** | **equals**: check if two values ​​of the same type are equal `3 = 3`returns True. |
+| Operators | **=** | **equals**: checks if two values ​​of the same type are equal `3 = 3`returns True. |
 |  | **&gt;** | **Greater than** : checks if the first of 2 values ​​of the same type is greater than the second one`3 < 3`returns False. |
 |  | **&gt; =** | **Greater than or equal to** : checks if the first of 2 values ​​of the same type is greater than or equal to the second `3 >= 3`returns True. |
 |  | **&lt;** | **Less than** : checks if the first of 2 values ​​of the same type is less than the second one `3 < 3`returns False. |
 |  | **&lt;=** | **Less than or equal to** : checks if the first of 2 values ​​of the same type is less than or equal to the second `3 <= 3`returns True. |
-|  | &lt;&gt; | **Different** : check if 2 values ​​of the same type are different `3 <> 3`returns False. |
+|  | &lt;&gt; | **Different** : checks if 2 values ​​of the same type are different `3 <> 3`returns False. |
 
 3. In the literal text values \(Strings\)  between quotes you can insert emojis.
 
@@ -392,9 +392,9 @@ In the expression you can do arithmetic operations: `3 + 6`and use functions. An
 
 ![Trace log](../.gitbook/assets/flowbot_cb-05.png)
 
-Identified with the gray color and the icon \( \). This step allows to generate a trace with up to 3 dimensions that is recorded in the system each time the conversation passes through it. It is useful for creating reports and statistics on the use of the Bot.
+Identified with the gray colored pencil  icon \( \). This step allows you to generate a trace with up to 3 dimensions that is recorded in the system each time the conversation passes through it. It is useful for creating reports and statistics on the use of the Bot.
 
-Position yourself on any intermediate step, click the "Next button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Position your cursor on any intermediate step, click the "Next button, "Yes"/"No" \(in condition\), a popup menu will appear with the available steps. 
 
 ![](../.gitbook/assets/trace-log_wab.png)
 
@@ -402,33 +402,33 @@ Click on "Trace", then the trace step connected to the previous step will appear
 
 #### Properties of the tracing step.
 
-To open the properties of a trace step, click on the "Options" button, a modal like the following will appear:
+To open the properties of a trace step, click on the "Options" button, a menu window like the following will appear:
 
 ![](../.gitbook/assets/trace-step.png)
 
 A trace step has 4 properties: 
 
-1. **Name:** enter the name that will have the trace step. **Remember that with this name the traceability reports will be generated.** 
+1. **Name:** enter the name for the trace step. **Remember that  this name connects to the traceability reports that will be generated.** 
 
-2.  **Dimensions:** you can save up to 3 different values. You can include variables.
+2.  **Dimensions:** You can save up to 3 different values. You can include variables.
 
-> Remember that the trace includes 3 default dimensions that are date/time, line and contact. 
+> Remember that the trace includes 3 default dimensions that are date/time, line, and contact. 
 >
-> 3. **Annotation:** you can generate a note to your liking or need, this note can contain the amount of variables you need. 
+> 3. **Annotation:** You can generate a note to your liking or need, this note can contain the amount of variables you need. 
 >
-> 4. **Next step:** next step in the flow of the model. `watch video`
+> 4. **Next step:** Next step in the flow of the model. `watch video`
 
 ### Create Message step 
 
 ![](../.gitbook/assets/flowbot_wab-06.png)
 
-Identified with the color red and the icon \( \).
+Identified with the color red and the message bubble icon \( \).
 
-The message step is used to send a message to the user interacting with the bot, capture the answer in a variable and jump to a status.
+The message step is used to send a message to the user interacting with the bot, and capture the answer in a variable and jump to a status.
 
-This step just as jump, is the last of a flow within a status, therefore, does not allow descending steps.
+This step just as jump, is the last of a flow within a status, therefore, it does not allow descending steps.
 
-Position yourself on any intermediate step , click on the "Next" button, "Yes" / "No" \(in condition\), a contextual menu with the available steps will appear.
+Position your cursor on any intermediate step , click on the "Next" button, "Yes" / "No" \(in condition\), a popup menu with the available steps will appear.
 
 ![Message](../.gitbook/assets/message_wab.png)
 
@@ -436,7 +436,7 @@ Click on "Message", the message step connected to the previous step will appear.
 
 #### Properties of the message step.
 
-To open the properties of a message step, click on the "Options", a modal like the following will appear:
+To open the properties of a message step, click on the "Options", a menu window like the following will appear:
 
 ![Message\_Step1](../.gitbook/assets/message_step.png)
 
@@ -444,27 +444,27 @@ To open the properties of a message step, click on the "Options", a modal like t
 
 The message step has 3 properties: 
 
-1.**Name:** enter the name that will have the message step. 
+1.**Name:** enter the name for the message step. 
 
 2. **Message**
 
 * SENDING A MESSAGE
-  * **Send message:**  compose in this field the message you want to send to the user, remember that this text can include variables, emojis and multimedia content; to insert them you can use the options \(buttons\) that are on the right side of the field.
+  * **Send message:**   in this field compose the message you want to send to the user, remember that this text can include variables, emojis and multimedia content; to insert them you can use the options \(buttons\) that are on the right side of the field.
 
     \*\*\*\*
 
-  * **Quick answers:** Quick answers allow you to insert buttons \(not applicable in WhastApp\) selectable by the user with a number of options to choose from. If you want the button to have a label \(text\) different from its value, separate the value of the label with a pipeline \(\|\); in this way `size S | a`, it would present a button with the label "Size S" but when selecting it the returned value would be "a". If you only use the label, that will be the value of the button when selected: it `size S`presents a button with the label "size S" and returns the value "size S" when selected.
+  * **Quick answers:** Quick answers allow you to insert response buttons \(not applicable in WhastApp\) selectable by the user with a number of options to choose from. If you want the button to have a label \(text\) different from its value, separate the value of the label with a vertical bar \(or Sheffer Stroke\)  \( \| \); in this way `size S | a`, it would present a button with the label "Size S" but when selecting it the returned value would be "a". If you only use the label, that will be the value of the button when selected: it `size S`presents a button with the label "size S" and returns the value "size S" when selected.
 
-> Separate each "quick response" with a comma \(,\) or press the key `ENTER`.
+> Separate each "quick response" with a comma \( , \) or press the key `ENTER`.
 >
 > * OPTIONS
->   * **Save user response in:** if the user responds to the message sent, you can save that answer in a new variable or an existing one. Remember that it is a `chat.` conversation variable,  as seen at the beginning of the field.
->   * **Download multimedia content of the response:** if the user's response is multimedia content \(audio, image, video or document\), you can store said content in DAtaURI in the previously defined variable.
->   * **Mask user response:** prevents the storage of the response in the Chat-Bots databases.
+>   * **Save user response in:** If the user responds to the message sent, you can save that answer in a new variable or an existing one. Remember that it is a `chat.` conversation variable,  as seen at the beginning of the field.
+>   * **Download multimedia content of the response:** If the user's response is multimedia content \(audio, image, video, or document\), you can store said content in DAtaURI in the previously defined variable.
+>   * **Mask user response:** Prevents the storage of the response in the Chat-Bots databases.
 >
->     Take into account that if you mask an answer, you will not have access to it later to generate reports or queries.
+>   * \*Take into account that if you mask an answer, you will not have access to it later to generate reports or queries.
 
-1. **Change bot to status:** You can pass the conversation to another state or continue in the current state. After you define the next state, you will notice a mark in the step that tells you which state will follow the flow of the conversation.
+1. **Change bot to status:** You can switch the conversation to another state or continue in the current state. After you define the next state, you will notice a mark in the step that tells you which state will follow the flow of the conversation.
 
 ![Message\_Initial](../.gitbook/assets/message_initial_ok.png)
 
@@ -472,7 +472,7 @@ The message step has 3 properties:
 
 ![Jump](../.gitbook/assets/flowbot_wab-07.png)
 
-Identified with the orange color and the icon \( \). The jump step is used to pass the conversation to another bot. This step as well as message step, is the last of a flow within a state, therefore, does not allow descending steps. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the orange color and right bending arrow icon \( \). The jump step is used to pass the conversation to another bot. This step as well as message step, is the last of a flow within a state, therefore, does not allow descending steps. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a popup menu will appear with the available steps. 
 
 ![Jump](../.gitbook/assets/jump_wab.png)
 
@@ -480,22 +480,22 @@ Click on "Jump", then the jump step connected to the previous step will appear.
 
 #### Jump step properties
 
-To open the properties of a jump step, click the "Options" button on it, a modal like the following will appear:
+To open the properties of a jump step, click the "Options" button on it, a menu window like the following will appear:
 
 ![jump Step](../.gitbook/assets/options_jump.png)
 
 The jump step has 2 properties: 
 
-1. **Name:** type the name that will have the jump step. 
+1. **Name:** type the name for the jump step. 
 
-2. **Go to bot:** bot to which you are going to pass the conversation, this property is divided into 2 fields:
+2. **Go to bot:** The Bot to which you are going to switch the conversation, this property is divided into 2 fields:
 
-* **Customer:** select the client where the bot you are going to use is located. 
-* **Bot:** select the bot to which the conversation is going to go.
+* **Customer:** select the client to where the bot you are going to use is located. 
+* **Bot:** select the bot to which the conversation will switch to.
 
 > A mark on the step will indicate which bot will continue the conversation.
 
-![Jum\_new bot](../.gitbook/assets/jump_new-bot_ok.png)
+![Jump\_new bot](../.gitbook/assets/jump_new-bot_ok.png)
 
 > The conversation variables persist in the bot to which you made the jump.
 
@@ -503,23 +503,23 @@ The jump step has 2 properties:
 
 ### Save bot
 
-To save a new bot, click on the image, name, status and customer area, as shown in the image. 
+To save a new bot, click on the image, name, status, and customer area, as shown in the image. 
 
 ![Save bot](../.gitbook/assets/save_bot_ok.png)
 
-A modal will appear as follows: 
+A window will appear as follows: 
 
 ![Modal](../.gitbook/assets/modal-save.png)
 
-In this modal you will find 4 options:
+In this window you will find 4 options:
 
-1. **Name of the bot:** enter a name for the bot.
+1. **Name of the bot:** Enter a name for the bot.
 
-2. **Customer:** select a customer for the bot.
+2. **Customer:** Select a customer for the bot.
 
-3. **Description:** type a description for the bot.
+3. **Description:** Type a description for the bot.
 
-4. **Bot image:** \(optional\) you can assign an image to the bot.
+4. **Bot image:** \(optional\) You can assign an image to the bot.
 
 * To do this, click the "Choose Image" button:
 
@@ -527,7 +527,7 @@ In this modal you will find 4 options:
 
 A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
 
-* The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, you can also make it bigger \(to the right\) or smaller \(to the left\) by moving the slider which is at the bottom.
+* The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, you can also make it bigger \(to the right\) or smaller \(to the left\) by moving the slider located at the bottom.
 
 ![Picture bot](../.gitbook/assets/bot-picture.png)
 
@@ -545,21 +545,21 @@ To save later modifications to the structure or data of the bot, click the "Save
 
 ### Delete bot
 
-To delete a bot you must go to the "Bots" section and identify the card of the bot that you are going to delete. 
+To delete a bot you must go to the "Bots" section and click on the bot that you are going to delete. 
 
 ![](../.gitbook/assets/delete_bot1.png)
 
-Then move the cursor to the card, the "Delete" button will appear, click it.
+Then a "Delete" button will appear, click it.
 
 ![Delete bot](../.gitbook/assets/delete_bot2.png)
 
-A confirmation mode will appear, click the "Delete" button to delete the bot or click "Cancel" to abandon the operation.
+A confirmation message will appear, click the "Delete" button to delete the bot or click "Cancel" to abandon the operation.
 
 ![Button delete](../.gitbook/assets/delete_bot3.png)
 
 ### Bot options
 
-Each bot has a panel with multiple options, to access it you must go to the toolbar "Options" button, then click on it. 
+Each bot has a panel with multiple options, to access it you must go to the toolbar "Settings" button, then click on it. 
 
 ![](../.gitbook/assets/options_tool_key.png)
 
@@ -567,7 +567,7 @@ A panel with the available options will appear.
 
 ![](../.gitbook/assets/options_tool_key1.png)
 
-To hide the options pane, move the cursor to the toolbar and click the "Close" button \(same as you used to open the panel, but in this case with the icon \( \) and a slightly darker background\).
+To hide the options pane, move the cursor to the toolbar and click the "Close" button \(near the same as you used to open the panel, but in this case with the icon \( X \).
 
 ![](../.gitbook/assets/options_close_ok.png)
 
@@ -577,7 +577,7 @@ Below is the list of tools you have available when working with a bot.
 
 **Validate bot**
 
-This option allows to check if the current model is valid. Among the validations are:
+This option allows to check if the current model is valid and will run smoothly. Among the validations are:
 
 * Continuity between the steps.
 * Orphaned steps.
@@ -585,7 +585,7 @@ This option allows to check if the current model is valid. Among the validations
 
 This option only validates the structure of the bot, not its overall performance. To validate a bot, click Options&gt;Validate. If you have a validation error, the program will indicate it with a notification at the bottom right \(2\); it will also mark the specific step where the error is \(1\). 
 
-![](../.gitbook/assets/option_error_ok.png)
+![Bot validation step showing error](../.gitbook/assets/option_error_ok.png)
 
 When the bot has passed the validation successfully, a notification will appear at the bottom right indicating that the model was validated correctly. 
 
@@ -595,7 +595,7 @@ When the bot has passed the validation successfully, a notification will appear 
 
 **Select all**
 
-This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semitransparent border\), then you can position the cursor on any step and drag. All steps will move at the same time. 
+This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semitransparent border\), then you can position the cursor on any step and drag to new location. All steps will move at the same time. 
 
 ![](../.gitbook/assets/select-all.png)
 
@@ -603,9 +603,9 @@ To remove the selection, simply click on any empty part of the workspace. `ver v
 
 **Dialogue Timeout**
 
-All conversations in which a bot interacts have an expiration period, this is known as "dialogue timeout", and refers to the maximum time a user can restart a conversation. After the inactivity period, the conversation will return to the initial status and all the conversation variables will be reset.
+All conversations in which a bot interacts have an expiration period, this is known as "dialogue timeout", and refers to the maximum time a user can restart a conversation. After the inactivity period, the conversation will return to the initial status and all the conversation variables will  reset.
 
-To modifyl the default time \(20 minutes\), click on Options&gt;_timeout of the dialog_, a modal with three fields will appear: Days, Hours, Minutes.
+To modify the default time \(20 minutes\), click on Options&gt;_timeout of the dialog_, a window with three time fields will appear: Days, Hours, Minutes.
 
 ![](../.gitbook/assets/dialogue-timeout.png)
 
@@ -613,7 +613,7 @@ To modifyl the default time \(20 minutes\), click on Options&gt;_timeout of the 
 >
 > **Show texts**
 >
-> When the structure of a model has increased quite, it may be useful to see all texts sent to the user by means of the message steps, instead of having to access the properties of each step to see them. To display all the texts of the message steps, click _Options&gt;View texts_. Next to each message will appear a blue box with its respective text.
+> When the structure of a model has increased, it may be useful to see all texts sent to the user by means of the message steps, instead of having to access the properties of each step to see them. To display all the texts of the message steps, click _Options&gt;View texts_. Next to each message will appear a blue box with its respective text. See picture below.
 
 ![](../.gitbook/assets/show-texts-ok.png)
 
@@ -631,7 +631,7 @@ When you need to work on a bot without altering its original structure or creati
 
 4. Then click _Options&gt;Create copy._ 
 
-5. A modal with the information of the bot you are copying \(similar to the save bot\) will appear. 
+5. A window with the information of the bot you are copying \(similar to the save bot\) will appear. 
 
 ![](../.gitbook/assets/create-copy.png)
 
@@ -667,7 +667,7 @@ In order to import a bot you must:
 
 **Web chat**
 
-Chat-Bots allows you to create a bot that can be used to answer your customers' requests directly on your website. To generate a Web Chat click _Options&gt;Web chat._ A modal like this will appear:
+Chat-Bots allows you to create a bot that can be used to answer your customers' requests directly on your website. To generate a Web Chat click _Options&gt;Web chat._ A window like this will appear:
 
 ![](../.gitbook/assets/web-chat-ok.png)
 
@@ -695,13 +695,13 @@ Notice also that this tool allows you to see the _status_ and current value of t
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img099.jpg) 
 
-A window with the current status , the variables defined in the conversation and the value they contain will appear.
+A window with the current status , and the variables defined in the conversation along with the value they contain will appear.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) `watch video`
 
 #### Try Whatsapp
 
-To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
+To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up to 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
 
 ![](../.gitbook/assets/test-whatsapp1.png)
 
@@ -709,7 +709,7 @@ Choose a country from the dropdown list, then enter the cell phone number you wa
 
 ![](../.gitbook/assets/test-whatsapp2.png)
 
-A table with the number of the line you can test, the cell number registered, the validity and the option to delete the registered number will appear. If you want to register another number, repeat the previous step. 
+A table with the number of the line you can test, the cell number registered, the validity, and the option to delete the registered number will appear. If you want to register another number, repeat the previous step. 
 
 ![](../.gitbook/assets/test-whatsapp3.png)
 
@@ -729,11 +729,11 @@ When you have finished registering the cell phone numbers, click the "Go to What
 >
 > The designer has 2 types of connectors: 
 >
-> 1. **Default connector \(YES, in condition\):** blue, with arrow point in the center indicating the direction of the flow.
+> 1. **Default connector \(YES, in condition\):** blue, with arrow in the center pointing in the direction of the flow.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img055.jpg)
 
-2. **Exception connector \(NO in condition\)**: red, with arrow point in the center indicating the direction of the flow.
+2. **Exception connector \(NO in condition\)**: red, with arrow in the center pointing in the direction of the flow.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img056.jpg)
 
@@ -743,49 +743,49 @@ To delete a connector you have 2 options:
 
 ![](../.gitbook/assets/connector-delete.png)
 
-2. Place the cursor on the first of 2 connected steps \(source step\), click the "Options" button, a modal will appear \(varies depending on the type of step\). In the option "Next step:" \(status, process, expression, trace\), "Yes:"/"No:" \(condition\), the name of the step which you are connected with will appear, click the red button "Disconnect step" with the icon \( \), then click on "OK".
+2. Place the cursor on the first of the 2 connected steps \(source step\), click the "Options" button, a window will appear \(varies depending on the type of step\). In the option "Next step:" \(status, process, expression, trace\), "Yes:"/"No:" \(condition\), the name of the step in which you are connected with will appear, click on the red button "Disconnect step" with the icon \( \), then click on "OK".
 
 ![](../.gitbook/assets/connector-step.png)
 
 To connect steps you have the following options:
 
-1. Place the cursor on the first of the 2 steps \(source step\) you are going to connect, a button will appear with the text "Next", click and drag to the step you want to connect with \(destination step\), drop the mouse button and the two steps will be connected.  
+1. Place the cursor on the first of the 2 steps \(source step\) you are going to connect, a button will appear with the text "Next", click and drag to the step you want to connect it with \(destination step\), release the mouse button and the two steps will be connected.  
 
 ![](../.gitbook/assets/connector-trace_message.png)
 
-2. Place the cursor on the first of the two steps you want to connect \(source step\), click on "Options" button, a modal will appear \(it varies depending on the type of step\). In the option "Next Step:" \(status, process, expression, trace\), "Yes:" and "No:" \(condition\), a list of steps which you can join the current step will appear, select the step to connect and click "OK".
+2. Place the cursor on the first of the 2 steps you want to connect \(source step\), click on "Options" button, a window will appear \(it varies depending on the type of step\). In the option "Next Step:" \(status, process, expression, trace\), "Yes:" and "No:" \(condition\), a list of steps with which you can join the current step will appear, select the step to connect and click "OK".
 
 ![](../.gitbook/assets/connetor-place.png)
 
 #### Move a step
 
-Move any of the steps of the model is very easy. To do so, place the cursor on the step you want to move, the cursor will change its shape indicating that the step allows to be moved. 
+Moving any of the steps in the window is very easy. To do so, place the cursor on the step you want to move, the cursor will change its shape to a move icon indicating that the step allows itself to be moved. 
 
 ![](../.gitbook/assets/flowbot_cb-04.png)
 
-Click and drag the step to the desired position, then drop the mouse button and the step will be placed in the new position.
+Click and drag the step to the desired position, then release the mouse button and the step will be placed in the new position.
 
 #### Move several steps
 
-If you need to move several steps at a time, click on any empty part of the workspace, drag the cursor until the semitransparent blue rectangle that appears covers all the steps you need to move. 
+If you need to move several steps at a time, click on any empty part of the workspace, drag the cursor until the semitransparent blue rectangle that appears covers all the steps you need to move.
 
 ![](../.gitbook/assets/move_step1.png)
 
 Release the mouse button and you will notice that the steps are selected \(with a semitransparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
 
-> If you need to move steps that cannot be selected in the way described above, an alternative form of selection is to hold down the `CTRL` \(Control\) key and without dropping it, click on each step you are going to move. Then you can drop the control key and move the selected steps as it was explained before.
+> If you need to move steps that cannot be selected in the way described above, an alternative form of selection is to hold down the `CTRL` \(Control\) key and without dropping it, click on each step you are going to move. Then you can release the control key and move the selected steps as it was explained before.
 
 ![](../.gitbook/assets/move_step2.png)
 
 #### Move rail
 
-If you need to move a rail and all the steps it contains, bring the cursor closer to the blue dividing line, you will notice that the cursor changes its shape, indicating that you can move the rail up or down.
+If you need to move a "rail" and all the steps it contains, bring the cursor closer to the blue dividing line, you will notice that the cursor changes its shape, indicating that you can move the rail up or down.
 
 ![](../.gitbook/assets/move_rail.png)
 
 #### Insert Variables
 
-In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the icon \( \). To make it easier to enter the variables, click on the button mentioned above, a context menu will appear with the available variables. 
+In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the icon \( \). To make it easier to enter the variables, click on the button mentioned above, a popup menu will appear with the available variables. 
 
 ![](../.gitbook/assets/variables1.png)
 
@@ -803,7 +803,7 @@ A confirmation window will appear, click on _delete_ to finish the process.
 
 ## Conversations
 
-In this section you can filter the conversations by client, date, bot and line to view in **real time** the incomming chats of each contact. To access the conversations section, click on the "Conversations" button on the left side menu.
+In this section you can filter the conversations by client, date, bot and, line to view in **real time** the incoming chats of each contact. To access the conversations section, click on the "Conversations" button on the left side menu.
 
 ![](../.gitbook/assets/conversations1.png)
 
@@ -815,7 +815,7 @@ To filter the conversations you want to view, click _Filter_ \(1\); then click _
 
 The conversations that met the filter criteria will be displayed in the _Conversations_ tab \(1\), you can see the amount of chats for the chosen date\(2\) , if there are new messages in a chat you will be informed with an identifier \(3\), select any conversation by clicking on it\(4\) , date of conversation\(5\), chat messages \(6\), to return to the last messages of the selected chat click the _download_ button \(7\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img068.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img068.jpg)
 
 ### Filter search
 
@@ -823,25 +823,25 @@ The conversations that met the filter criteria will be displayed in the _Convers
 
 ### Complement conversation
 
-At any time an agent \( registered user on the platform\) can complement a conversation by taking \(provisionally\) the bot place and answer a user´s requests. To complement any conversation execute first the _filter process_, then write the answer message in the _send message_ field and click _send_ or press `Enter`key.
+At any time an agent \( registered user on the platform\) can intervene in a conversation by taking \(provisionally\) the bots place and answer a user´s requests. To intervene in any conversation execute first the _filter process_, then write the answer message in the _send message_ field and click _send_ or press `Enter`key.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img101.jpg)
 
-Notice that when complementing a conversation, the platform automatically adds the name of the agent so the final user knows that someone is providing support.
+Notice that when intervening in a conversation, the platform automatically adds the name of the agent so the final user knows that someone is providing support.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img102.jpg)
 
-> In order to complement a conversation, a user must have permission from the agent.
+> In order to intervene in a conversation, a user must have permission from the agent.
 
 ## Broadcast
 
-In this section you can program messages which will be sent massively to your clients or prospects. In order to access the Broadcasting section, click _Broadcast_ on the left side menu.
+In this section you can program messages which will be sent in bulk to your clients or prospects. In order to access the Broadcasting section, click _Broadcast_ on the left side menu.
 
 ![](../.gitbook/assets/broadcast1.png)
 
 ### Create broadcast
 
-In this section you can program messages which will be sent massively to your customers or prospects. To create a broadcast click on _Create broadcast._
+In this section you can program messages which will be sent in bulk to your customers or prospects. To create a broadcast click on _Create broadcast._
 
 ![](../.gitbook/assets/broadcast2.png)
 
@@ -855,7 +855,7 @@ You can also use _previous_ and _next_ buttons to move forward or go back betwee
 
 #### 1: Name and line
 
-Enter a name for broadcasting \(1\), select a costumer from the dropdown list \(2\) and select a line for dissemination \(3\).
+Enter a name for broadcasting \(1\), select a customer from the dropdown list \(2\) and select a line for dissemination \(3\).
 
 ![](../.gitbook/assets/broadcast5.png)
 
@@ -869,7 +869,7 @@ Click the "Import Recipients" button \(1\) and select the file \(.txt or .xlsx\)
 
 > Only the numbers that have interacted with the selected line in step 1 will be filtered.
 >
-> If the chosen file is in excel \(.xlsx\) format, the recipients must appear in the first column \(A\) of the first spreadsheet of the book so that the system can read them.
+> If the chosen file is in excel \(.xlsx\) format, the recipients must appear in the first column \(A\) of the first spreadsheet of the file so that the system can read them.
 
 Click the "Next" button or the circular button with number 3 at the top to move on to the next step.
 
@@ -879,7 +879,7 @@ Write the message you are going to send in the text box that appears_._
 
 ![](../.gitbook/assets/broadcast7.png)
 
-You can divide your message in different bubbles by adding more text boxes_._
+You can divide your message into different bubbles by adding more text boxes_._
 
 ![](../.gitbook/assets/broadcast8.png)
 
@@ -933,7 +933,7 @@ In the table you will find the following options:
 * **Sent:** date and time the broadcast is sent.
 * **Status:** the broadcast can be in any of these 3 states:
 
-  \(icon here\) - The broadcast has been scheduled and will begin to be sent on the date and time indicated.
+  \(icon here\) - The broadcast has been scheduled and will be sent on the date and time as indicated.
 
   \(\)  -   The broadcast is currently being sent.
 
@@ -977,7 +977,7 @@ If you want to modify the entered data , you can click the "RETURN TO PARAMETERS
 
 ### Indicators
 
-Allows to display key indicators of use and user penetration for a bot. To generate a report from the indicators, follow these instructions:
+ Displays key indicators of use and user interaction for a bot. To generate a report from the indicators, follow these instructions:
 
 ![](../.gitbook/assets/reports3.png)
 
@@ -993,7 +993,7 @@ Allows to display key indicators of use and user penetration for a bot. To gener
 
 6. **Universe:** Enter a Universe number.
 
-7. Click the "GENERATE REPORT" button. Graphics with your report data will appear.
+7. Click the "GENERATE REPORT" button. Graphics with your data report will appear.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img154.jpg) 
 
@@ -1001,7 +1001,7 @@ If you want to modify the entered data, you can click the "RETURN TO PARAMETERS"
 
 ## Channels
 
-In this section you will find everything you need to create, assign and modify WhatsApp lines and Facebook pages, as well as create and edit customers.
+In this section you will find everything you need to create, assign, and modify WhatsApp lines and Facebook pages, as well as create and edit customers.
 
 ### Lines
 
@@ -1011,15 +1011,15 @@ To access the Lines section, click the "Channels" button \(1\) on the main menu 
 
 #### Edit line
 
-Identify the line to edit and click the "Edita" option, as shown in the image
+Identify the line to edit and click the "Edit" option, as shown in the image
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img141.jpg) 
 
-A modal with the following fields will appear:
+A window with the following fields will appear:
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img142.jpg) 
 
-1. **Number:** \(no editable\) line number.
+1. **Number:** \(not editable\) line number.
 
 2. **Name of the line:** line name.
 
@@ -1043,13 +1043,13 @@ To link to a facebook page in the Chat-Bots platform, click the "Subscribe Faceb
 
 ![](../.gitbook/assets/channels_wa02.png)
 
-A modal with the following fields will appear:
+A window with the following fields will appear:
 
 ![](../.gitbook/assets/channels_wa03.png)
 
 1. **Name of the page:** name of the Facebook page, the list of names is automatically obtained when connecting to a Facebook account.
 
-2. **"Get Pages" button:** click to open the Facebok manager, log in to your account and allow Chat-Bots to connect to your facebook account, The list of your pages will appear in the **Name of the page** field.
+2. **"Get Pages" button:** click to open the Facebook manager, log in to your account and allow Chat-Bots to connect to your facebook account, The list of your pages will appear in the **Name of the page** field.
 
 3. **Customer:** select the customer to which the page will be linked.
 
@@ -1091,7 +1091,7 @@ To create a client, click on the "Create Customer" button, which is located at t
 
 ![](../.gitbook/assets/customers2.png)
 
-Then a modal with the following form will appear:
+Then a window with the following form will appear:
 
 ![](../.gitbook/assets/customers3.png)
 
@@ -1106,7 +1106,8 @@ Then a modal with the following form will appear:
 5. **Choose image**: click the button to assign an image to the client.
 
 * A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
-  * The image will be loaded into the box \(as shown below\), you can move it by clicking and dragging to place it in the desired position. You can also make it bigger \(right\) or smaller \(left\) by moving the slider located at the bottom.
+  * The image will be loaded into the box \(as shown below\), you can move it by clicking and dragging to place it in the desired position.
+  * With the slider located at the bottom you can also make it bigger \(slide right\) or smaller \(slide left\)  
 
 ```text
    ![imagen](https://chat-bots.co/assets/img/docs/es/img112.jpg)
@@ -1122,7 +1123,7 @@ To edit a customer, locate it in the customer table and click the "Edit" option.
 
 ![](../.gitbook/assets/customers4.png)
 
-A modal with a form that contains the customer information will appear:
+A window with a form that contains the customer information will appear:
 
 ![](../.gitbook/assets/customers5.png)
 
@@ -1140,7 +1141,7 @@ To create a user, click on the "Create User" button, which is located at the bot
 
 ![](../.gitbook/assets/users2.png)
 
-Next, a modal with the following form will appear:
+Next, a window with the following form will appear:
 
 ![](../.gitbook/assets/users3.png)
 
@@ -1166,7 +1167,7 @@ To edit a user, place it in the user table and click the "Edit" option.
 
 ![](../.gitbook/assets/users4.png)
 
-A modal with a form containing user information will appear:
+A window with a form containing user information will appear:
 
 ![](../.gitbook/assets/users5.png)
 
@@ -1228,7 +1229,7 @@ In various parts of the platform you will find tables that gather information ea
 
 ### Calendar
 
-When inserting Date/Time data, the platform has a calendar that makes easier the information input.
+When inserting Date/Time data, the platform has a calendar that makes for easy information input.
 
 To use it, place the cursor at any field that requires date/time data, click on it.
 
@@ -1254,21 +1255,21 @@ Sometimes the system will ask you to enter a date range. To do this, click the f
 
 ### Multimedia Content
 
-In the application, some text fields allow to insert a rich text format or multimedia content. To do that, click on the button with the icon \( \) A menu with the following options will be displayed:
+In the application, some text fields allow you to insert a rich text format or multimedia content. To do that, click on the button with the icon \( \) A menu with the following options will be displayed:
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img128.jpg) 
 
 Insert the code needed to send multimedia, the URL of the file will be requested. _\*\*hyperlink_ Insert the needed code to send a hyperlink, the link URL will be requested.
 
-| Tipo | Función | Descripción |
+| Type | Function | Description |
 | :--- | :--- | :--- |
 | Enriched text | **Bold** | Apply bold to selected text. |
 |  | **Italics** | Apply cursive style to selected text. |
-|  | **Cross out** | Apply crossed out to the selected text. |
-|  | **Mask** | Mask \(hidden\) the selected text. |
+|  | **Cross out** | Apply ~~crossed out~~ to the selected text. |
+|  | **Mask** | Mask \(hide\) the selected text. |
 | Multimedia | **New message** | Insert a new message \(bubble\) into the conversation. |
 |  | **Multimedia** | Insert the required code  to send multimedia, the URL of the file will be requested. |
-|  | **Document** | Insert the  required     code to send a document, the URL of the document and the name of the file will be requested when send. |
+|  | **Document** | Insert the  required     code to send a document, the URL of the document and the name of the file will be requested when sent. |
 |  | **Link** | Insert the required code to send a hyperlink, the link URL will be requested. |
 
 ### Edit Profile
@@ -1284,7 +1285,7 @@ You will be directed to the "Edit profile" page.
 The editing options for a profile are:
 
 * **Names**: User name.
-* **Surname**: User lastname.
+* **Surname**: User last name.
 * **Password**: Access password.
 * **Confirm password**: Confirmation of the  entered  password  in the "Password" field.
 * **Profile image**: Profile photo change.
@@ -1297,7 +1298,7 @@ To modify your profile photo you must:
 
 2. A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
 
-3. The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, you can also make it bigger \(to the right\) or smaller \(to the left\) by moving the slider at the bottom.
+3. The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, using the slider at the bottom you can also make it bigger \(to the right\) or smaller \(to the left\)  
 
 ![](../.gitbook/assets/profile4.png)
 
