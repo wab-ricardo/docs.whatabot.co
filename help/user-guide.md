@@ -9,51 +9,52 @@ description: >-
 
 ## Technical concepts
 
-WhatABot is a conversational automatic-response service, that integrates Chat technologies and Bots. Its goal is to serve users that need to request for information, services or products.  Bots are designed to return logic responses according to its purpose by following a set of business rules which are easily defined.
+WhatABot is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of business rules which are easily defined.
 
 ### Bot Model
 
-Such a set of rules is known as Bot Model. Customers can build Bot Models, step by step, in the Portal's Bot Designer.
+These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer.
 
 ### Status
 
-The Bot must know the exact point where a conversation is going on to generate responses that are coherent to the conversation context. To do so, the Bot uses a status machine that determines such context. 
-
-There is an initial status for new conversations and as many statuses are needed can be defined depending on the topics the Bot will be able to respond. Every time the Bot responds it is possible to do, or not, a transition to a different status in the conversation itself
+The Bot must know the exact point in which a conversation is taking place in order to generate responses that are coherent to the active conversation context. To do so, the Bot uses a status machine that evaluates and determines the context its given in order to respond in the correct fashion.
 
 ### Bot Variables
 
-For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as necessary depending on the rules and scope given to the Bot.
+For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as needed depending on the rules and scope given to the Bot.
+
+There is an initial status that a Bot needs to start new conversations, then as many statuses that are needed will be defined accordingly to the given parameters of the topics. The Bot then will be able to respond correctly and efficiently. Every time the Bot responds with a  “possible to do”, or "not possible to do” \(or yes or no\) response, it will transition to a different status in the conversation  as needed to complete the given task.  
+
 
 ### Conversation Variables
 
-They are defined within an object called **chat** that contains them and as mentioned above, these variables are filled during the conversation.
+They are defined within an object called a **chat** that contains said variables, and as mentioned above, these variables are filled during the conversation.
 
 The scope of these variables is defined by each conversation and the duration of the dialogue \(timeout\).
 
 ### Message variables
 
-They are defined within an object called msg and represent the message sent by the end user to the Bot:
+They are defined within an object called **msg** and represent the message sent by the end user to the Bot:
 
 | variable | Description |
 | :--- | :--- |
-| `msg.body` | This variable shows the text of the message sent by the user. |
+| `msg.body` | This variable shows the actual text of the message sent by the user. |
 | `msg.type` | This variable shows the type of message sent by the user. |
-|  | `chat` if it is a text message. |
+|  | `chat` if the sent message is a text message. |
 |  | `image`if the sent message is an image or a picture. |
-|  | `document`If the message  is a PDF, Word, Excel or Powerpoint document. |
-|  | `location`If the message is a GPS location. |
+|  | `document`If the sent message  is a PDF, Word, Excel or Powerpoint document. |
+|  | `location`If the sent message is a GPS location. |
 |  | `audio`If the sent message is an audio. |
 |  | `video`If the sent message is a video. |
-|  | In case the message type sent is different from chat, in the `msg.body` variable you can get the content of the multimedia element in DataUrl format. |
-| `msg.id` | This variable displays the user identifier that sends the message. |
+|  | In the case that the message type sent is different from chat, in the `msg.body` variable you can get the content of the multimedia element in DataUrl format. |
+| `msg.id` | This variable displays the user identifier of the person that sent the message. |
 |  | For WhatsApp, the identifier is the country code + the phone number + @c.us. |
-| `msg.profile` | This variable displays the name of the user who sends the message. |
-|  | In the case of WhatsApp, most of the time this field will appear blank as users when installing WhatsApp do not supply it. |
-| `msg.email` | This variable shows the email address of the user that sends the message. |
+| `msg.profile` | This variable displays the name of the user who sent the message. |
+|  | In the case of WhatsApp, most of the time this field will appear blank because users when installing WhatsApp usually do not supply it. |
+| `msg.email` | This variable shows the email address of the user that sent the message. |
 |  | Not available on WhatsApp |
-| `msg.line` | This variable displays the WhatsApp line identifier or Facebook page by which the Bot interacts with the end user who sends the message. |
-| `msg.platform` | This variable shows the type of messaging platform used by the Bot. Whats App - Facebook Messenger - Web Chat |
+| `msg.line` | This variable displays the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end user who sendt the message. |
+| `msg.platform` | This variable shows the type of messaging platform used by the Bot. Whats App - Facebook Messenger - or- Web Chat |
 
 > The message variables are brief and have only scope while the Bot determines the response to be returned to the end user.
 
@@ -128,7 +129,7 @@ In this section you will find everything you need to create, edit and delete bot
 
 To view the available bots, click the "Bots" button on the side menu, to be directed to the Bots section.
 
-In this section, available bots appear on cards, grouped into drop down containers, separated by customer.
+In this section, available bots appear on cards, grouped into drop down menus, separated by customer.
 
 ![Button bots](../.gitbook/assets/image%20%284%29.png)
 
@@ -189,7 +190,7 @@ The designer where you can start building the bot will be opened.
 
 ![Initial](../.gitbook/assets/initial.PNG)
 
-Identified with green color and flag icon \( \). Status step is used to create different states in a conversation.Inia
+Identified with green color and flag icon \( \). Status step is used to create different states in a conversation.
 
 To create a status step, go to the toolbar, then click the "Create Status" button, identified with the little flag icon \( \).
 
@@ -201,7 +202,7 @@ The new status step, will appear at the bottom which divides the workspace with 
 
 #### Properties of the  Status step.
 
-To open the properties of a state step, click the "Options" button on it, a _modal_ like the following will appear: 
+To open the properties of a state step, click the "Options" button on it, a window like the following will appear: 
 
 ![options\_step](../.gitbook/assets/options_step.PNG)
 
@@ -223,7 +224,7 @@ Click on "Condition", then the condition step connected with the previous step w
 
 #### Properties of Step Condition
 
-To open the properties of a condition step, click on the "Options" button , a _an option window_ will appear.
+To open the properties of a condition step, click on the "Options" button, an option window will appear.
 
 ![options\_condition](../.gitbook/assets/options_condition.PNG)
 
@@ -295,7 +296,7 @@ Variables: you can send and receive variables as follows:
 
 ![Expression](../.gitbook/assets/flowbot_cb-04.png)
 
-Identified with the brown color and the icon \(&lt;/&gt;\). This step allows you to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) from the conversation for later use. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the brown color and the icon \(&lt;/&gt;\). This step allows you to evaluate an expression \(or formula\) and store the result in a variable \(new or existing\) from the conversation for later use. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a popup menu will appear with the available steps. 
 
 ![Expression](../.gitbook/assets/expression_wab.png)
 
