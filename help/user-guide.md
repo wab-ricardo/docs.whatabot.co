@@ -216,7 +216,7 @@ A Status step has two properties:
 
 ![Condition](../.gitbook/assets/flowbot_cb-02.png)
 
-Identified with the color yellow and the question mark icon \(? \). This step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the color yellow and the question mark icon \(? \). This step evaluates a condition, if true, the flow of the conversation will take the "Yes" path; otherwise, the flow of the conversation will take the "No" path. Position yourself on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), an option menu will appear with the available steps. 
 
 ![Condition](../.gitbook/assets/condition_wab.png)
 
@@ -262,7 +262,7 @@ A condition step has 4 properties:
 
 ![Process](../.gitbook/assets/flowbot_cb-03.png)
 
-Identified with the blue color and the gear like icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a context menu will appear with the available steps. 
+Identified with the blue color and the gear like icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), an option menu will appear with the available steps. 
 
 ![Process](../.gitbook/assets/process_wab.png)
 
