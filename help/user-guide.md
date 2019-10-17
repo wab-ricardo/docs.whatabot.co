@@ -9,7 +9,7 @@ description: >-
 
 ## Technical concepts
 
-WhatABot is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of business rules which are easily defined.
+WhatABot is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined.
 
 ### Bot Model
 
