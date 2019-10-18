@@ -10,11 +10,11 @@ A bot is an automated service, powered by rules and sometimes artificial intelli
 
 ## What is a chatbot?
 
-A chatbot is an interaction a user has with a bot over a chat app. A chatbot provides a practical method to dispense automated services to users in a direct, immediate and friendly way.
+A chatbot represents and guides interactions a user has with a bot over a chat app. A chatbot provides a practical method to dispense automated services to users in a direct, immediate and friendly way.
 
 ## What is a bubble?
 
-A bubble is a single message submitted by any participant in a conversation.
+A bubble is a single message submitted by any participant in a given conversation.
 
 ## What is a message?
 
@@ -26,7 +26,7 @@ A conversation is any number of messages interchanged between participants. A co
 
 ## How do we count messages?
 
-Based on the previous definitions, WhatABot plans count single side messages. This means it counts the number of messages a bot sends to a user. For instance, our Advanced plan allows customers to get as many as 20.000 automated responses from bots to users.
+Based on the previous definitions, WhatABot plans count single side messages. This means it counts the number of messages a bot sends to a user. For instance, our advanced plan allows customers to get as many as 20,000 automated responses from bots to users.
 
 ## How do we count conversations?
 
@@ -34,7 +34,7 @@ We count conversations as any number of messages interchanged by a single user a
 
 ## What channels do we use?
 
-WhatABot is currently available on WhatsApp, Facebook Messenger, webchat and SMS \(selected countries\). We will be adding new channels by market demand
+WhatABot is currently available on WhatsApp, Facebook Messenger, webchat, and SMS \(selected countries\). We will be adding new channels accordingly to market demand.
 
 ## 
 
