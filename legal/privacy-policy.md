@@ -10,13 +10,13 @@ This Privacy Policy is designed to help you understand what information we colle
 
 Some key terms are defined as follows, and throughout this document:
 
-1. **Scadco, Inc.** \(“Scadco”, "WhatABot", “we”, “us”, or “our”\) is the company that collects and processes Personal Data for the purposes described in this Policy
-2. **Personal Data** is any information relating to an identified or identifiable natural person \(“Data Subject”\)
-3. **Customer** is a legal entity with whom WhatABot an agreement to provide the Services
+1. **Scadco, Inc.** \(“Scadco”, "WhatABot", “we”, “us”, or “our”\) is the company that collects and processes personal data for the purposes described in this Policy
+2. **Personal Data** is any information relating to, an authenticated  or identifiable real person \(“Data Subject”\)
+3. **Customer** is a legal entity with whom WhatABot has an agreement with to provide said services.
 
 ## 2. About WhatABot
 
-WhatABot \(“**Scadco**”,“**WhatABot**”,“**we**”, “**us**”, or “**our**”\) provides a Software as a Service \(SaaS\) cloud-based platform that allows our customers to build, test, deploy and monitor bots that are able to transfer messages between their business systems and their customers on a variety of WhatABot-provided and third party messaging channels \(the “**Service**”\). 
+WhatABot \(“**Scadco**”,“**WhatABot**”,“**we**”, “**us**”, or “**our**”\) provides a software as a service \(SaaS\) cloud-based platform that allows our customers to build, test, deploy, and monitor bots that are able to transfer messages between their business systems and their customers on a variety of WhatABot-provided and third party messaging channels \(the “**Service**”\). 
 
 WhatABot is committed to the protection of Personal Data, including data that we use for our own purposes, and that we eventually maintain on behalf of our Customers.
 
