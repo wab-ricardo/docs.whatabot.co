@@ -1,4 +1,4 @@
 # Introduction
 
-Find here definitions and explanations that will take you to know the environment of WhatABot. 
+You will find here definitions and explanations that will guide you through the environment of WhatABot. 
 
