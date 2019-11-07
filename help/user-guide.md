@@ -1,10 +1,3 @@
----
-description: >-
-  NOTE TO USERS: This User Guide is under revision.  If you feel you cannot find
-  or understand what you need please contact us at wab.tickets@whatabot.co for
-  help.  Sorry for the inconvenience.
----
-
 # User Guide
 
 ## Technical concepts
@@ -53,7 +46,7 @@ They are defined within an object called **msg** and represent the message sent 
 |  | In the case of WhatsApp, most of the time this field will appear blank because users when installing WhatsApp usually do not supply it. |
 | `msg.email` | This variable shows the email address of the user that sent the message. |
 |  | Not available on WhatsApp |
-| `msg.line` | This variable displays the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end user who sendt the message. |
+| `msg.line` | This variable displays the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end user who send the message. |
 | `msg.platform` | This variable shows the type of messaging platform used by the Bot. Whats App - Facebook Messenger - or- Web Chat |
 
 > The message variables are brief and have only scope while the Bot determines the response to be returned to the end user.
@@ -62,19 +55,21 @@ They are defined within an object called **msg** and represent the message sent 
 
 The Bot model is defined in the designer by simple flow diagrams, which are composed of Steps and Connectors.
 
-![Flow bot](../.gitbook/assets/image%20%282%29.png)
+![Bot Flow Chart](../.gitbook/assets/image%20%282%29.png)
 
-Each diagram starts with a ‘Status’ step \(represented in green\) and via Connectors it  links to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
+Each diagram starts with a ‘Status’ step \(represented in green\) and via Connector lines   linking to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
 
-As many diagrams as states will have the conversation are defined. The designer draws a lane for each.
+As many diagrams as states will have the conversation are defined. The designer draws a line for each.
 
 ### Types of steps
 
 **Status step**
 
-This step represents the conversation status. Its  the initial step that the Bot must follow to generate the response to the end user depending on the state of the conversation.
+This step represents the conversation status. Its  the initial step that the Bot must follow to generate the response for the end user depending on the state of the conversation.
 
-![Initial bot](../.gitbook/assets/image%20%285%29.png)
+### Designer Interface
+
+![Initial Bot](../.gitbook/assets/image%20%285%29.png)
 
 **Condition step** 
 
@@ -84,7 +79,7 @@ Through this step the Bot evaluates a condition to determine which path to conti
 
 **Process Step**
 
-Through this step the Bot can be connected to external systems \(ERP, CRM, etc\) and obtain or send information by using webhooks.
+Through this step the Bot can be connected to external systems              \(ERP, CRM, etc\) and obtain or send information by using webhooks.
 
 ![Process](../.gitbook/assets/image%20%281%29.png)
 
@@ -92,7 +87,7 @@ Through this step the Bot can be connected to external systems \(ERP, CRM, etc\)
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
-![Expression ](../.gitbook/assets/image%20%2810%29.png)
+![Expression ](../.gitbook/assets/image%20%2812%29.png)
 
  **Tracing step**
 
@@ -104,7 +99,7 @@ Through this step the Bot can make a record of the conversation activity. It is 
 
 Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status if necessary.
 
-![](../.gitbook/assets/flowbot_wab-06.png)
+![Message](../.gitbook/assets/flowbot_wab-06.png)
 
 ### Webhook
 
@@ -114,12 +109,12 @@ For the Bot to connect to external systems, its necessary from within the Proces
 * Methods allowed GET and POST. 
 * The service must respond with a chat object that includes the variables defined in the Bot and Process Step:
 
-![imagen](https://chat-bots.co/assets/img/docs/es/webhook-code-01.png)
+![image](https://chat-bots.co/assets/img/docs/es/webhook-code-01.png)
 
 * All Bot variables are type "text". 
 * If the method is POST, you can send part of the `chat` objects and `msg` that are marked in the Process Step
 
-![imagen](https://chat-bots.co/assets/img/docs/es/webhook-code-02.png)
+![image](https://chat-bots.co/assets/img/docs/es/webhook-code-02.png)
 
 ## Bots
 
@@ -129,37 +124,33 @@ In this section you will find everything you need to create, edit and delete bot
 
 To view the available bots, click the "Bots" button on the side menu, to be directed to the Bots section.
 
-In this section, available bots appear on cards, grouped into drop down menus, separated by customer.
+In this section, available bots appear on cards, grouped into drop down menus, separated by customer. Click on Bots to open the tab.
 
-![Button bots](../.gitbook/assets/image%20%284%29.png)
+![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
 
 Each card shows the name, image, status and description of a bot
 
-![content bot](../.gitbook/assets/image%20%288%29.png)
+![content of Bot](../.gitbook/assets/image%20%288%29.png)
 
 ### Open bot
 
-Identify the bot to open and position the cursor on it.
+Identify the bot to open and position the cursor on it and click it
 
-![module bot](../.gitbook/assets/image.png)
+![Bot module ](../.gitbook/assets/image.png)
 
-Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the designer; "Delete" \(in red\) this offers the option to remove the bot.
+Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the designer; and "Delete" \(in red\) this offers the option to remove the bot.
 
 Click "Open" the bot will open in the designer to be viewed or edited.
 
-![Designer](../.gitbook/assets/image%20%2811%29.png)
+![Designer](../.gitbook/assets/image%20%2814%29.png)
 
-`watch video`
-
-### Designer Interface
-
-![option open bot](../.gitbook/assets/image%20%289%29.png)
+![Option to open bot](../.gitbook/assets/image%20%2811%29.png)
 
 The designer interface is the space where you can create and edit the models. It is composed of 4 parts:
 
 ![Interface](../.gitbook/assets/image%20%286%29.png)
 
-1. Image \(with status\), name and client of the bot.
+1. Bot logo Image \(with status\), name and client of the bot.
 
 2. Toolbar of the bot. The toolbar offers the following options:
 
@@ -167,7 +158,7 @@ The designer interface is the space where you can create and edit the models. It
 | :--- | :--- | :--- |
 | Zoom in |  | Increases the size of the model |
 | Zoom out |  | Decreases the size of the model |
-| Select/Hand |  | Select: selection mode./Hand: allows to move the workspace. |
+| Select/Hand |  | Select: selection mode./Hand: allows to move the work space. |
 | Create status |  | Creates a new status in the model |
 | Save bot |  | Saves changes made in the bot |
 | Bot options |  | Opens the options menu for the bot |
@@ -190,13 +181,13 @@ The designer where you can start building the bot will be opened.
 
 ![Initial](../.gitbook/assets/initial.PNG)
 
-Identified with green color and flag icon \( \). Status step is used to create different states in a conversation.
+Identified with green color and flag icon. Status step is used to create different states in a conversation.
 
-To create a status step, go to the toolbar, then click the "Create Status" button, identified with the little flag icon \( \).
+To create a status step, go to the toolbar, then click the "Create Status" button, identified with the little flag icon.
 
 ![Create Status](../.gitbook/assets/status_wab.png)
 
-The new status step, will appear at the bottom which divides the workspace with a dark blue horizontal line or \(rail\) this connects the different steps.
+The new status step, will appear at the bottom which divides the work space with a dark blue horizontal line or \(connector\) this connects the different steps.
 
 ![State 1](../.gitbook/assets/state_1_wab.png)
 
@@ -220,9 +211,9 @@ Identified with the color yellow and the question mark icon \(? \). This step ev
 
 ![Condition](../.gitbook/assets/condition_wab.png)
 
-Click on "Condition", then the condition step connected with the previous step will appear.
+Click on "Condition", then the condition step will appear connected with the previous step.
 
-#### Properties of Step Condition
+#### Properties of Condition Step 
 
 To open the properties of a condition step, click on the "Options" button, an option window will appear.
 
@@ -262,7 +253,7 @@ A condition step has 4 properties:
 
 ![Process](../.gitbook/assets/flowbot_cb-03.png)
 
-Identified with the blue color and the gear like icon \( \). The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), an option menu will appear with the available steps. 
+Identified with the blue color and the gear like icon. The process step is used to connect to third party systems \(by using Webhooks\) and obtain or send information. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), an option menu will appear with the available steps. 
 
 ![Process](../.gitbook/assets/process_wab.png)
 
@@ -288,7 +279,7 @@ Variables: you can send and receive variables as follows:
 
 ![](../.gitbook/assets/options_process2.PNG)
 
-3.**Next step:** "next step" field in menu window sets next stage of flow for the model.  `watch video`
+3.**Next step:** "next step" field in menu window sets next stage of flow for the model.  
 
 ### Create Expression step 
 
@@ -302,11 +293,11 @@ Identified with the brown color and the icon \(&lt;/&gt;\). This step allows you
 
 Click on "Expression", then the expression step connected to the previous step will appear.
 
-#### Properties of step expression.
+Properties of step expression.
 
 To open the properties of an expression step, click the "Options" button on the expression step, a menu window like the following will appear:
 
-![](../.gitbook/assets/options_expression.PNG)
+![Image\_step properties](../.gitbook/assets/options_expression.PNG)
 
 An expression step has four properties: 
 
@@ -385,19 +376,19 @@ In the expression you can do arithmetic operations: `3 + 6`and use functions. An
 
 3. In the literal text values \(Strings\)  between quotes you can insert emojis.
 
-![](../.gitbook/assets/emoticones.png)
+![Image](../.gitbook/assets/emoticones.png)
 
-4. **Next step:** next step in the flow of the model. `watch video`
+4. **Next step:** next step in the flow of the model. 
 
 ### Create Tracing step 
 
 ![Trace log](../.gitbook/assets/flowbot_cb-05.png)
 
-Identified with the gray colored pencil  icon \( \). This step allows you to generate a trace with up to 3 dimensions that is recorded in the system each time the conversation passes through it. It is useful for creating reports and statistics on the use of the Bot.
+Identified with the gray colored pencil  icon. This step allows you to generate a trace with up to 3 dimensions that is recorded in the system each time the conversation passes through it. It is useful for creating reports and statistics on the use of the Bot.
 
 Position your cursor on any intermediate step, click the "Next button, "Yes"/"No" \(in condition\), a popup menu will appear with the available steps. 
 
-![](../.gitbook/assets/trace-log_wab.png)
+![Image Trace log](../.gitbook/assets/trace-log_wab.png)
 
 Click on "Trace", then the trace step connected to the previous step will appear.
 
@@ -405,11 +396,11 @@ Click on "Trace", then the trace step connected to the previous step will appear
 
 To open the properties of a trace step, click on the "Options" button, a menu window like the following will appear:
 
-![](../.gitbook/assets/trace-step.png)
+![Properties window](../.gitbook/assets/trace-step.png)
 
 A trace step has 4 properties: 
 
-1. **Name:** enter the name for the trace step. **Remember that  this name connects to the traceability reports that will be generated.** 
+1. **Name:** enter the name for the trace step. **Remember that  this name connects to the trace ability reports that will be generated.** 
 
 2.  **Dimensions:** You can save up to 3 different values. You can include variables.
 
@@ -417,13 +408,13 @@ A trace step has 4 properties:
 >
 > 3. **Annotation:** You can generate a note to your liking or need, this note can contain the amount of variables you need. 
 >
-> 4. **Next step:** Next step in the flow of the model. `watch video`
+> 4. **Next step:** Next step in the flow of the model.
 
 ### Create Message step 
 
-![](../.gitbook/assets/flowbot_wab-06.png)
+![Message image](../.gitbook/assets/flowbot_wab-06.png)
 
-Identified with the color red and the message bubble icon \( \).
+Identified with the color red and the message bubble icon.
 
 The message step is used to send a message to the user interacting with the bot, and capture the answer in a variable and jump to a status.
 
@@ -473,7 +464,7 @@ The message step has 3 properties:
 
 ![Jump](../.gitbook/assets/flowbot_wab-07.png)
 
-Identified with the orange color and right bending arrow icon \( \). The jump step is used to pass the conversation to another bot. This step as well as message step, is the last of a flow within a state, therefore, does not allow descending steps. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a popup menu will appear with the available steps. 
+Identified with the orange color and right bending arrow icon. The jump step is used to pass the conversation to another bot. This step as well as message step, is the last of a flow within a state, therefore, does not allow descending steps. Position your cursor on any intermediate step, click the "Next" button, "Yes"/"No" \(in condition\), a popup menu will appear with the available steps. 
 
 ![Jump](../.gitbook/assets/jump_wab.png)
 
@@ -500,7 +491,7 @@ The jump step has 2 properties:
 
 > The conversation variables persist in the bot to which you made the jump.
 
-`watch video`
+
 
 ### Save bot
 
@@ -542,7 +533,7 @@ To save later modifications to the structure or data of the bot, click the "Save
 
 ![Button save ](../.gitbook/assets/save_bot_botton.png)
 
-`watch video`
+
 
 ### Delete bot
 
@@ -556,7 +547,7 @@ Then a "Delete" button will appear, click it.
 
 A confirmation message will appear, click the "Delete" button to delete the bot or click "Cancel" to abandon the operation.
 
-![Button delete](../.gitbook/assets/delete_bot3.png)
+![ Delete Button](../.gitbook/assets/delete_bot3.png)
 
 ### Bot options
 
@@ -592,15 +583,15 @@ When the bot has passed the validation successfully, a notification will appear 
 
 ![](../.gitbook/assets/validate-bot.png)
 
-`watch video`
+
 
 **Select all**
 
-This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semitransparent border\), then you can position the cursor on any step and drag to new location. All steps will move at the same time. 
+This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semi transparent border\), then you can position the cursor on any step and drag to new location. All steps will move at the same time. 
 
 ![](../.gitbook/assets/select-all.png)
 
-To remove the selection, simply click on any empty part of the workspace. `ver video`
+To remove the selection, simply click on any empty part of the workspace. 
 
 **Dialogue Timeout**
 
@@ -618,7 +609,7 @@ To modify the default time \(20 minutes\), click on Options&gt;_timeout of the d
 
 ![](../.gitbook/assets/show-texts-ok.png)
 
-To hide texts, click _Options&gt;View texts_,each time you show or hide the texts, an icon \(next to the option\) will indicate if they are active \( \) or inactive \( \).
+To hide texts, click _Options&gt;View texts_,each time you show or hide the texts, an icon \(next to the option\) will indicate if they are active or inactive.
 
 **Create copy**
 
@@ -640,7 +631,7 @@ When you need to work on a bot without altering its original structure or creati
 
 7. A notification will appear at the bottom right, indicating that the operation was successful.
 
-> The bot you just copied will be automatically loaded into the designer. `watch video`
+> The bot you just copied will be automatically loaded into the designer. 
 >
 > **Exporting**
 >
@@ -648,7 +639,7 @@ When you need to work on a bot without altering its original structure or creati
 
 ![](../.gitbook/assets/exporting-ok.png)
 
- `watch video`
+
 
 **Importing**
 
@@ -664,7 +655,7 @@ In order to import a bot you must:
 
 5. The bot will be loaded into the designer keeping all the settings you had at the time of exporting.
 
-6. Save the changes. `watch video`
+6. Save the changes. 
 
 **Web chat**
 
@@ -676,11 +667,11 @@ Chat-Bots allows you to create a bot that can be used to answer your customers' 
 
 2. Enter a welcome text for your Web Chat.
 
-3. Click the \( \) button to copy the code to the clipboard.
+3. Click the copy button to copy the code to the clipboard.
 
 4. Click "OK". The code you copied to the clipboard must be sent to the website programmer for insertion before the tag `</body` closes on the website. Then, on the web page, on the bottom right the Web Chat window will appear, you can open or close it by clicking on the blue bar.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img152.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img152.jpg)
 
 #### Try Bot
 
@@ -692,13 +683,13 @@ Enter your messages in the "Message" field and click the "Send" button or press 
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img098.jpg) 
 
-Notice also that this tool allows you to see the _status_ and current value of the variables as you try the bot; to do this, click the blue button with the icon \( \)
+Notice also that this tool allows you to see the _status_ and current value of the variables as you try the bot; to do this, click the blue button with the electric icon.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img099.jpg) 
 
 A window with the current status , and the variables defined in the conversation along with the value they contain will appear.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) `watch video`
+![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
 
 #### Try Whatsapp
 
@@ -706,7 +697,7 @@ To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an 
 
 ![](../.gitbook/assets/test-whatsapp1.png)
 
-Choose a country from the dropdown list, then enter the cell phone number you want to register and click the "Register" button. 
+Choose a country from the drop down list, then enter the cell phone number you want to register and click the "Register" button. 
 
 ![](../.gitbook/assets/test-whatsapp2.png)
 
@@ -732,11 +723,11 @@ When you have finished registering the cell phone numbers, click the "Go to What
 >
 > 1. **Default connector \(YES, in condition\):** blue, with arrow in the center pointing in the direction of the flow.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img055.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img055.jpg)
 
 2. **Exception connector \(NO in condition\)**: red, with arrow in the center pointing in the direction of the flow.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img056.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img056.jpg)
 
 To delete a connector you have 2 options:
 
@@ -744,7 +735,7 @@ To delete a connector you have 2 options:
 
 ![](../.gitbook/assets/connector-delete.png)
 
-2. Place the cursor on the first of the 2 connected steps \(source step\), click the "Options" button, a window will appear \(varies depending on the type of step\). In the option "Next step:" \(status, process, expression, trace\), "Yes:"/"No:" \(condition\), the name of the step in which you are connected with will appear, click on the red button "Disconnect step" with the icon \( \), then click on "OK".
+2. Place the cursor on the first of the 2 connected steps \(source step\), click the "Options" button, a window will appear \(varies depending on the type of step\). In the option "Next step:" \(status, process, expression, trace\), "Yes:"/"No:" \(condition\), the name of the step in which you are connected with will appear, click on the red button "Disconnect step" with the  delete,  icon then click on "OK".
 
 ![](../.gitbook/assets/connector-step.png)
 
@@ -768,11 +759,11 @@ Click and drag the step to the desired position, then release the mouse button a
 
 #### Move several steps
 
-If you need to move several steps at a time, click on any empty part of the workspace, drag the cursor until the semitransparent blue rectangle that appears covers all the steps you need to move.
+If you need to move several steps at a time, click on any empty part of the work space, drag the cursor until the semi transparent blue rectangle that appears covers all the steps you need to move.
 
 ![](../.gitbook/assets/move_step1.png)
 
-Release the mouse button and you will notice that the steps are selected \(with a semitransparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
+Release the mouse button and you will notice that the steps are selected \(with a semi transparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
 
 > If you need to move steps that cannot be selected in the way described above, an alternative form of selection is to hold down the `CTRL` \(Control\) key and without dropping it, click on each step you are going to move. Then you can release the control key and move the selected steps as it was explained before.
 
@@ -786,7 +777,7 @@ If you need to move a "rail" and all the steps it contains, bring the cursor clo
 
 #### Insert Variables
 
-In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the icon \( \). To make it easier to enter the variables, click on the button mentioned above, a popup menu will appear with the available variables. 
+In the properties of some steps, you will find fields in which you can insert variables, these fields have a blue button with the electric bolt icon. To make it easier to enter the variables, click on the button mentioned above, a popup menu will appear with the available variables. 
 
 ![](../.gitbook/assets/variables1.png)
 
@@ -794,7 +785,7 @@ Then click on the variable you want to insert.
 
 #### Delete a step
 
-To delete a step, place the cursor on the step you need to delete. A button with the icon \( \) will appear, click on it.
+To delete a step, place the cursor on the step you need to delete. A button with the delete icon  will appear, click on it.
 
 ![](../.gitbook/assets/variables2.png)
 
@@ -820,17 +811,17 @@ The conversations that met the filter criteria will be displayed in the _Convers
 
 ### Filter search
 
-**Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam deleniti quisquam aperiam sunt voluptas inventore dignissimos ipsum. Eius error maiores illo discomfort sunt eligendi iste dolore, earum pain assumenda unde.????\(Esto es lo que aparece en el documento original\)**
+\*\*\*\*
 
 ### Complement conversation
 
 At any time an agent \( registered user on the platform\) can intervene in a conversation by taking \(provisionally\) the bots place and answer a user´s requests. To intervene in any conversation execute first the _filter process_, then write the answer message in the _send message_ field and click _send_ or press `Enter`key.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img101.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img101.jpg)
 
 Notice that when intervening in a conversation, the platform automatically adds the name of the agent so the final user knows that someone is providing support.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img102.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img102.jpg)
 
 > In order to intervene in a conversation, a user must have permission from the agent.
 
@@ -888,8 +879,8 @@ Each text box has the following options:
 
 1. **Emojis and multimedia content:**
 
-* Click icon \(  \) to insert an emoji in the message.
-* Click icon \(  \) to insert a multimedia content \(audio, video, file\).
+* Click emoji icon  to insert an emoji in the message.
+* Click content icon  to insert a multimedia content \(audio, video, file\).
 
 _2._ **Delete text box:**  Delete text box and its content.
 
@@ -921,7 +912,7 @@ To view previously created broadcasts click on the "SEE BROADCASTS" tab.
 
 A table with all the created broadcasts so far will appear .
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img130.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img130.jpg)
 
 In the table you will find the following options:
 
@@ -966,7 +957,7 @@ Presents information from the traces defined in the bot logic. To generate a rep
 
 4. **Bot:** select the bot you want to view from the drop down list.
 
-5. **Traceability:** select a traceability from the dropdown list.
+5. **Traceability:** select a traceability from the drop down list.
 
 6. Click the "GENERATE REPORT" button. A table with the data of your report will appear.
 
@@ -974,7 +965,7 @@ Presents information from the traces defined in the bot logic. To generate a rep
 
 If you want to modify the entered data , you can click the "RETURN TO PARAMETERS" button and adjust the options again \(1\). You can also export the report to a document in Excel format by clicking the "EXPORT TO EXCEL" button \(2\).
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img086.jpg)
+![image](https://chat-bots.co/assets/img/docs/es/img086.jpg)
 
 ### Indicators
 
@@ -1256,7 +1247,7 @@ Sometimes the system will ask you to enter a date range. To do this, click the f
 
 ### Multimedia Content
 
-In the application, some text fields allow you to insert a rich text format or multimedia content. To do that, click on the button with the icon \( \) A menu with the following options will be displayed:
+In the application, some text fields allow you to insert a rich text format or multimedia content. To do that, click on the button with the paperclip icon. A menu with the following options will be displayed:
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img128.jpg) 
 
@@ -1317,9 +1308,11 @@ When you try to update your password, for security reasons, you will be asked fo
 
 ![](../.gitbook/assets/profile7.png)
 
-## Send ticket
+## Submit a ticket
 
-\(Estos son los datos que aparecen en la ventana\) Please complete the form below to send a ticket to Chat-bots and one of our consultants will contact you and provide you with the necessary support.
+Please complete the form below to send a ticket to WhatABot and one of our consultants will contact you and provide you with the necessary support.
 
-Name: Mail: Subject: Message: No file selected Attach files I accept terms and conditions BUILD TICKET
+
+
+
 
