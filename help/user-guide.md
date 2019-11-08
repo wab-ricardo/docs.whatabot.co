@@ -1,3 +1,7 @@
+---
+description: 'Last Updated: Nov 2019'
+---
+
 # User Guide
 
 ## Technical concepts
