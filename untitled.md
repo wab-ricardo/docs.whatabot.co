@@ -4,13 +4,13 @@
 
 Introduction to AI
 
-Put simply, a chatbot’s AI receives input as an entity, it interprets the entity, and translates it into a relevant output value. Upon receiving the appropriate input entities, it must analyze and contextualize to determine from the phrase the user entered for the correct output to whatever prompt it has received.
+Put simply, a chatbot’s AI receives input as an Entity, it interprets the Entity, and translates it into a relevant output value. Upon receiving the appropriate input entities, it must analyze and contextualize to determine from the Phrase the user entered for the correct output to the correct Intent prompt it has received.
 
 By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
 
 This gives you the ability to fine tune the AI to recognize specific Entity points to understand more difficult Intents. Using different variables to guide the system to understand the intent from the entities it finds in the given set of phrases.
 
-**Intents** – An Intent is an action or activity that a bot can understand from what a user says in a Phrase. Therefore, it is important to provide enough samples of Phrases that specifically represent the Intent. With this information it is possible to train the bot so that it understands the user’s intention. The more phrases you use \(up to 100\) The more Entities the AI in the Bot will have to act out the desired Intent. Click on Intent tab and a window will appear with the necessary fields to be completed accordingly for your AI.
+**Intents** – An Intent is an action or activity that a Bot can understand from what a user says in a Phrase. Therefore, it is important to provide enough samples of Phrases that specifically represent the Intent. With this information it is possible to train the Bot so that it understands the user’s intention. The more phrases you use \(up to 100\) The more Entities the AI in the Bot will have to act out the desired Intent. Click on Intent tab and a window will appear with the necessary fields to be completed accordingly for your AI.
 
 Click the add Intent button, you can now enter your intention. The more parameters you need the more Intents you will need.
 
