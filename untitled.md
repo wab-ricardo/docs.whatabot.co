@@ -1,18 +1,26 @@
+---
+description: >-
+  This manual will walk you through the process of creating an AI algorithm for
+  your Bot.
+---
+
 # AI
 
 
 
-Introduction to AI
+**Introduction to AI**
 
-Put simply, a chatbot’s AI receives input as an Entity, it interprets the Entity, and translates it into a relevant output value. Upon receiving the appropriate input entities, it must analyze and contextualize to determine from the Phrase the user entered for the correct output to the correct Intent prompt it has received.
+Put simply, a Chatbot’s AI receives input as an Entity, it interprets the Entity, and translates it into an Intent output value. Upon receiving the appropriate Entity entities, it must analyze and contextualize to determine from the Phrase the user entered for the correct Intent response to the correct Intent prompt it has received.
 
 By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
 
 This gives you the ability to fine tune the AI to recognize specific Entity points to understand more difficult Intents. Using different variables to guide the system to understand the intent from the entities it finds in the given set of phrases.
 
-**Intents** – An Intent is an action or activity that a Bot can understand from what a user says in a Phrase. Therefore, it is important to provide enough samples of Phrases that specifically represent the Intent. With this information it is possible to train the Bot so that it understands the user’s intention. The more phrases you use \(up to 100\) The more Entities the AI in the Bot will have to act out the desired Intent. Click on Intent tab and a window will appear with the necessary fields to be completed accordingly for your AI.
+**Intents** 
 
-Click the add Intent button, you can now enter your intention. The more parameters you need the more Intents you will need.
+ An Intent is an action or activity that a Bot can understand from what a user says in a Phrase. Therefore, it is important to provide enough samples of Phrases that specifically represent the Intent. With this information it is possible to train the Bot so that it understands the user’s intention. The more phrases you use \(up to 100\) The more Entities the AI in the Bot will have to act out the desired Intent. Click on Intent tab and a window will appear with the necessary fields to be completed accordingly for your AI.
+
+Click the add Intent button, you can now enter your intention. The more parameters you need the more Intents you will need. Hovering the mouse over the  option field of the Intent you can see "Phrases" or "delete". Clicking on Phrases will open the Intent in the Phrases window to enter Sentences containing entities.
 
 Intent video-pic
 
@@ -26,7 +34,13 @@ Here you will provide sample phrases to represent the intent\(s\) purpose. Also,
 
 ![](.gitbook/assets/phrases.PNG)
 
-Assign Entity by double clicking on the word in the phrase. The following window will appear.
+Assign Entity by double clicking on the word in the phrase. The following window will appear. \(for this I double clicked on **order** from the phrase in the above photo\)
+
+Click on entity and add the entity you wish to connect with the word.
+
+Click on alias and assign accordingly. 
+
+Lastly assign the value.
 
 ![](.gitbook/assets/selectword.PNG)
 
@@ -44,7 +58,7 @@ Entities video-pic
 
 **Save and Train**
 
- Click on the tab Save and Train, here train your model to make sure that it is responding accordingly to the given sequence of Intents, Entities, and Phrases or if you have to change or add more of the above values to correct its response.
+ Click on the  Save and Train tab, here train your model to make sure that it is responding accordingly to the given sequence of Intents, Entities, and Phrases or if you have to change or add more of the above values to correct its response.
 
 ![](.gitbook/assets/sve-and-train.PNG)
 
