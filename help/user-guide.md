@@ -105,6 +105,8 @@ Through this step the Bot finishes the flow and gets the final answer to be retu
 
 ![Message](../.gitbook/assets/flowbot_wab-06.png)
 
+![Message](../.gitbook/assets/flowbot_wab-06.png)
+
 ### Webhook
 
 For the Bot to connect to external systems, its necessary from within the Process Step to specify a Webhook url which must be developed in the programming language of your choice and must meet the following specifications:
@@ -115,8 +117,12 @@ For the Bot to connect to external systems, its necessary from within the Proces
 
 ![image](https://chat-bots.co/assets/img/docs/es/webhook-code-01.png)
 
+![image](https://chat-bots.co/assets/img/docs/es/webhook-code-01.png)
+
 * All Bot variables are type "text". 
 * If the method is POST, you can send part of the `chat` objects and `msg` that are marked in the Process Step
+
+![image](https://chat-bots.co/assets/img/docs/es/webhook-code-02.png)
 
 ![image](https://chat-bots.co/assets/img/docs/es/webhook-code-02.png)
 
@@ -129,6 +135,8 @@ In this section you will find everything you need to create, edit and delete bot
 To view the available bots, click the "Bots" button on the side menu, to be directed to the Bots section.
 
 In this section, available bots appear on cards, grouped into drop down menus, separated by customer. Click on Bots to open the tab.
+
+![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
 
 ![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
 
@@ -147,6 +155,8 @@ Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the de
 Click "Open" the bot will open in the designer to be viewed or edited.
 
 ![Designer](../.gitbook/assets/image%20%2814%29.png)
+
+![Option to open bot](../.gitbook/assets/image%20%2811%29.png)
 
 ![Option to open bot](../.gitbook/assets/image%20%2811%29.png)
 
@@ -177,6 +187,8 @@ In the "Bots" section at the bottom right, a circular button with the \(+\)icon 
 
 ![New bot](../.gitbook/assets/new-bot_wab.png)
 
+  If you'd like to see a video on the procedure click here.
+
 The designer where you can start building the bot will be opened.
 
 ![Initial bot](../.gitbook/assets/initial_wab.png)
@@ -190,6 +202,8 @@ Identified with green color and flag icon. Status step is used to create differe
 To create a status step, go to the toolbar, then click the "Create Status" button, identified with the little flag icon.
 
 ![Create Status](../.gitbook/assets/status_wab.png)
+
+The new status step, will appear at the bottom which divides the work space with a dark blue horizontal line or \(connector\) this connects the different steps.
 
 The new status step, will appear at the bottom which divides the work space with a dark blue horizontal line or \(connector\) this connects the different steps.
 
@@ -285,6 +299,8 @@ Variables: you can send and receive variables as follows:
 
 3.**Next step:** "next step" field in menu window sets next stage of flow for the model.  
 
+3.**Next step:** "next step" field in menu window sets next stage of flow for the model.  
+
 ### Create Expression step 
 
  
@@ -300,6 +316,8 @@ Click on "Expression", then the expression step connected to the previous step w
 Properties of step expression.
 
 To open the properties of an expression step, click the "Options" button on the expression step, a menu window like the following will appear:
+
+![Image\_step properties](../.gitbook/assets/options_expression.PNG)
 
 ![Image\_step properties](../.gitbook/assets/options_expression.PNG)
 
@@ -382,6 +400,10 @@ In the expression you can do arithmetic operations: `3 + 6`and use functions. An
 
 ![Image](../.gitbook/assets/emoticones.png)
 
+![Image](../.gitbook/assets/emoticones.png)
+
+4. **Next step:** next step in the flow of the model. 
+
 4. **Next step:** next step in the flow of the model. 
 
 ### Create Tracing step 
@@ -394,6 +416,8 @@ Position your cursor on any intermediate step, click the "Next button, "Yes"/"No
 
 ![Image Trace log](../.gitbook/assets/trace-log_wab.png)
 
+![Image Trace log](../.gitbook/assets/trace-log_wab.png)
+
 Click on "Trace", then the trace step connected to the previous step will appear.
 
 #### Properties of the tracing step.
@@ -402,7 +426,11 @@ To open the properties of a trace step, click on the "Options" button, a menu wi
 
 ![Properties window](../.gitbook/assets/trace-step.png)
 
+![Properties window](../.gitbook/assets/trace-step.png)
+
 A trace step has 4 properties: 
+
+1. **Name:** enter the name for the trace step. **Remember that  this name connects to the trace ability reports that will be generated.** 
 
 1. **Name:** enter the name for the trace step. **Remember that  this name connects to the trace ability reports that will be generated.** 
 
@@ -414,7 +442,15 @@ A trace step has 4 properties:
 >
 > 4. **Next step:** Next step in the flow of the model.
 
+> Remember that the trace includes 3 default dimensions that are date/time, line, and contact. 
+>
+> 3. **Annotation:** You can generate a note to your liking or need, this note can contain the amount of variables you need. 
+>
+> 4. **Next step:** Next step in the flow of the model.
+
 ### Create Message step 
+
+![Message image](../.gitbook/assets/flowbot_wab-06.png)
 
 ![Message image](../.gitbook/assets/flowbot_wab-06.png)
 
@@ -497,6 +533,8 @@ The jump step has 2 properties:
 
 
 
+
+
 ### Save bot
 
 To save a new bot, click on the image, name, status, and customer area, as shown in the image. 
@@ -539,6 +577,8 @@ To save later modifications to the structure or data of the bot, click the "Save
 
 
 
+
+
 ### Delete bot
 
 To delete a bot you must go to the "Bots" section and click on the bot that you are going to delete. 
@@ -550,6 +590,8 @@ Then a "Delete" button will appear, click it.
 ![Delete bot](../.gitbook/assets/delete_bot2.png)
 
 A confirmation message will appear, click the "Delete" button to delete the bot or click "Cancel" to abandon the operation.
+
+![ Delete Button](../.gitbook/assets/delete_bot3.png)
 
 ![ Delete Button](../.gitbook/assets/delete_bot3.png)
 
@@ -589,11 +631,15 @@ When the bot has passed the validation successfully, a notification will appear 
 
 
 
+
+
 **Select all**
 
 This option allows you to select all the steps of a bot to move them at the same time. To select all steps, click Options&gt;Select all, you will notice that all steps are selected \(marked with a semi transparent border\), then you can position the cursor on any step and drag to new location. All steps will move at the same time. 
 
 ![](../.gitbook/assets/select-all.png)
+
+To remove the selection, simply click on any empty part of the workspace. 
 
 To remove the selection, simply click on any empty part of the workspace. 
 
@@ -641,7 +687,15 @@ When you need to work on a bot without altering its original structure or creati
 >
 > You can export any bot to an external file \(.bot\) to later upload it to the platform. To do so, open the export bot \(if you don’t know how, see available bots\), click _Options&gt;Export._ The file will automatically be saved in the "Downloads" folder or it will ask for a path to be stored \(depending on your browser settings\).
 
+> The bot you just copied will be automatically loaded into the designer. 
+>
+> **Exporting**
+>
+> You can export any bot to an external file \(.bot\) to later upload it to the platform. To do so, open the export bot \(if you don’t know how, see available bots\), click _Options&gt;Export._ The file will automatically be saved in the "Downloads" folder or it will ask for a path to be stored \(depending on your browser settings\).
+
 ![](../.gitbook/assets/exporting-ok.png)
+
+
 
 
 
@@ -661,6 +715,8 @@ In order to import a bot you must:
 
 6. Save the changes. 
 
+6. Save the changes. 
+
 **Web chat**
 
 Chat-Bots allows you to create a bot that can be used to answer your customers' requests directly on your website. To generate a Web Chat click _Options&gt;Web chat._ A window like this will appear:
@@ -674,6 +730,8 @@ Chat-Bots allows you to create a bot that can be used to answer your customers' 
 3. Click the copy button to copy the code to the clipboard.
 
 4. Click "OK". The code you copied to the clipboard must be sent to the website programmer for insertion before the tag `</body` closes on the website. Then, on the web page, on the bottom right the Web Chat window will appear, you can open or close it by clicking on the blue bar.
+
+![image](https://chat-bots.co/assets/img/docs/es/img152.jpg)
 
 ![image](https://chat-bots.co/assets/img/docs/es/img152.jpg)
 
@@ -695,11 +753,15 @@ A window with the current status , and the variables defined in the conversation
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
 
+![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
+
 #### Try Whatsapp
 
 To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up to 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
 
 ![](../.gitbook/assets/test-whatsapp1.png)
+
+Choose a country from the drop down list, then enter the cell phone number you want to register and click the "Register" button. 
 
 Choose a country from the drop down list, then enter the cell phone number you want to register and click the "Register" button. 
 
@@ -729,7 +791,11 @@ When you have finished registering the cell phone numbers, click the "Go to What
 
 ![image](https://chat-bots.co/assets/img/docs/es/img055.jpg)
 
+![image](https://chat-bots.co/assets/img/docs/es/img055.jpg)
+
 2. **Exception connector \(NO in condition\)**: red, with arrow in the center pointing in the direction of the flow.
+
+![image](https://chat-bots.co/assets/img/docs/es/img056.jpg)
 
 ![image](https://chat-bots.co/assets/img/docs/es/img056.jpg)
 
@@ -765,6 +831,8 @@ Click and drag the step to the desired position, then release the mouse button a
 
 If you need to move several steps at a time, click on any empty part of the work space, drag the cursor until the semi transparent blue rectangle that appears covers all the steps you need to move.
 
+If you need to move several steps at a time, click on any empty part of the work space, drag the cursor until the semi transparent blue rectangle that appears covers all the steps you need to move.
+
 ![](../.gitbook/assets/move_step1.png)
 
 Release the mouse button and you will notice that the steps are selected \(with a semi transparent border\). Place the cursor over any of them, click and drag to the desired position, you will notice that the selected steps move at the same time.
@@ -797,6 +865,76 @@ A confirmation window will appear, click on _delete_ to finish the process.
 
 ![](../.gitbook/assets/variables3.png)
 
+## 
+
+
+
+**Introduction to AI**
+
+Put simply, a Chatbot’s AI receives input as an Entity, it interprets the Entity, and translates it into an Intent output value. Upon receiving the appropriate Entity entities, it must analyze and contextualize to determine from the Phrase the user entered for the correct Intent response to the correct Intent prompt it has received.
+
+By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
+
+This gives you the ability to fine tune the AI to recognize specific Entity points to understand more difficult Intents. Using different variables to guide the system to understand the intent from the entities it finds in the given set of phrases.
+
+**Intents** 
+
+ An Intent is an action or activity that a Bot can understand from what a user says in a Phrase. Therefore, it is important to provide enough samples of Phrases that specifically represent the Intent. With this information it is possible to train the Bot so that it understands the user’s intention. The more phrases you use \(up to 100\) The more Entities the AI in the Bot will have to act out the desired Intent. Click on Intent tab and a window will appear with the necessary fields to be completed accordingly for your AI.
+
+Click the add Intent button, you can now enter your intention. The more parameters you need the more Intents you will need. Hovering the mouse over the  option field of the Intent you can see "Phrases" or "delete". Clicking on Phrases will open the Intent in the Phrases window to enter Sentences containing entities.
+
+Intent video-pic
+
+![](../.gitbook/assets/capture.PNG)
+
+**Phrases**
+
+Here you will provide sample phrases to represent the intent\(s\) purpose. Also, you can select possible entities to extract in each of them. Click on the Phrases tab to open option window. In the Intent field you can choose a given Intent to link with the phrases you are about to enter.  Click on the add Phrase button to add as many phrases you need according to your models’ job. Phrases containing Entities or new words in Phrases can be highlighted to represent the intent. Pick the new word and double click it. A window will appear to fill in the values and Entity and alias the new word will relate to.
+
+![](file:///C:/Users/T/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+
+![](../.gitbook/assets/phrases.PNG)
+
+Assign Entity by double clicking on the word in the phrase. The following window will appear. \(for this I double clicked on **order** from the Phrase in the above photo\)
+
+Click on entity and add the Entity you wish to connect with the word.
+
+Click on alias and assign accordingly. 
+
+Lastly assign the value.
+
+![](../.gitbook/assets/selectword.PNG)
+
+**Entities**
+
+An Entity is a value extracted from phrases that a user says. You can define its different values with their possible synonyms for each Entity, or by using regular expressions. \(1\) Click on Entities tab to open option window to complete necessary fields before training the AI model.
+
+![](../.gitbook/assets/add-entity%20%281%29.PNG)
+
+\(2\) Click on the add Entities field, enter the Entity then click the add Entity button in the bottom right corner. Your Entity will appear on the list with the option to edit. Click on edit to name, and choose type, and Entity values.
+
+![](../.gitbook/assets/entity-properties.PNG)
+
+Entities video-pic
+
+**Save and Train**
+
+ Click on the  Save and Train tab, here train your model to make sure that it is responding accordingly to the given sequence of Intents, Entities, and Phrases or if you have to change or add more of the above values to correct its response.
+
+![](../.gitbook/assets/sve-and-train.PNG)
+
+When you hover the mouse over the given version the option along the right-hand side will appear to Pin, Test, or Delete. Click on test. This will take you directly to the Test window.
+
+![](../.gitbook/assets/test.PNG)
+
+**Test**
+
+Here you can enter Phrases that contain the set parameters between Intents, and Entities. Enter the test Phrase and click the test button. Below your entry the result and value will appear showing your percentage and values.
+
+![](../.gitbook/assets/test%20%281%29.PNG)
+
+> ttttttt
+
 ## Conversations
 
 In this section you can filter the conversations by client, date, bot and, line to view in **real time** the incoming chats of each contact. To access the conversations section, click on the "Conversations" button on the left side menu.
@@ -823,7 +961,11 @@ At any time an agent \( registered user on the platform\) can intervene in a con
 
 ![image](https://chat-bots.co/assets/img/docs/es/img101.jpg)
 
+![image](https://chat-bots.co/assets/img/docs/es/img101.jpg)
+
 Notice that when intervening in a conversation, the platform automatically adds the name of the agent so the final user knows that someone is providing support.
+
+![image](https://chat-bots.co/assets/img/docs/es/img102.jpg)
 
 ![image](https://chat-bots.co/assets/img/docs/es/img102.jpg)
 
@@ -918,6 +1060,8 @@ A table with all the created broadcasts so far will appear .
 
 ![image](https://chat-bots.co/assets/img/docs/es/img130.jpg)
 
+![image](https://chat-bots.co/assets/img/docs/es/img130.jpg)
+
 In the table you will find the following options:
 
 * **Name:** name given to the broadcast.
@@ -963,11 +1107,15 @@ Presents information from the traces defined in the bot logic. To generate a rep
 
 5. **Traceability:** select a traceability from the drop down list.
 
+5. **Traceability:** select a traceability from the drop down list.
+
 6. Click the "GENERATE REPORT" button. A table with the data of your report will appear.
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img085.jpg) 
 
 If you want to modify the entered data , you can click the "RETURN TO PARAMETERS" button and adjust the options again \(1\). You can also export the report to a document in Excel format by clicking the "EXPORT TO EXCEL" button \(2\).
+
+![image](https://chat-bots.co/assets/img/docs/es/img086.jpg)
 
 ![image](https://chat-bots.co/assets/img/docs/es/img086.jpg)
 
@@ -1315,6 +1463,8 @@ When you try to update your password, for security reasons, you will be asked fo
 ## Submit a ticket
 
 Please complete the form below to send a ticket to WhatABot and one of our consultants will contact you and provide you with the necessary support.
+
+
 
 
 
