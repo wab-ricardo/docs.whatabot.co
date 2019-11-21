@@ -869,7 +869,7 @@ A confirmation window will appear, click on _delete_ to finish the process.
 
 
 
-**Introduction to AI**
+## **Introduction to AI**
 
 Put simply, a Chatbot’s AI receives input as an Entity, it interprets the Entity, and translates it into an Intent output value. Upon receiving the appropriate Entity entities, it must analyze and contextualize to determine from the Phrase the user entered for the correct Intent response to the correct Intent prompt it has received.
 
