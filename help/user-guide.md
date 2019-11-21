@@ -933,13 +933,13 @@ Here you can enter Phrases that contain the set parameters between Intents, and 
 
 ![](../.gitbook/assets/test%20%281%29.PNG)
 
-> ttttttt
+>
 
 ## Conversations
 
 In this section you can filter the conversations by client, date, bot and, line to view in **real time** the incoming chats of each contact. To access the conversations section, click on the "Conversations" button on the left side menu.
 
-![](../.gitbook/assets/conversations1.png)
+![Conversation Filter Photo](../.gitbook/assets/conversations1.png)
 
 ### Filter
 
