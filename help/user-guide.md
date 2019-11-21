@@ -1,5 +1,5 @@
 ---
-description: 'Last Updated: Nov 2019'
+description: 'Last Updated: Nov. 2019'
 ---
 
 # User Guide
