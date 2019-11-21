@@ -422,15 +422,11 @@ In the expression you can do arithmetic operations: `3 + 6`and use functions. An
 
 4. **Next step:** next step in the flow of the model. 
 
-## AI step
+## Create AI step
 
 ![AI](../.gitbook/assets/ai.PNG)
 
-By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
-
-This gives you the ability to fine tune the AI to recognize specific Entity points, that the Bot uses to understand more difficult Intents. Using different variables to guide the system to understand the Intent from the Entities it finds in the given set of Phrases. 
-
-\*This section is further described in detail further below "Introduction to AI.
+See Introduction to AI
 
 ### Create Tracing step 
 
