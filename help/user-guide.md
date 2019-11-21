@@ -883,7 +883,7 @@ Put simply, a Chatbot’s AI receives input as an Entity, it interprets the Enti
 
 By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
 
-This gives you the ability to fine tune the AI to recognize specific Entity points to understand more difficult Intents. Using different variables to guide the system to understand the intent from the entities it finds in the given set of phrases.
+This gives you the ability to fine tune the AI to recognize specific Entity points, that the Bot uses to understand more difficult Intents. Using different variables to guide the system to understand the intent from the entities it finds in the given set of phrases.
 
 **Intents** 
 
