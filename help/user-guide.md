@@ -103,7 +103,9 @@ The AI step can further the intelligence of your Bot by adding an extra level of
 
 By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
 
-This gives you the ability to fine tune the AI to recognize specific Entity points, that the Bot uses to understand more difficult Intents. Using different variables to guide the system to understand the Intent from the Entities it finds in the given set of Phrases.
+This gives you the ability to fine tune the AI to recognize specific Entity points, that the Bot uses to understand more difficult Intents. Using different variables to guide the system to understand the Intent from the Entities it finds in the given set of Phrases. 
+
+AI is further discussed In the "Introduction to AI section further down.
 
 ## **Trace log step**
 
