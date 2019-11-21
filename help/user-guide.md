@@ -183,15 +183,17 @@ The designer interface is the space where you can create and edit the models. It
 
 ### **Creation of a bot**
 
-In the "Bots" section at the bottom right, a circular button with the \(+\)icon appears. Click on it.
-
-![New bot](../.gitbook/assets/new-bot_wab.png)
+In the "Bots" section at the bottom right, a circular button with the \(+\)icon appears. 
 
   If you'd like to see a video on the procedure click here.
 
 The designer where you can start building the bot will be opened.
 
 ![Initial bot](../.gitbook/assets/initial_wab.png)
+
+Click here for a video tutorial.
+
+> click here [https://youtu.be/T6y3sTUjcVQ](https://youtu.be/T6y3sTUjcVQ)
 
 ### Create status step 
 
