@@ -733,13 +733,9 @@ Chat-Bots allows you to create a bot that can be used to answer your customers' 
 
 4. Click "OK". The code you copied to the clipboard must be sent to the website programmer for insertion before the tag `</body` closes on the website. Then, on the web page, on the bottom right the Web Chat window will appear, you can open or close it by clicking on the blue bar.
 
-![image](https://chat-bots.co/assets/img/docs/es/img152.jpg)
+#### Test Bot
 
-![image](https://chat-bots.co/assets/img/docs/es/img152.jpg)
-
-#### Try Bot
-
-The WhatABot platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TRY BOT_ 
+The WhatABot platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TEST BOT_ 
 
 ![](../.gitbook/assets/test-bot-ok.png)
 
@@ -757,9 +753,9 @@ A window with the current status , and the variables defined in the conversation
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
 
-#### Try Whatsapp
+#### Test with WhatsApp
 
-To test your WhatsApp bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up to 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
+To test your WhatsApp Bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up to 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
 
 ![](../.gitbook/assets/test-whatsapp1.png)
 
