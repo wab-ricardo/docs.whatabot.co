@@ -101,6 +101,10 @@ Through this step the Bot can make simple calculations using mathematical, numer
 
 The AI step can further the intelligence of your Bot by adding an extra level of thinking. 
 
+By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
+
+This gives you the ability to fine tune the AI to recognize specific Entity points, that the Bot uses to understand more difficult Intents. Using different variables to guide the system to understand the Intent from the Entities it finds in the given set of Phrases.
+
 ## **Trace log step**
 
 Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot.
