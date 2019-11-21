@@ -75,31 +75,33 @@ This step represents the conversation status. Its  the initial step that the Bot
 
 ![Initial Bot](../.gitbook/assets/image%20%285%29.png)
 
-**Condition step** 
+## **Condition step** 
 
 Through this step the Bot evaluates a condition to determine which path to continue the flow of conversation. Yes, leading to one direction of conversation and no, leading in another.
 
 ![Condition](../.gitbook/assets/image%20%287%29.png)
 
-**Process Step**
+## **Process Step**
 
 Through this step the Bot can be connected to external systems              \(ERP, CRM, etc\) and obtain or send information by using webhooks.
 
 ![Process](../.gitbook/assets/image%20%281%29.png)
 
-**Expression Step**
+## **Expression Step**
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
 ![Expression ](../.gitbook/assets/image%20%2812%29.png)
 
- **Tracing step**
+##  AI step
+
+## **Trace log step**
 
 Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot.
 
 ![Trace](../.gitbook/assets/image%20%283%29.png)
 
- **Message Step**  
+##  **Message Step**  
 
 Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status if necessary.
 
