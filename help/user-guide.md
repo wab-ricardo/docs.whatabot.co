@@ -416,6 +416,8 @@ In the expression you can do arithmetic operations: `3 + 6`and use functions. An
 
 4. **Next step:** next step in the flow of the model. 
 
+## AI step
+
 ### Create Tracing step 
 
 ![Trace log](../.gitbook/assets/flowbot_cb-05.png)
