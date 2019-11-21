@@ -91,9 +91,15 @@ Through this step the Bot can be connected to external systems              \(ER
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
-![Expression ](../.gitbook/assets/image%20%2812%29.png)
+![Expression ](../.gitbook/assets/image%20%2813%29.png)
 
 ##  AI step
+
+![AI step](../.gitbook/assets/ai.PNG)
+
+
+
+The AI step can further the intelligence of your Bot by adding an extra level of thinking. 
 
 ## **Trace log step**
 
@@ -156,7 +162,7 @@ Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the de
 
 Click "Open" the bot will open in the designer to be viewed or edited.
 
-![Designer](../.gitbook/assets/image%20%2814%29.png)
+![Designer](../.gitbook/assets/image%20%2815%29.png)
 
 ![Option to open bot](../.gitbook/assets/image%20%2811%29.png)
 
