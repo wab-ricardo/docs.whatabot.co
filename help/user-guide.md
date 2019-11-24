@@ -14,7 +14,7 @@ These  rules are known as "Bot Models". Customers can build Bot Models, step by 
 
 ### Status
 
-The Bot must know the exact point in which a conversation is taking place in order to generate responses that are coherent to the active conversation context. To do so, the Bot uses a status machine that evaluates and determines the context its given in order to respond in the correct fashion.
+The Bot must know the exact point in which a conversation is taking place in order to generate responses that are coherent to the active conversation. To do so, the Bot uses a status machine that evaluates and determines the context its given in order to respond in the correct fashion.
 
 ### Bot Variables
 
