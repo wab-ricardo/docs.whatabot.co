@@ -5,7 +5,7 @@
 ## Help
 
 * [FAQ](help/faq.md)
-* [User Guide](help/user-guide.md)
+* [WhatABot User Guide](help/user-guide.md)
 
 ## Legal
 

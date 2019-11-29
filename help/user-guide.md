@@ -1,16 +1,18 @@
 ---
-description: 'Last Updated: Nov. 2019'
+description: >-
+  Last Updated: Nov. 2019, Videos coming soon for many steps for building and
+  using the WhatABot system.
 ---
 
-# User Guide
+# WhatABot User Guide
 
-## Technical concepts
+## **Technical concepts**
 
 WhatABot is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined.
 
 ### Bot Model
 
-These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer.
+These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer page.
 
 ### Status
 
@@ -18,14 +20,14 @@ The Bot must know the exact point in which a conversation is taking place in ord
 
 ### Bot Variables
 
-For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are getting enriched. It is possible to define as many variables as needed depending on the rules and scope given to the Bot.
+For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are being enriched. It is possible to define as many variables as needed depending on the rules and scope given to the Bot.
 
 There is an initial status that a Bot needs to start new conversations, then as many statuses that are needed will be defined accordingly to the given parameters of the topics. The Bot then will be able to respond correctly and efficiently. Every time the Bot responds with a  “possible to do”, or "not possible to do” \(or yes or no\) response, it will transition to a different status in the conversation  as needed to complete the given task.  
 
 
 ### Conversation Variables
 
-They are defined within an object called a **chat** that contains said variables, and as mentioned above, these variables are filled during the conversation.
+They are defined within an object called a **chat** that contains said variables, and as mentioned above, these variables are fulfilled during the conversation.
 
 The scope of these variables is defined by each conversation and the duration of the dialogue \(timeout\).
 
@@ -53,7 +55,7 @@ They are defined within an object called **msg** and represent the message sent 
 | `msg.line` | This variable displays the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end user who send the message. |
 | `msg.platform` | This variable shows the type of messaging platform used by the Bot. Whats App - Facebook Messenger - or- Web Chat |
 
-> The message variables are brief and have only scope while the Bot determines the response to be returned to the end user.
+> The message variables are brief and only have scope while the Bot determines the response to be returned to the end user.
 
 ### Designer
 
@@ -63,7 +65,7 @@ The Bot model is defined in the designer by simple flow diagrams, which are comp
 
 Each diagram starts with a ‘Status’ step \(represented in green\) and via Connector lines   linking to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
 
-As many diagrams as states will have the conversation are defined. The designer draws a line for each.
+As many diagrams as states will have the conversation are defined. The designer draws a line or connector for each.
 
 ### Types of steps
 
@@ -83,7 +85,7 @@ Through this step the Bot evaluates a condition to determine which path to conti
 
 ## **Process Step**
 
-Through this step the Bot can be connected to external systems              \(ERP, CRM, etc\) and obtain or send information by using webhooks.
+Through this step the Bot can be connected to external systems  \(ERP, CRM, etc\) and obtain or send information by using webhooks.
 
 ![Process](../.gitbook/assets/image%20%281%29.png)
 
@@ -99,7 +101,7 @@ Through this step the Bot can make simple calculations using mathematical, numer
 
 
 
-The AI step can further the intelligence of your Bot by adding an extra level of thinking. 
+Through the AI step you can further the intelligence of your Bot by adding an extra level of thinking. 
 
 By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
 
@@ -152,11 +154,9 @@ In this section, available bots appear on cards, grouped into drop down menus, s
 
 ![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
 
-![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
-
 Each card shows the name, image, status and description of a bot
 
-![content of Bot](../.gitbook/assets/image%20%288%29.png)
+![Content of Bot](../.gitbook/assets/image%20%288%29.png)
 
 ### Open bot
 
@@ -197,9 +197,9 @@ The designer interface is the space where you can create and edit the models. It
 
 ### **Creation of a bot**
 
-In the "Bots" section at the bottom right, a circular button with the \(+\)icon appears. 
+In the "Bots" section at the bottom right, a circular button with the \(+\)icon appears. "New Bot"
 
-  If you'd like to see a video on the procedure click here.
+  
 
 The designer where you can start building the bot will be opened.
 
@@ -637,6 +637,8 @@ Below is the list of tools you have available when working with a bot.
 
 **Validate bot**
 
+> Video coming soon
+
 This option allows to check if the current model is valid and will run smoothly. Among the validations are:
 
 * Continuity between the steps.
@@ -755,6 +757,8 @@ Chat-Bots allows you to create a bot that can be used to answer your customers' 
 
 #### Test Bot
 
+> Video coming soon
+
 The WhatABot platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TEST BOT_ 
 
 ![](../.gitbook/assets/test-bot-ok.png)
@@ -772,6 +776,8 @@ A window with the current status , and the variables defined in the conversation
 ![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
 
 ![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
+
+> Video coming soon
 
 #### Test with WhatsApp
 
@@ -879,15 +885,13 @@ To delete a step, place the cursor on the step you need to delete. A button with
 
 ![](../.gitbook/assets/variables2.png)
 
-A confirmation window will appear, click on _delete_ to finish the process.
-
-![](../.gitbook/assets/variables3.png)
-
-## 
+A confirmation window will appear, click on _delete_ to finish the process
 
 
 
-## **Introduction to AI**
+## **Introduction to AI**                                                                                
+
+> Video coming soon
 
 Put simply, a Chatbot’s AI receives input as an Entity, it interprets the Entity, and translates it into an Intent output value. Upon receiving the appropriate Entity entities, it must analyze and contextualize to determine from the Phrase the user entered for the correct Intent response to the correct Intent prompt it has received.
 
