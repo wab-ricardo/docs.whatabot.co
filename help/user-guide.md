@@ -121,8 +121,6 @@ Through this step the Bot finishes the flow and gets the final answer to be retu
 
 ![Message](../.gitbook/assets/flowbot_wab-06.png)
 
-![Message](../.gitbook/assets/flowbot_wab-06.png)
-
 ### Webhook
 
 For the Bot to connect to external systems, its necessary from within the Process Step to specify a Webhook url which must be developed in the programming language of your choice and must meet the following specifications:
@@ -186,7 +184,7 @@ The designer interface is the space where you can create and edit the models. It
 | :--- | :--- | :--- |
 | Zoom in |  | Increases the size of the model |
 | Zoom out |  | Decreases the size of the model |
-| Select/Hand |  | Select: selection mode./Hand: allows to move the work space. |
+| Select/Move |  | Select: selection mode./Move: allows you to move the work space. |
 | Create status |  | Creates a new status in the model |
 | Save bot |  | Saves changes made in the bot |
 | Bot options |  | Opens the options menu for the bot |
@@ -198,6 +196,8 @@ The designer interface is the space where you can create and edit the models. It
 ### **Creation of a bot**
 
 In the "Bots" section at the bottom right, a circular button with the \(+\)icon appears. "New Bot"
+
+  
 
   
 

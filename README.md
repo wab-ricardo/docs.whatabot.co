@@ -1,7 +1,7 @@
 ---
 description: >-
   In the following user guide You will learn step by step How to create a Bot
-  and manage how it functions , Incorporate AI and edit its logic , customer
+  and manage how it functions, Incorporate AI and edit its logic, customer
   configuration and more.
 ---
 
