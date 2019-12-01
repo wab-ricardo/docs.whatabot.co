@@ -12,7 +12,7 @@ description: >-
 
 ### Bot Model
 
-These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer page.  **Rule**-**based chatbots** are also referred to as decision-tree bots. As the name suggests, they are powered through a series of defined **rules**.
+These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer page.  **Rule**-**based chatbots** , also referred to as decision-tree bots. As the name suggests, they are powered through a series of defined rules than branch out as in our designer page where you will learn to create and manage your Bot.
 
 ### Status
 
@@ -20,7 +20,7 @@ The Bot must know the exact point in which a conversation is taking place in ord
 
 ### Bot Variables
 
-For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are being enriched. It is possible to define as many variables as needed depending on the rules and scope given to the Bot.
+For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are being enriched. It is possible to define as many variables as needed depending on the rules and scope built into the Bot.
 
 There is an initial status that a Bot needs to start new conversations, then as many statuses that are needed will be defined accordingly to the given parameters of the topics. The Bot then will be able to respond correctly and efficiently. Every time the Bot responds with a  “possible to do”, or "not possible to do” \(or yes or no\) response, it will transition to a different status in the conversation  as needed to complete the given task.  
 
@@ -63,7 +63,7 @@ The Bot model is defined in the designer by simple flow diagrams, which are comp
 
 ![Bot Flow Chart](../.gitbook/assets/image%20%282%29.png)
 
-Each diagram starts with a ‘Status’ step \(represented in green\) and via Connector lines   linking to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
+Each Bot diagram starts with a ‘Status’ step \(represented in green\) and via Connector lines linking to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
 
 As many diagrams as states will have the conversation are defined. The designer draws a line or connector for each.
 
@@ -79,7 +79,7 @@ This step represents the conversation status. Its  the initial step that the Bot
 
 ## **Condition step** 
 
-Through this step the Bot evaluates a condition to determine which path to continue the flow of conversation. Yes, leading to one direction of conversation and no, leading in another.
+Through this step the Bot evaluates a condition to determine which path to continue the flow of conversation. A "Yes", leading to one direction of a conversation and a "No", leading in another.
 
 ![Condition](../.gitbook/assets/image%20%287%29.png)
 
