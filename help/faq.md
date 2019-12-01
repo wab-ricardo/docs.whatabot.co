@@ -1,12 +1,12 @@
 ---
-description: 'Last Updated August 19, 2019'
+description: 'Last Updated  Nov., 2019'
 ---
 
 # FAQ
 
 ## What is a bot?
 
-A bot is an automated service, powered by rules and sometimes artificial intelligence. A bot is designed to interact with a user to provide valuable information or execute tasks. When applied to business processes, it can run a range of tasks from very basic to highly sophisticated ones.
+A bot is an automated service, powered by rules and sometimes artificial intelligence. A bot is designed to interact with a user to provide valuable information or execute tasks. A bot is a software application that is programmed to do certain tasks. When applied to business processes, it can run a range of tasks from very basic to highly sophisticated ones.
 
 ## What is a chatbot?
 
