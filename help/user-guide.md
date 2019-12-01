@@ -1,18 +1,18 @@
 ---
 description: >-
-  Last Updated: Nov. 2019, Videos coming soon for many steps for building and
-  using the WhatABot system.
+  Last Updated: Nov. 2019, Videos coming soon for to show the steps to build,
+  use and maintain  the WhatABot system.
 ---
 
 # WhatABot User Guide
 
 ## **Technical concepts**
 
-WhatABot is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined.
+**WhatABot** is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined.
 
 ### Bot Model
 
-These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer page.
+These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer page.  **Rule**-**based chatbots** are also referred to as decision-tree bots. As the name suggests, they are powered through a series of defined **rules**.
 
 ### Status
 
