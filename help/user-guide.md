@@ -164,7 +164,7 @@ Identify the bot to open and position the cursor on it and click it
 
 Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the designer; and "Delete" \(in red\) this offers the option to remove the bot.
 
-Click "Open" the bot will open in the designer to be viewed or edited.
+Click "Open" the bot will open in the designer page to be viewed or edited.
 
 ![Designer](../.gitbook/assets/image%20%2815%29.png)
 
