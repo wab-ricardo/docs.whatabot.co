@@ -12,7 +12,7 @@ description: >-
 
 ### Bot Model
 
-These  rules are known as "Bot Models". Customers can build Bot Models, step by step, in the Portal's Bot Designer page.  **Rule**-**based chatbots** , also referred to as decision-tree bots. As the name suggests, they are powered through a series of defined rules than branch out as in our designer page where you will learn to create and manage your Bot.
+These  rules are known as "Bot Models". Customers can build Bot models, step by step, in the Portal's Bot Designer page.  **Rule**-**based chatbots** , also referred to as decision-tree bots. As the name suggests, they are powered through a series of defined rules than branch out as in our designer page where you will learn to create and manage your Bot.
 
 ### Status
 
@@ -33,7 +33,7 @@ The scope of these variables is defined by each conversation and the duration of
 
 ### Message variables
 
-They are defined within an object called **msg** and represent the message sent by the end user to the Bot:
+They are defined within an object called **message** and represent the message sent by the end user to the Bot:
 
 | variable | Description |
 | :--- | :--- |
@@ -111,7 +111,7 @@ AI is further discussed In the "Introduction to AI section further down.
 
 ## **Trace log step**
 
-Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot.
+Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot. This way every interaction is recorded and trackable for later review. 
 
 ![Trace](../.gitbook/assets/image%20%283%29.png)
 
@@ -148,7 +148,7 @@ In this section you will find everything you need to create, edit and delete bot
 
 To view the available bots, click the "Bots" button on the side menu, to be directed to the Bots section.
 
-In this section, available bots appear on cards, grouped into drop down menus, separated by customer. Click on Bots to open the tab.
+In this section, all available bots appear on cards, grouped into drop down menus, sorted alphabetically  by customer. Click on Bots to open the tab.
 
 ![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
 
