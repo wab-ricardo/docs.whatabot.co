@@ -264,9 +264,9 @@ A condition step has 4 properties:
 
 | Operator | Kind | Description |
 | :--- | :--- | :--- |
-| **Equal to** | Text / Numeric | If the variable `a`is equal to the value `b`. |
-| **Start with** | Text | If the content of the variable `a`starts with or is equal to the value `b`. |
-| **Do not start with** | Text | If the content of the variable `a`does not start with the value `b`. |
+| **Equals to** | Text / Numeric | If the variable `a`is equal to the value `b`. |
+| **Starts with** | Text | If the content of the variable `a`starts with or is equal to the value `b`. |
+| **Does not start with** | Text | If the content of the variable `a`does not start with the value `b`. |
 | **Contain** | Text | If anywhere in the content of the variable `a`is the value of `b`. |
 | **Do not have** | Text | If the value of `b`is not contained in any part of the variable `a`. |
 | **Empty** | Text | If the variable `a`has no content. |
