@@ -8,9 +8,11 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 Becoming a WhatABot Explorer is a fairly straight forward process:
 
-```bash
+```javascript
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RWpi5nQPqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
+
+
 
 
 
