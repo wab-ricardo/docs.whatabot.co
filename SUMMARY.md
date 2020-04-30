@@ -11,4 +11,5 @@
 
 * [Privacy Policy](legal/privacy-policy.md)
 * [Terms of Service](legal/terms-of-service.md)
+* [Video Tutorials](video-tutorials.md)
 
