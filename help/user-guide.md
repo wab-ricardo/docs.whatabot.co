@@ -1,7 +1,5 @@
 ---
-description: >-
-  Last Updated: Nov. 2019, Videos coming soon for to show the steps to build,
-  use and maintain  the WhatABot system.
+description: 'Last Updated: Nov. 2019.'
 ---
 
 # WhatABot User Guide
