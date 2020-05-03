@@ -8,7 +8,7 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 Get to know the Customer Portal to learn how friendly and powerful it is. 
 
-
+{% embed url="https://youtu.be/GLe34xaj8OE" caption="Take a tour on our Customer Portal" %}
 
 ## How to create your first bot
 
