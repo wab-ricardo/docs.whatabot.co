@@ -24,7 +24,7 @@ Becoming a WhatABot Explorer is a fairly straight forward process:
 
 ## How to create a Broadcast
 
-
+This video is unavailable while broadcast functionality for WhatsApp and FB Messenger is allowed.   We apologize for any inconvenience.  
 
 ## Types of Steps
 

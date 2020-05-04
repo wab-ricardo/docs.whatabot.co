@@ -23,13 +23,13 @@ For the Bot to be more accurate and able to determine the context of the convers
 There is an initial status that a Bot needs to start new conversations, then as many statuses that are needed will be defined accordingly to the given parameters of the topics. The Bot then will be able to respond correctly and efficiently. Every time the Bot responds with a  “possible to do”, or "not possible to do” \(or yes or no\) response, it will transition to a different status in the conversation  as needed to complete the given task.  
 
 
-### Conversation Variables
+#### Conversation Variables
 
 They are defined within an object called a **chat** that contains said variables, and as mentioned above, these variables are fulfilled during the conversation.
 
 The scope of these variables is defined by each conversation and the duration of the dialogue \(timeout\).
 
-### Message variables
+#### Message variables
 
 They are defined within an object called **message** and represent the message sent by the end user to the Bot:
 
@@ -55,7 +55,7 @@ They are defined within an object called **message** and represent the message s
 
 > The message variables are brief and only have scope while the Bot determines the response to be returned to the end user.
 
-### Designer
+### Bot Designer
 
 The Bot model is defined in the designer by simple flow diagrams, which are composed of Steps and Connectors.
 
@@ -67,33 +67,31 @@ As many diagrams as states will have the conversation are defined. The designer 
 
 ### Types of steps
 
-**Status step**
+#### **Status step**
 
-This step represents the conversation status. Its  the initial step that the Bot must follow to generate the response for the end user depending on the state of the conversation.
-
-### Designer Interface
+This step represents the conversation status. It's  the initial step that the Bot must follow to generate the response for the end user depending on the state of the conversation.
 
 ![Initial Bot](../.gitbook/assets/image%20%285%29.png)
 
-## **Condition step** 
+#### **Condition step** 
 
 Through this step the Bot evaluates a condition to determine which path to continue the flow of conversation. A "Yes", leading to one direction of a conversation and a "No", leading in another.
 
 ![Condition](../.gitbook/assets/image%20%287%29.png)
 
-## **Process Step**
+#### **Process Step**
 
 Through this step the Bot can be connected to external systems  \(ERP, CRM, etc\) and obtain or send information by using webhooks.
 
 ![Process](../.gitbook/assets/image%20%281%29.png)
 
-## **Expression Step**
+#### **Expression Step**
 
 Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
 ![Expression ](../.gitbook/assets/image%20%2813%29.png)
 
-##  AI step
+####  AI step
 
 ![AI step](../.gitbook/assets/ai%20%281%29.PNG)
 
@@ -107,19 +105,19 @@ This gives you the ability to fine tune the AI to recognize specific Entity poin
 
 AI is further discussed In the "Introduction to AI section further down.
 
-## **Trace log step**
+#### **Trace log step**
 
 Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot. This way every interaction is recorded and trackable for later review. 
 
 ![Trace](../.gitbook/assets/image%20%283%29.png)
 
-##  **Message Step**  
+####  **Message Step**  
 
 Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status if necessary.
 
 ![Message](../.gitbook/assets/flowbot_wab-06.png)
 
-### Webhook
+### Webhook Integration
 
 For the Bot to connect to external systems, its necessary from within the Process Step to specify a Webhook url which must be developed in the programming language of your choice and must meet the following specifications:
 
