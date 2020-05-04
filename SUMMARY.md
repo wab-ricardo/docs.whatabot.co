@@ -4,9 +4,9 @@
 
 ## Help
 
+* [WhatABot User Guide](help/user-guide.md)
 * [Video Tutorials](help/video-tutorials.md)
 * [FAQ](help/faq.md)
-* [WhatABot User Guide](help/user-guide.md)
 
 ## Legal
 
