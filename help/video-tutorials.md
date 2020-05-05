@@ -8,9 +8,13 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 Get to know the Customer Portal to learn how friendly and powerful it is. 
 
-{% embed url="https://youtu.be/GLe34xaj8OE" caption="Take a tour on our Customer Portal" %}
+{% embed url="https://youtu.be/GLe34xaj8OE" caption="Get familiar with bot models" %}
 
 ## Bot Model in detail
+
+{% embed url="https://youtu.be/quTX5Nv8-VM" %}
+
+
 
 ## How to create your first bot
 
@@ -25,8 +29,6 @@ Becoming a WhatABot Explorer is a fairly straight forward process:
 ## How to create a Broadcast
 
 This video is unavailable while broadcast functionality for WhatsApp and FB Messenger is allowed.   We apologize for any inconvenience.  
-
-## Types of Steps
 
 
 
