@@ -8,11 +8,11 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 Get to know the Customer Portal to learn how friendly and powerful it is. 
 
-{% embed url="https://youtu.be/GLe34xaj8OE" caption="Get familiar with bot models" %}
+{% embed url="https://youtu.be/GLe34xaj8OE" caption="Take a tour on the Customer Portal and learn how friendly it is" %}
 
 ## Bot Model in detail
 
-{% embed url="https://youtu.be/quTX5Nv8-VM" %}
+{% embed url="https://youtu.be/quTX5Nv8-VM" caption="Get familiar with bot model structure" %}
 
 
 
