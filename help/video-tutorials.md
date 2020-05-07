@@ -22,6 +22,12 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 
 
+## Webhook Integration
+
+{% embed url="https://youtu.be/ggn7PduHxJU" %}
+
+
+
 ## How to Create a Broadcast
 
 This video is unavailable while broadcast functionality for WhatsApp and FB Messenger is allowed.   We apologize for any inconvenience.  
