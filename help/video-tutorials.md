@@ -12,8 +12,6 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 {% embed url="https://youtu.be/quTX5Nv8-VM" caption="Get familiar with bot model structure" %}
 
-
-
 ## How to Create Your First Bot
 
 {% embed url="https://youtu.be/bPtWnhKBf90" caption="This video is intended for new users to help them to speed the learning curve." %}
@@ -24,9 +22,7 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 ## Webhook Integration
 
-{% embed url="https://youtu.be/ggn7PduHxJU" %}
-
-
+{% embed url="https://youtu.be/wHmN6LWZH5Q" %}
 
 ## How to Create a Broadcast
 
