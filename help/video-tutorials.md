@@ -18,21 +18,15 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 ## How to Build and Use an A.I. Module
 
-
-
 ## Webhook Integration
 
 {% embed url="https://youtu.be/wHmN6LWZH5Q" %}
 
-## How to Create a Broadcast
-
-This video is unavailable while broadcast functionality for WhatsApp and FB Messenger is allowed.   We apologize for any inconvenience.  
-
-
+## How to Use the Trace Step and the Trace Log Report
 
 ## How to Deploy Your Bot
 
+## How to Create a Broadcast
 
-
-
+This video is unavailable while broadcast functionality for WhatsApp and FB Messenger is allowed.   We apologize for any inconvenience.  
 
