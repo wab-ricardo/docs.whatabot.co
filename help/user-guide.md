@@ -2,58 +2,50 @@
 description: 'Last Updated: Nov. 2019.'
 ---
 
-# WhatABot User Guide
+# User Guide
 
 ## **Technical concepts**
 
-**WhatABot** is an automatic conversational response service that integrates Chat technologies and Bots**.** Its goal is to support users that need to request  information, services, or products.  Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined.
+**WhatABot** is an automatic conversational response service that integrates chat apps and Bots**.** Our goal is to connect brands and consumers in a direct, friendly, and immediate way with a purpose.   WhatABot enables companies to automate business processes on WhatsApp, FB Messenger and webchat.    
 
 ### Bot Model
 
-These  rules are known as "Bot Models". Customers can build Bot models, step by step, in the Portal's Bot Designer page.  **Rule**-**based chatbots** , also referred to as decision-tree bots. As the name suggests, they are powered through a series of defined rules than branch out as in our designer page where you will learn to create and manage your Bot.
+Our Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined. These  rules are known as "Bot Models". Our Customers can build Bot models, step by step, in the Portal's Bot Designer page.  
 
-### Status
+### State
 
-The Bot must know the exact point in which a conversation is taking place in order to generate responses that are coherent to the active conversation. To do so, the Bot uses a status machine that evaluates and determines the context its given in order to respond in the correct fashion.
+The Bot must know the exact point in which a conversation is taking place in order to generate responses that are coherent to the active conversation. To do so, the Bot uses a status machine that evaluates and determines the context to respond in the correct fashion.
 
 ### Bot Variables
 
-For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. During the conversation those variables are being enriched. It is possible to define as many variables as needed depending on the rules and scope built into the Bot.
-
-There is an initial status that a Bot needs to start new conversations, then as many statuses that are needed will be defined accordingly to the given parameters of the topics. The Bot then will be able to respond correctly and efficiently. Every time the Bot responds with a  “possible to do”, or "not possible to do” \(or yes or no\) response, it will transition to a different status in the conversation  as needed to complete the given task.  
-
+For the Bot to be more accurate and able to determine the context of the conversation, besides the status, a series of variables can be defined. Those variables are being enriched during the conversation. It is possible to define as many variables as needed depending on the rules and scope built into the Bot.
 
 #### Conversation Variables
 
-They are defined within an object called a **chat** that contains said variables, and as mentioned above, these variables are fulfilled during the conversation.
-
-The scope of these variables is defined by each conversation and the duration of the dialogue \(timeout\).
+They are defined on the **chat** object by the user. There is no limit to the number of conversation variables that can be set. The scope of these variables is at the conversation level. If the conversation ends or times-out the values saved on them are lost.
 
 #### Message variables
 
-They are defined within an object called **message** and represent the message sent by the end user to the Bot:
+They are predefined on the **message** object and represent the message sent by the end-user to the Bot.  Let's review each msg variable.
 
 | variable | Description |
 | :--- | :--- |
-| `msg.body` | This variable shows the actual text of the message sent by the user. |
-| `msg.type` | This variable shows the type of message sent by the user. |
-|  | `chat` if the sent message is a text message. |
-|  | `image`if the sent message is an image or a picture. |
-|  | `document`If the sent message  is a PDF, Word, Excel or Powerpoint document. |
-|  | `location`If the sent message is a GPS location. |
-|  | `audio`If the sent message is an audio. |
-|  | `video`If the sent message is a video. |
-|  | In the case that the message type sent is different from chat, in the `msg.body` variable you can get the content of the multimedia element in DataUrl format. |
-| `msg.id` | This variable displays the user identifier of the person that sent the message. |
-|  | For WhatsApp, the identifier is the country code + the phone number + @c.us. |
-| `msg.profile` | This variable displays the name of the user who sent the message. |
-|  | In the case of WhatsApp, most of the time this field will appear blank because users when installing WhatsApp usually do not supply it. |
-| `msg.email` | This variable shows the email address of the user that sent the message. |
-|  | Not available on WhatsApp |
-| `msg.line` | This variable displays the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end user who send the message. |
-| `msg.platform` | This variable shows the type of messaging platform used by the Bot. Whats App - Facebook Messenger - or- Web Chat |
+| `msg.body` | Contains the text of the message sent by the user. |
+| `msg.type` | Contains the type of message sent by the user. Type of values are:  |
+|  | `chat` for text message. |
+|  | `image`for image or a picture files. |
+|  | `document`for PDF, Word, Excel or PowerPoint files. |
+|  | `location`for GPS location. |
+|  | `audio`for audio files. |
+|  | `video`for video files. |
+|  | In the case that the message type sent is not chat, then the `msg.body` variable will provide the content of the multimedia element in Data Url format. |
+| `msg.id` | This variable contains identifier of the end-user that sent the message.  For WhatsApp, the identifier is the country code + the phone number + @c.us. |
+| `msg.profile` | This variable contains the name of the end-user if available. |
+| `msg.email` | This variable contains the email address of the end-user.  Not available for WhatsApp. |
+| `msg.line` | This variable contains the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end-user. |
+| `msg.platform` | This variable contains the type of messaging platform used by the end-user. WhatsApp - Facebook Messenger - or- Webchat |
 
-> The message variables are brief and only have scope while the Bot determines the response to be returned to the end user.
+> The message variables are brief and only have scope while the Bot sends the next response to the end-user.
 
 ### Bot Designer
 
