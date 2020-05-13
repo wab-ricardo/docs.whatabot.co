@@ -18,7 +18,7 @@ description: The best way to learn how to become a WhatAbot Explorer
 
 ## How to Create Your First AI Module
 
-To be released on May 13, 2020
+{% embed url="https://youtu.be/v0p7aAHuo-g" caption="Create your first AI module in 4 easy steps." %}
 
 ## How to Use Your First AI Module
 
@@ -26,11 +26,11 @@ To be released on May 20, 2020
 
 ## Webhook Integration
 
-{% embed url="https://youtu.be/wHmN6LWZH5Q" %}
+{% embed url="https://youtu.be/wHmN6LWZH5Q" caption="Integrate with business core systemas such as ERP, CRM, etc." %}
 
 ## How to Use the Trace Step and the Trace Log Report
 
-{% embed url="https://youtu.be/qpK7LWnGL-Q" %}
+{% embed url="https://youtu.be/qpK7LWnGL-Q" caption="Create logs and reports for business intelligence " %}
 
 ## How to Deploy Your Bot
 
