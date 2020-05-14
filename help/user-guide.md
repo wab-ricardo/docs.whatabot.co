@@ -26,7 +26,9 @@ They are defined on the **chat** object by the user. There is no limit to the nu
 
 #### Message variables
 
-They are predefined on the **message** object and represent the message sent by the end-user to the Bot.  Let's review each msg variable.
+They are predefined on the **message** object and represent the message sent by the end-user to the Bot.  The scope of these variables lasts while the Bot sends the next response to the end-user.
+
+Let's review each msg variable.
 
 | variable | Description |
 | :--- | :--- |
@@ -45,120 +47,92 @@ They are predefined on the **message** object and represent the message sent by 
 | `msg.line` | This variable contains the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end-user. |
 | `msg.platform` | This variable contains the type of messaging platform used by the end-user. WhatsApp - Facebook Messenger - or- Webchat |
 
-> The message variables are brief and only have scope while the Bot sends the next response to the end-user.
-
 ### Bot Designer
 
-The Bot model is defined in the designer by simple flow diagrams, which are composed of Steps and Connectors.
+The Bot Designer is a user-friendly tool to easily draw simple flow diagrams that represent the bot logic. This diagram flow is know as the Bot Model that is composed of States, Steps and Connectors.
 
 ![Bot Flow Chart](../.gitbook/assets/image%20%282%29.png)
 
-Each Bot diagram starts with a ‘Status’ step \(represented in green\) and via Connector lines linking to other Intermediate Steps until you reach a Final Step of ‘Message’ \(represented in red\).
+Each Bot diagram starts with a State type step that is represented with a green circle. There are 6 types of steps that are linked with Connector lines. This collection of linked Steps end up always with a Message type Step, represented with a red circle, that sets the end of every State and define the next evolving State. 
 
-As many diagrams as states will have the conversation are defined. The designer draws a line or connector for each.
+### Types of Steps
 
-### Types of steps
+#### **Status Step**
 
-#### **Status step**
-
-This step represents the conversation status. It's  the initial step that the Bot must follow to generate the response for the end user depending on the state of the conversation.
+All Conversations States start with a State type step and end with a Message type step. There are as many States as the Bot logic requires.
 
 ![Initial Bot](../.gitbook/assets/image%20%285%29.png)
 
 #### **Condition step** 
 
-Through this step the Bot evaluates a condition to determine which path to continue the flow of conversation. A "Yes", leading to one direction of a conversation and a "No", leading in another.
+This step evaluates a Yes/No type condition to determine which path the conversation flow will follow.  
 
 ![Condition](../.gitbook/assets/image%20%287%29.png)
 
 #### **Process Step**
 
-Through this step the Bot can be connected to external systems  \(ERP, CRM, etc\) and obtain or send information by using webhooks.
+Through this step, the Bot can connect to external systems such as an ERP or a CRM. This way it can get or send information via webhooks.
 
 ![Process](../.gitbook/assets/image%20%281%29.png)
 
 #### **Expression Step**
 
-Through this step the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
+Through this step, the Bot can make simple calculations using mathematical, numerical, text and/or date-time formulas.
 
 ![Expression ](../.gitbook/assets/image%20%2813%29.png)
 
-####  AI step
+####  AI Step \(Artificial Intelligence Step\)
+
+Through the AI step, you can further the intelligence of your Bot by adding an extra level of thinking. 
+
+By referencing an AI Module that has been previously tested and trained, the AI step can understand the user’s intention and provide a proper response.  The AI Module incorporates specific “Entities” to understand natural language “Phrases” entered by the user, 
+
+Artificial Intelligence is further discussed In the "Introduction to AI" section further down. 
 
 ![AI step](../.gitbook/assets/ai%20%281%29.PNG)
 
+#### **Trace Log Step**
 
-
-Through the AI step you can further the intelligence of your Bot by adding an extra level of thinking. 
-
-By incorporating specific “Entities” to understand from “Phrases” entered by the user and creating an “Intent” list. The AI can understand the user’s intention and provide the proper outcome.
-
-This gives you the ability to fine tune the AI to recognize specific Entity points, that the Bot uses to understand more difficult Intents. Using different variables to guide the system to understand the Intent from the Entities it finds in the given set of Phrases. 
-
-AI is further discussed In the "Introduction to AI section further down.
-
-#### **Trace log step**
-
-Through this step the Bot can make a record of the conversation activity. It is useful for creating reports and statistics on the use of the Bot. This way every interaction is recorded and trackable for later review. 
+Through this step, the bot can log of Conversation activity. This log is used to create Reports for statistics and business intelligence purposes.  
 
 ![Trace](../.gitbook/assets/image%20%283%29.png)
 
 ####  **Message Step**  
 
-Through this step the Bot finishes the flow and gets the final answer to be returned to the end user. In this step it is possible to change the conversation status if necessary.
+This is the final step for every State. Through this step, the Bot provides a logical response to the end-user. This step also sets the next State of the conversation where the next end-user message will be processed.
 
 ![Message](../.gitbook/assets/flowbot_wab-06.png)
 
 ### Webhook Integration
 
-For the Bot to connect to external systems, its necessary from within the Process Step to specify a Webhook url which must be developed in the programming language of your choice and must meet the following specifications:
+For the Bot to connect to external systems, it is necessary from within a Process type Step to specify a Webhook URL that must meet the following specifications: 
 
-* The Web Service must be type RESTful with JSON format. 
-* Methods allowed GET and POST. 
-* The service must respond with a chat object that includes the variables defined in the Bot and Process Step:
-
-![image](https://chat-bots.co/assets/img/docs/es/webhook-code-01.png)
-
-![image](https://chat-bots.co/assets/img/docs/es/webhook-code-01.png)
-
-* All Bot variables are type "text". 
-* If the method is POST, you can send part of the `chat` objects and `msg` that are marked in the Process Step
-
-![image](https://chat-bots.co/assets/img/docs/es/webhook-code-02.png)
-
-![image](https://chat-bots.co/assets/img/docs/es/webhook-code-02.png)
+1. The webservice must be RESTful type with JSON format. The allowed methods are GET and POST. 
+2. The service must respond with a chat type object that includes the variables defined in the Bot and the Process type Step.
+3. All Bot variables are text type. 
+4. If the used method is POST, selected chat and message variables are sent.
 
 ## Bots
 
-In this section you will find everything you need to create, edit and delete bots.
+In this section you will learn how to create, edit and delete bots.
 
 ### Available Bots
 
-To view the available bots, click the "Bots" button on the side menu, to be directed to the Bots section.
-
-In this section, all available bots appear on cards, grouped into drop down menus, sorted alphabetically  by customer. Click on Bots to open the tab.
+To view the available bots, click the "Bots" button on the side menu. Bots are shown as cards, grouped by customer. 
 
 ![Tab For Bots](../.gitbook/assets/image%20%284%29.png)
 
-Each card shows the name, image, status and description of a bot
+![Bot cards by Customer](../.gitbook/assets/image%20%288%29.png)
 
-![Content of Bot](../.gitbook/assets/image%20%288%29.png)
+### Open a Bot
 
-### Open bot
+To Open a Bot and see the Bot Model just mouse over the desired card and click on the "Open" option.
 
-Identify the bot to open and position the cursor on it and click it
+![Mouse over the Bot card](../.gitbook/assets/image%20%2811%29.png)
 
-![Bot module ](../.gitbook/assets/image.png)
+Once open, the Bot Model will be shown in the Bot Designer.
 
-Two buttons appear on the card: "Open" \(in blue\), this opens the bot in the designer; and "Delete" \(in red\) this offers the option to remove the bot.
-
-Click "Open" the bot will open in the designer page to be viewed or edited.
-
-![Designer](../.gitbook/assets/image%20%2815%29.png)
-
-![Option to open bot](../.gitbook/assets/image%20%2811%29.png)
-
-![Option to open bot](../.gitbook/assets/image%20%2811%29.png)
+![Bot Designer](../.gitbook/assets/image%20%2815%29.png)
 
 The designer interface is the space where you can create and edit the models. It is composed of 4 parts:
 
