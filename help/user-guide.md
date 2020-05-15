@@ -119,53 +119,31 @@ Follow these steps to activate Web Chat:
 
 ### Test Button
 
-While building a Bot, this option can help test it within the designer so you can easily make adjustment until the Bot behaves as expected. 
+While building a Bot, this option can help test within the designer so you can easily make adjustments until the Bot behaves as expected. 
 
 There are two testing options:
 
-  to The WhatABot platform has a tool that allows you to test the bot you are developing, to use it go to _Options&gt; TEST BOT_ 
+#### Test Bot
 
-![](../.gitbook/assets/test-bot-ok.png)
+This option allows to test the bot on-screen. 
 
-Enter your messages in the "Message" field and click the "Send" button or press `enter` to send the message. At the top the messages and responses of the bot will show.
+![Test Bot Window](../.gitbook/assets/test-bot.jpg)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img098.jpg) 
+While testing your bot you also have access to values stored in chat variables and the current State where the conversation flow is taking place.  This information is available by clicking the blue lightning icon on the left of the window, and looks as shown below.
 
-Notice also that this tool allows you to see the _status_ and current value of the variables as you try the bot; to do this, click the blue button with the electric icon.
+![State and chat variable value](../.gitbook/assets/state-and-chat-variables.jpg)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img099.jpg) 
+#### WhatsApp Test 
 
-A window with the current status , and the variables defined in the conversation along with the value they contain will appear.
+This option allows to test the bot on WhatsApp from a provided test line.  To test on WhatsApp you need to register the phone number from where you want to test by entering the country and cell phone number.
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
+![WhatsApp Test Register Window](../.gitbook/assets/whatsapp-test-register.jpg)
 
-![imagen](https://chat-bots.co/assets/img/docs/es/img100.jpg) 
+You can register multiple phone numbers to test from.  This registration is valid for 24 hours.  
 
-> Video coming soon
+![](../.gitbook/assets/whatsapp-test-goto-whatsapp.jpg)
 
-#### Test with WhatsApp
-
-To test your WhatsApp Bot, go to _Options&gt;TEST WHATSAPP._ If your bot has an assigned line, you can test directly on it, otherwise you can register up to 3 cell phone numbers to test through a line provided by Chat-Bots for this purpose. 
-
-![](../.gitbook/assets/test-whatsapp1.png)
-
-Choose a country from the drop down list, then enter the cell phone number you want to register and click the "Register" button. 
-
-Choose a country from the drop down list, then enter the cell phone number you want to register and click the "Register" button. 
-
-![](../.gitbook/assets/test-whatsapp2.png)
-
-A table with the number of the line you can test, the cell number registered, the validity, and the option to delete the registered number will appear. If you want to register another number, repeat the previous step. 
-
-![](../.gitbook/assets/test-whatsapp3.png)
-
-When you have finished registering the cell phone numbers, click the "Go to WhatsApp" button. The WhatsApp application \(on the mobile\) or WhatsApp Web \(in the browser\) will open.
-
-![](../.gitbook/assets/test-whatsapp4.png)
-
-> Remember that you can only do tests with the cell numbers you registered for 24 hours
-
-
+To test the bot on WhatsApp, add the test line number as a contact on your phone.  In the image, the test line is +1 \(321\) 445-7299.  Finally, open WhatsApp and send a message to your bot.
 
 ## Types of Steps
 
