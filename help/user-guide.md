@@ -12,7 +12,7 @@ description: 'Last Updated: May 2020.'
 
 Our Bots are designed to return logical responses according to their purpose by following a set of set rules which are easily defined. These  rules are known as "Bot Models". Our Customers can build Bot models, step by step, in the Portal's Bot Designer page.  
 
-### State
+### Bot State
 
 The Bot must know the exact point in which a conversation is taking place in order to generate responses that are coherent to the active conversation. To do so, the Bot uses a status machine that evaluates and determines the context to respond in the correct fashion.
 
@@ -47,7 +47,7 @@ Let's review each msg variable.
 | `msg.line` | This variable contains the WhatsApp line identifier, or the Facebook page in which the Bot interacts with the end-user. |
 | `msg.platform` | This variable contains the type of messaging platform used by the end-user. WhatsApp - Facebook Messenger - or- Webchat |
 
-## Bot Designer
+### Bot Designer
 
 The Bot Designer is a user-friendly tool to easily draw simple flow diagrams that represent the bot logic. This diagram flow is know as the Bot Model that is composed of States, Steps and Connectors.
 
@@ -55,7 +55,7 @@ The Bot Designer is a user-friendly tool to easily draw simple flow diagrams tha
 
 Each Bot Model starts with a State type step that is represented with a green circle. There are 6 types of steps that are linked with Connector lines. This collection of linked Steps end up always with a Message type Step or a Jump type Step.   For more information on Steps, please go to the "Types of Steps" section.  
 
-## Designer Toolbar
+### Designer Toolbar
 
 The Bot Designer has a toolbar in the upper right side as shown below. 
 
@@ -324,13 +324,15 @@ Click on the "Options" button in the Jump Step card to open the Step properties 
 
 **Go to bot:** select the customer and the bot where you want the conversation flow to continue. A mark on the step will indicate which bot will continue the conversation. The conversation variables will persist in the selected bot.
 
-## How to Create Your First Bot
+## "How to" Section
+
+### How to Create Your First Bot
 
 This video shows all the steps you need to learn to get ready to create your first bot.
 
 {% embed url="https://youtu.be/bPtWnhKBf90" caption="Learn how to create your first bot in 6 minutes" %}
 
-## How to Integrate a Bot with Core Business Systems
+### How to Integrate a Bot with Core Business Systems
 
 For the Bot to connect with external systems, it is necessary from within a Process type Step to specify a Webhook URL that must meet the following specifications: 
 
@@ -341,15 +343,15 @@ For the Bot to connect with external systems, it is necessary from within a Proc
 
 {% embed url="https://youtu.be/wHmN6LWZH5Q" caption="Webhook Integration" %}
 
-## **How to Add Artificial Intelligence \(AI\) to a Bot**                                                                               
+### **How to Add Artificial Intelligence \(AI\) to a Bot**                                                                               
 
 Through the AI type step, you can further the intelligence of your Bot by adding an extra level of thinking. 
 
-### About the AI Module
+#### About the AI Module
 
 By referencing an AI Module that has been previously tested and trained, the AI step can understand the user’s "Intent" in natural language and provide a proper response. The AI Module incorporates specific “Entities” to understand natural language “Phrases” entered by the user.
 
-### Steps to Create and Train an AI Module
+#### Steps to Create and Train an AI Module
 
 ![AI Module Steps](../.gitbook/assets/ai-module.jpg)
 
@@ -385,9 +387,69 @@ Please watch the following video to learn how to create your first AI Module.
 
 {% embed url="https://youtu.be/v0p7aAHuo-g" %}
 
+### How to Deploy Your Bots
+
+To deploy your Bots, click on the Channels option on the left pane menu. Here you will see all the available channels.
+
+![Available Channels](../.gitbook/assets/channels.jpg)
+
+#### Deploy on WhatsApp 
+
+{% hint style="success" %}
+In order to add lines to your subscription, please go to your Subscription page and select Change Your Plan tab.  
+{% endhint %}
+
+![Add WhatsApp Lines to Your Subscription](../.gitbook/assets/change-subscription-plan%20%281%29.jpg)
+
+Once you have available lines, click on WhatsApp to see a list of lines with detailed information.
+
+![Available WhatsApp Lines](../.gitbook/assets/whatsapp-lines.jpg)
+
+In order to deploy your Bot on WhatsApp, just click on the Edit action.  The below window is shown.
+
+![Assign your Bot to a WhatsApp line](../.gitbook/assets/deploy-on-whatsapp.jpg)
+
+Under the LINE tab, please name your line on the Name field, select the Customer and Bot to deploy.
+
+Click the OPTIONS tab to enter business information that will be visible to end-users on WhatsApp.
+
+![](../.gitbook/assets/whatsapp-line-options.jpg)
+
+{% hint style="warning" %}
+Business information will be visible to users in up to 48 hours after entered or modified. 
+{% endhint %}
+
+#### Deploy on Facebook Messenger 
+
+Click on Messenger to see all subscribed Facebook Pages. Prior to deploying a Bot on Facebook Messenger, you need to have a Page that needs to be subscribed to WhatABot.
+
+![Subscribed Facebook Pages](../.gitbook/assets/facebook-pages.jpg)
+
+To subscribe a new page, click on the Subscribe Facebook Page button.  The below window is shown.
+
+![](../.gitbook/assets/subscribe-facebook-page.jpg)
+
+To see all available pages in your Facebook account, click on the "Get Facebook pages" button. From this point, please follow on-screen steps to access Facebook, select the desired page, and provide permissions to WhatABot.
+
+Once you get the page, select the Customer and Bot to be assigned. Finally activate it to make it available to end-users on Messenger.
+
+#### Deploy on Your Website
+
+The third channel to deploy your bots is on your own website \(or your customer's\).    Click on Web Chat to see all available web chats in your account.
+
+{% hint style="info" %}
+Web Chats shown under this option where previously set on the Web Chat option in the Designer toolbar.  Please [click here](user-guide.md#web-chat) for detailed instructions.
+{% endhint %}
+
+![Available Web Chats](../.gitbook/assets/available-web-chats.jpg)
+
+Select a web chat entry to customized some parameters and get the script to insert on your website in the Body section.
+
 ## Broadcast
 
-This option is not available due to WhatsApp and Facebook Messenger restrictions to prevent spam and not requested messages. 
+{% hint style="danger" %}
+This option is not available due to current WhatsApp and Facebook Messenger restrictions to prevent spam. 
+{% endhint %}
 
 ## **Reports**
 
@@ -431,64 +493,6 @@ Shows the list of the Active Users in your WhatABot account.
 
 ![Account Active Users](../.gitbook/assets/account-active-users.jpg)
 
-## How to Deploy Your Bots
-
-To deploy your Bots, click on the Channels option on the left pane menu. Here you will see all the available channels.
-
-![Available Channels](../.gitbook/assets/channels.jpg)
-
-### Deploy on WhatsApp 
-
-{% hint style="success" %}
-In order to add lines to your subscription, please go to your Subscription page and select Change Your Plan tab.  
-{% endhint %}
-
-![Add WhatsApp Lines to Your Subscription](../.gitbook/assets/change-subscription-plan%20%281%29.jpg)
-
-Once you have available lines, click on WhatsApp to see a list of lines with detailed information.
-
-![Available WhatsApp Lines](../.gitbook/assets/whatsapp-lines.jpg)
-
-In order to deploy your Bot on WhatsApp, just click on the Edit action.  The below window is shown.
-
-![Assign your Bot to a WhatsApp line](../.gitbook/assets/deploy-on-whatsapp.jpg)
-
-Under the LINE tab, please name your line on the Name field, select the Customer and Bot to deploy.
-
-Click the OPTIONS tab to enter business information that will be visible to end-users on WhatsApp.
-
-![](../.gitbook/assets/whatsapp-line-options.jpg)
-
-{% hint style="warning" %}
-Business information will be visible to users in up to 48 hours after entered or modified. 
-{% endhint %}
-
-### Deploy on Facebook Messenger 
-
-Click on Messenger to see all subscribed Facebook Pages. Prior to deploying a Bot on Facebook Messenger, you need to have a Page that needs to be subscribed to WhatABot.
-
-![Subscribed Facebook Pages](../.gitbook/assets/facebook-pages.jpg)
-
-To subscribe a new page, click on the Subscribe Facebook Page button.  The below window is shown.
-
-![](../.gitbook/assets/subscribe-facebook-page.jpg)
-
-To see all available pages in your Facebook account, click on the "Get Facebook pages" button. From this point, please follow on-screen steps to access Facebook, select the desired page, and provide permissions to WhatABot.
-
-Once you get the page, select the Customer and Bot to be assigned. Finally activate it to make it available to end-users on Messenger.
-
-### Deploy on Your Website
-
-The third channel to deploy your bots is on your own website \(or your customer's\).    Click on Web Chat to see all available web chats in your account.
-
-{% hint style="info" %}
-Web Chats shown under this option where previously set on the Web Chat option in the Designer toolbar.  Please [click here](user-guide.md#web-chat) for detailed instructions.
-{% endhint %}
-
-![Available Web Chats](../.gitbook/assets/available-web-chats.jpg)
-
-Select a web chat entry to customized some parameters and get the script to insert on your website in the Body section.
-
 ## Resources 
 
 ### Customers
@@ -496,7 +500,7 @@ Select a web chat entry to customized some parameters and get the script to inse
 This option allows to manage Portal Users available on your subscription plan.  
 
 {% hint style="success" %}
-In order to add users to your subscription, please go to your Subscription page and select Change Your Plan tab.
+In order to add users to your subscription, please go to your Subscription page and change your plan.
 {% endhint %}
 
 ## Account Information
