@@ -32,11 +32,3 @@ To be released on May 20, 2020
 
 {% embed url="https://youtu.be/qpK7LWnGL-Q" caption="Create logs and reports for business intelligence " %}
 
-## How to Deploy Your Bot
-
-To be released on May 20, 2020 
-
-## How to Create a Broadcast
-
-This video is unavailable while broadcast functionality for WhatsApp and FB Messenger is allowed.   We apologize for any inconvenience.  
-
