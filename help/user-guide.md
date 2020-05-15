@@ -495,7 +495,7 @@ Shows the list of the Active Users in your WhatABot account.
 
 ## Resources 
 
-### Customers
+### Users
 
 This option allows to manage Portal Users available on your subscription plan.  
 
@@ -503,15 +503,27 @@ This option allows to manage Portal Users available on your subscription plan.
 In order to add users to your subscription, please go to your Subscription page and change your plan.
 {% endhint %}
 
-## Account Information
+### Customers
 
-{% hint style="info" %}
-This content will be available by the end of May 2020
+This option allows to manage Customers.  
+
+{% hint style="success" %}
+Starter and Advanced subscriptions are limited to a single customer.  If you need to serve multiple customers, please upgrade to our Professional subscription.
 {% endhint %}
 
 ## Submit a ticket
 
-{% hint style="info" %}
-This content will be available by the end of May 2020
-{% endhint %}
+If you need help, please don't hesitate to contact us by submitting a ticket through the Portal.  This option is available under the Help option in the left menu pane.
+
+![](../.gitbook/assets/submit-a-ticket.jpg)
+
+ This window allows users to select the type of help required.  There are 5 types to select from the list:
+
+* Feature Request
+* Tech Support
+* Account Support
+* Report a Bug
+* Other
+
+A file of up to 10 MB size can be attached.  We are here to help.
 
