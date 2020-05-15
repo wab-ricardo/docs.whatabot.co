@@ -521,124 +521,17 @@ This option allows to manage Portal Users available on your subscription plan.
 In order to add users to your subscription, please go to your Subscription page and select Change Your Plan tab.
 {% endhint %}
 
-![Subscription Information](../.gitbook/assets/change-subscription-plan.jpg)
+## Account Information
 
-
-
-## ​‌General
-
-This section presents functionality concepts that you will find throughout the portal. It is important to be clear about the way they operate for its use.
-
-### Tables
-
-In various parts of the platform you will find tables that gather information easily and legibly for the user. These tables have a number of features that make it easier to interact with the data.
-
-![](../.gitbook/assets/general1.png)
-
-1. **Number of elements**: Number of rows \(rows\) per screen.
-
-2. **Browser**: searches and filters the results in all columns \(containing text\) in the table.
-
-3. **Sort by column**: Sort the rows in the table up or down based on the selected column.
-
-4. **Element Actions**: Actions that can be applied to the selected element \(row\) : Delete, Edit, View... etc, varies depending on the data. To see the options of a row, pass the cursor over it.
-
-5. **Current data**: shows the range and total of items being displayed.
-
-6. **Paging**: Depending on the number of items chosen \(1\) and the total amount of items \(5\), the table will be divided into pages, use this item to browse between pages.
-
-### Calendar
-
-When inserting Date/Time data, the platform has a calendar that makes for easy information input.
-
-To use it, place the cursor at any field that requires date/time data, click on it.
-
-![](../.gitbook/assets/general2.png)
-
-A calendar like this will appear:
-
-![](../.gitbook/assets/general3.png)
-
-1. **Month alternators**: left to go to the previous month, right to go to the next month.
-2. **Year selector**: you can type or select the year with the drivers that appear when you approach the cursor.
-3. **Current day**: current system date.
-4. **Day selected**: date selected by the user.
-5. **Time selector**: \(only in date/time fields\) you can type or select the time with the drivers that appear when you zoom in.
-6. **Minute selector**: \(only in date/time fields\) you can type or select the minutes with the drivers that appear when you zoom in.
-7. **AM/PM selector**: \(date/time fields only\) click to toggle between AM and PM.
-
-#### Select range
-
-Sometimes the system will ask you to enter a date range. To do this, click the form field, when the calendar appears, select the first date and then the second date.
-
-![](../.gitbook/assets/general4.png)
-
-### Multimedia Content
-
-In the application, some text fields allow you to insert a rich text format or multimedia content. To do that, click on the button with the paperclip icon. A menu with the following options will be displayed:
-
-![imagen](https://chat-bots.co/assets/img/docs/es/img128.jpg) 
-
-Insert the code needed to send multimedia, the URL of the file will be requested. _\*\*hyperlink_ Insert the needed code to send a hyperlink, the link URL will be requested.
-
-| Type | Function | Description |
-| :--- | :--- | :--- |
-| Enriched text | **Bold** | Apply bold to selected text. |
-|  | **Italics** | Apply cursive style to selected text. |
-|  | **Cross out** | Apply ~~crossed out~~ to the selected text. |
-|  | **Mask** | Mask \(hide\) the selected text. |
-| Multimedia | **New message** | Insert a new message \(bubble\) into the conversation. |
-|  | **Multimedia** | Insert the required code  to send multimedia, the URL of the file will be requested. |
-|  | **Document** | Insert the  required     code to send a document, the URL of the document and the name of the file will be requested when sent. |
-|  | **Link** | Insert the required code to send a hyperlink, the link URL will be requested. |
-
-### Edit Profile
-
-WhatABot, stores basic information for each user \(e-mail, name, password, photo\), in this way you can identify who is interacting with the platform. To modify your data, click the "User" button \(top right\), then click "Edit profile".
-
-![](../.gitbook/assets/profile1.png)
-
-You will be directed to the "Edit profile" page.
-
-![](../.gitbook/assets/profile2.png)
-
-The editing options for a profile are:
-
-* **Names**: User name.
-* **Surname**: User last name.
-* **Password**: Access password.
-* **Confirm password**: Confirmation of the  entered  password  in the "Password" field.
-* **Profile image**: Profile photo change.
-
-To modify your profile photo you must:
-
-1. Click "Choose image".
-
-![](../.gitbook/assets/profile3.png)
-
-2. A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
-
-3. The image will be loaded into the box \(as shown below\), you can move it with the cursor to place it in the desired position, using the slider at the bottom you can also make it bigger \(to the right\) or smaller \(to the left\)  
-
-![](../.gitbook/assets/profile4.png)
-
-4. After you have entered all the parameters correctly, click the "Save" button; if all goes well, a notification will appear at the bottom right indicating that the bot has been saved successfully.
-
-![](../.gitbook/assets/profile5.png)
-
-If you updated your profile image, you will notice that a thumbnail is now displayed on the top right.
-
-![](../.gitbook/assets/profile6.png)
-
-> The "**Password**" and "**\*Confirm password**" fields should not be changed unless you want to change your password, otherwise you can ignore them.
-
-When you try to update your password, for security reasons, you will be asked for the current password in order to perform the process.
-
-![](../.gitbook/assets/profile7.png)
+{% hint style="info" %}
+This content will be available by the end of May 2020
+{% endhint %}
 
 ## Submit a ticket
 
-Please complete the form below to send a ticket to WhatABot and one of our consultants will contact you and provide you with the necessary support.
+{% hint style="info" %}
+This content will be available by the end of May 2020
+{% endhint %}
 
 
 
