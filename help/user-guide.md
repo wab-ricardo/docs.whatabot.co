@@ -1,5 +1,5 @@
 ---
-description: 'Last Updated: Nov. 2019.'
+description: 'Last Updated: May 2020.'
 ---
 
 # User Guide
@@ -465,7 +465,7 @@ To deploy your Bots, click on the Channels option on the left pane menu. Here yo
 In order to add lines to your subscription, please go to your Subscription page and select Change Your Plan tab.  
 {% endhint %}
 
-![Add WhatsApp Lines to Your Subscription](../.gitbook/assets/change-subscription-plan.jpg)
+![Add WhatsApp Lines to Your Subscription](../.gitbook/assets/change-subscription-plan%20%281%29.jpg)
 
 Once you have available lines, click on WhatsApp to see a list of lines with detailed information.
 
@@ -511,133 +511,21 @@ Web Chats shown under this option where previously set on the Web Chat option in
 
 Select a web chat entry to customized some parameters and get the script to insert on your website in the Body section.
 
-## Customers
+## Resources 
 
-To access the Customers section, click the "Resources" button \(1\) on the main menu and then click the "Customers" option \(2\) as shown in the image.
+### Customers
 
-![](../.gitbook/assets/customers1.png)
+This option allows to manage Portal Users available on your subscription plan.  
 
-### Create/edit customer
+{% hint style="success" %}
+In order to add users to your subscription, please go to your Subscription page and select Change Your Plan tab.
+{% endhint %}
 
-To create a client, click on the "Create Customer" button, which is located at the bottom.
+![Subscription Information](../.gitbook/assets/change-subscription-plan.jpg)
 
-![](../.gitbook/assets/customers2.png)
 
-Then a window with the following form will appear:
 
-![](../.gitbook/assets/customers3.png)
-
-1. **Name**: name of customer or company. 
-
-2. **Contact**: name of a contact in the company. 
-
-3. **E-mail**: customer contact email.
-
-4. **Active**: button to enable or disable customer.
-
-5. **Choose image**: click the button to assign an image to the client.
-
-* A file manager will appear \(varies depending on the operating system\), select the image you want to upload.
-  * The image will be loaded into the box \(as shown below\), you can move it by clicking and dragging to place it in the desired position.
-  * With the slider located at the bottom you can also make it bigger \(slide right\) or smaller \(slide left\)  
-
-```text
-   ![imagen](https://chat-bots.co/assets/img/docs/es/img112.jpg)
-```
-
-1. Click on "Save" button to create a new customer. 
-
-   \*\*\*\*
-
-### **Edit a  customer**
-
-To edit a customer, locate it in the customer table and click the "Edit" option.
-
-![](../.gitbook/assets/customers4.png)
-
-A window with a form that contains the customer information will appear:
-
-![](../.gitbook/assets/customers5.png)
-
-Edit the needed fields and click on "Save" button.
-
-## Users
-
-The functionalities of the Chat-Bots portal are enabled depending on the access given to each user, in this section they are managed. To access the Users section, click the "Users" button on the main menu, as shown in the image.
-
-![](../.gitbook/assets/users1.png)
-
-### Create/edit user
-
-To create a user, click on the "Create User" button, which is located at the bottom.
-
-![](../.gitbook/assets/users2.png)
-
-Next, a window with the following form will appear:
-
-![](../.gitbook/assets/users3.png)
-
-1. **Login**: email used to access the application.
-
-2. **Customer**: customer to which the user belongs.
-
-3. **Names**: user names.
-
-4. **Surname**: user surnames.
-
-5. **Password**: password to be used.
-
-6. **Confirm password**: confirm previously entered password.
-
-7. **Active**: indicate whether or not the user can log in to the application.
-
-8. Click the "Save" button to create the new user.
-
-### Edit user
-
-To edit a user, place it in the user table and click the "Edit" option.
-
-![](../.gitbook/assets/users4.png)
-
-A window with a form containing user information will appear:
-
-![](../.gitbook/assets/users5.png)
-
-Edit the needed fields and click on "Save" button.
-
-### User permissions
-
-Each user has a series of permissions that define what they can \(or cannot\) do on the platform.
-
-#### Permissions
-
-The permissions define which sections of the platform a user can access. To modify them, follow these instructions:
-
-![](../.gitbook/assets/users6.png)
-
-1. Click on the "PERMISSIONS" tab.
-
-2. Check or uncheck the clients to whom the user will have permission.
-
-3. Check or uncheck the sections to which the user will have access.
-
-4. Click on the "Save" button to keep the changes.
-
-#### Sections
-
-In the SECTIONS tab you can define which of the main menu sections the user will have access to. To modify the sections follow these instructions:
-
-![](../.gitbook/assets/users7.png)
-
-1. Click on the "SECTIONS" tab.
-
-2. Available sections.
-
-3. Mark or uncheck the sections that the user can access.
-
-4. Click the "Save" button to keep the changes.
-
-## General
+## ​‌General
 
 This section presents functionality concepts that you will find throughout the portal. It is important to be clear about the way they operate for its use.
 
