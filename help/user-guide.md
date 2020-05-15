@@ -6,7 +6,7 @@ description: 'Last Updated: May 2020.'
 
 ## **Technical concepts**
 
-**WhatABot** is an automatic conversational response service that integrates chat apps and Bots**.** Our goal is to connect brands and consumers in a direct, friendly, and immediate way with a purpose.   WhatABot enables companies to automate business processes on WhatsApp, FB Messenger and webchat.    
+**WhatABot** is an automatic conversational response service that integrates chat apps and Bots**.** Our goal is to connect brands and consumers in a direct, friendly, and immediate way with a purpose.   WhatABot enables companies to automate business processes on WhatsApp, Facebook Messenger and webchat.    
 
 ### Bot Model
 
@@ -328,7 +328,7 @@ Click on the "Options" button in the Jump Step card to open the Step properties 
 
 ### How to Create Your First Bot
 
-This video shows all the steps you need to learn to get ready to create your first bot.
+This video shows all the steps you need to learn to get ready to create your first bot in 6 minutes.
 
 {% embed url="https://youtu.be/bPtWnhKBf90" caption="Learn how to create your first bot in 6 minutes" %}
 
@@ -387,7 +387,7 @@ Please watch the following video to learn how to create your first AI Module.
 
 {% embed url="https://youtu.be/v0p7aAHuo-g" %}
 
-### How to Deploy Your Bots
+### How to Deploy Your Bot
 
 To deploy your Bots, click on the Channels option on the left pane menu. Here you will see all the available channels.
 
@@ -396,7 +396,7 @@ To deploy your Bots, click on the Channels option on the left pane menu. Here yo
 #### Deploy on WhatsApp 
 
 {% hint style="success" %}
-In order to add lines to your subscription, please go to your Subscription page and select Change Your Plan tab.  
+In order to add lines to your subscription, please go to your Subscription page and change your plan.  
 {% endhint %}
 
 ![Add WhatsApp Lines to Your Subscription](../.gitbook/assets/change-subscription-plan%20%281%29.jpg)
@@ -514,10 +514,4 @@ This content will be available by the end of May 2020
 {% hint style="info" %}
 This content will be available by the end of May 2020
 {% endhint %}
-
-
-
-
-
-
 
