@@ -22,7 +22,9 @@ description: 'Last Updated: May 2020'
 
 ## How to Use Your First AI Module
 
-To be released on May 20, 2020 
+{% hint style="info" %}
+To be released by May 31, 2020 
+{% endhint %}
 
 ## Webhook Integration
 
@@ -31,4 +33,16 @@ To be released on May 20, 2020
 ## How to Use the Trace Step and the Trace Log Report
 
 {% embed url="https://youtu.be/qpK7LWnGL-Q" caption="Create logs and reports for business intelligence " %}
+
+## How to Deploy Your Bot
+
+{% hint style="info" %}
+To be released by May 31, 2020.  In the meantime, please read our [How to Deploy Your Bot](user-guide.md#how-to-deploy-your-bot) section in the User Guide. 
+{% endhint %}
+
+## How to Create a Broadcast 
+
+{% hint style="danger" %}
+This option is not available due to current WhatsApp and Facebook Messenger restrictions to prevent spam. 
+{% endhint %}
 
