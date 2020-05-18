@@ -1,5 +1,5 @@
 ---
-description: The best way to learn how to become a WhatAbot Explorer
+description: 'Last Updated: May 2020'
 ---
 
 # Video Tutorials

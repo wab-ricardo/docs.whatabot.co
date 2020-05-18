@@ -1,5 +1,5 @@
 ---
-description: 'Last Updated August 12, 2019'
+description: 'Last Updated: August 2019'
 ---
 
 # Terms of Service

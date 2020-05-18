@@ -1,5 +1,5 @@
 ---
-description: 'Last Updated  Nov., 2019'
+description: 'Last Updated: November 2019'
 ---
 
 # FAQ
@@ -26,7 +26,7 @@ A conversation is any number of messages interchanged between participants. A co
 
 ## How do we count messages?
 
-Based on the previous definitions, WhatABot plans count single side messages. This means it counts the number of messages a bot sends to a user. For instance, our advanced plan allows customers to get as many as 20,000 automated responses from bots to users.
+Based on the previous definitions, WhatABot plans count single side messages. This means it counts only the number of messages a bot sends to a user. For instance, our advanced plan allows customers to get as many as 20,000 automated responses from bots to users.
 
 ## How do we count conversations?
 
@@ -34,7 +34,7 @@ We count conversations as any number of messages interchanged by a single user a
 
 ## What channels do we use?
 
-WhatABot is currently available on WhatsApp, Facebook Messenger, webchat, and SMS \(selected countries\). We will be adding new channels accordingly to market demand.
+WhatABot is currently available on WhatsApp, Facebook Messenger and webchat. We will be adding new channels based on market demand.
 
 ## 
 
