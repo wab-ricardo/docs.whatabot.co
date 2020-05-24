@@ -330,11 +330,13 @@ Click on the "Options" button in the Jump Step card to open the Step properties 
 
 This video shows all the steps you need to learn to get ready to create your first bot in 6 minutes.
 
-{% page-ref page="video-tutorials.md" %}
+{% embed url="https://youtu.be/ogDn77Yl0wU" %}
 
+### How to Create Your First AI Module
 
+{% embed url="https://youtu.be/fwDYLyJVCqE" %}
 
-### How to Integrate a Bot with Core Business Systems
+### How to Integrate Your Bot to External Systems
 
 For the Bot to connect with external systems, it is necessary from within a Process type Step to specify a Webhook URL that must meet the following specifications: 
 
@@ -343,7 +345,7 @@ For the Bot to connect with external systems, it is necessary from within a Proc
 3. All Bot variables are text type. 
 4. If the used method is POST, selected chat and message variables are sent.
 
-{% embed url="https://youtu.be/wHmN6LWZH5Q" caption="Webhook Integration" %}
+{% embed url="https://youtu.be/CiQqBMWDvlE" %}
 
 ### **How to Add Artificial Intelligence \(AI\) to a Bot**                                                                               
 
@@ -381,13 +383,15 @@ Once saved and trained, it is time to test the AI Module. Click on Test under Ac
 
 {% hint style="info" %}
 To make an AI Module version available to a Bot Model, it needs to be pinned. Just click on the Pin action at the version level. 
+{% endhint %}
 
+{% hint style="info" %}
 An AI Module can be used in different Bot Models. This way you can build it once and use it many times.
 {% endhint %}
 
 Please watch the following video to learn how to create your first AI Module.
 
-{% embed url="https://youtu.be/v0p7aAHuo-g" %}
+{% embed url="https://youtu.be/fwDYLyJVCqE" %}
 
 ### How to Deploy Your Bot
 
@@ -447,6 +451,10 @@ Web Chats shown under this option where previously set on the Web Chat option in
 
 Select a web chat entry to customized some parameters and get the script to insert on your website in the Body section.
 
+Please watch the following video to learn how to deploy bot.
+
+{% embed url="https://youtu.be/9hTEH\_APfLw" %}
+
 ## Broadcast
 
 {% hint style="danger" %}
@@ -461,9 +469,9 @@ There are 3 types of WhatABot reports.
 
 ### Trace Log
 
-A Trace Log report extracts information recorded by a Trace Log Step.  Please watch the following video to learn more.
+A Trace Log report extracts information recorded by a Trace Log Step.  Please watch the following video to learn how to create a trace log report.
 
-{% embed url="https://youtu.be/qpK7LWnGL-Q" caption="Trace Log Report" %}
+{% embed url="https://youtu.be/GJmhyTnxe5I" %}
 
 ### Indicators
 
