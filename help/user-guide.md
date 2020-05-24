@@ -330,7 +330,9 @@ Click on the "Options" button in the Jump Step card to open the Step properties 
 
 This video shows all the steps you need to learn to get ready to create your first bot in 6 minutes.
 
-{% embed url="https://youtu.be/bPtWnhKBf90" caption="Learn how to create your first bot in 6 minutes" %}
+{% page-ref page="video-tutorials.md" %}
+
+
 
 ### How to Integrate a Bot with Core Business Systems
 
