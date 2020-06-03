@@ -332,9 +332,9 @@ This video shows all the steps you need to learn to get ready to create your fir
 
 {% embed url="https://youtu.be/ogDn77Yl0wU" %}
 
-### How to Create Your First AI Module
+### How to Create and Use Your First AI Module
 
-{% embed url="https://youtu.be/fwDYLyJVCqE" %}
+{% embed url="https://youtu.be/0BKeyqc6QK4" %}
 
 ### How to Integrate Your Bot to External Systems
 
