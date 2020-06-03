@@ -16,15 +16,9 @@ description: 'Last Updated: May 2020'
 
 {% embed url="https://youtu.be/bY6CVRC0REw" %}
 
-## How to Create Your First AI Module
+## How to Create and Use Your First AI Module
 
-{% embed url="https://youtu.be/fwDYLyJVCqE" %}
-
-## How to Use Your AI Module in a Bot
-
-{% hint style="info" %}
-To be released by May 31, 2020 
-{% endhint %}
+{% embed url="https://youtu.be/0BKeyqc6QK4" %}
 
 ## How to Deploy Your Bot
 
