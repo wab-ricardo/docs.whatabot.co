@@ -416,7 +416,9 @@ You will need the following information:
 * Provide contact information \(e-mail address, phone number, legal name, address, city, postal code, and type of business\)
 * Once we receive the Facebook Business ID, the valid phone number, and the contact information, we will request your WABA to WhatsApp.  During the process we will send a link to approve GupShup to request your WABA in your name. This will be sent via SMS. 
 * This might take between 2 to 5 working days, but it usually is approved within 2 working days.
-* When approved, the last step will be to receive a verification code to the phone number via WhatsApp
+* When approved, the last step will be to receive a verification code that WhatsApp sends to the phone number via WhatsApp.  This must be coordinated as we need to enter that code in our system before it expires. 
+
+After the WABA has been approved, it will be available in Chat-Bots within 1 hour under the left menu Resources/Channels/WhatsApp Lines.
 
 ![Available WhatsApp Lines](../.gitbook/assets/whatsapp-lines.jpg)
 

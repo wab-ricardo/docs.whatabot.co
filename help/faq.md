@@ -6,19 +6,15 @@ description: 'Last Updated: November 2019'
 
 ## What is a bot?
 
- A bot is a software application that is programmed to do certain tasks. It is an automated service, powered by rules and sometimes artificial intelligence. A bot is designed to interact with a user to provide valuable information or execute tasks. . When applied to business processes, it can run a range of tasks from very basic to highly sophisticated ones.
+ A bot is a software application that is programmed to do certain tasks. It is an automated service, powered by rules and sometimes artificial intelligence. A bot is designed to interact with a user to provide valuable information or execute tasks. When applied to business processes, it can run a range of tasks from very basic to highly sophisticated ones.
 
 ## What is a chatbot?
 
-A chatbot represents and guides interactions a user has with a bot over a chat app. A chatbot provides a practical method to dispense automated services to users in a direct, immediate and friendly way.
-
-## What is a bubble?
-
-A bubble is a single message submitted by any participant in a given conversation.
+A chatbot represents and guides interactions between a bot and a user over a chat app. A chatbot provides a practical method to dispense automated services to users in a direct, immediate and friendly way.
 
 ## What is a message?
 
-A message is a set of one or more bubbles sent by a participant in a conversation before its counterpart sends a response.
+A message is a single text sent by a participant in a conversation.
 
 ## What is a conversation?
 
@@ -26,7 +22,7 @@ A conversation is any number of messages interchanged between participants. A co
 
 ## How do we count messages?
 
-Based on the previous definitions, WhatABot plans count single side messages. This means it counts only the number of messages a bot sends to a user. For instance, our advanced plan allows customers to get as many as 20,000 automated responses from bots to users.
+Based on the previous definitions, WhatABot plans count all outgoing and incoming messages. This means, it counts not only the number of messages a user sends to a bot, but also each bot response. 
 
 ## How do we count conversations?
 
