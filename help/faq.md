@@ -51,5 +51,5 @@ This process is done thru GupShup.io.  To start the process, please click on opt
 * This might take between 2 to 5 working days, but it usually is approved within 2 working days.
 * When approved, the last step will be to receive a verification code that WhatsApp sends to the phone number via WhatsApp.  This must be coordinated as we need to enter that code in our system before it expires. 
 
-After the WABA has been approved, it will be available in Chat-Bots within 1 hour under the left menu Channels/WhatsApp Lines.
+After the WABA has been approved, it will be available in Chat-Bots within 1 hour under the left menu Channels/WhatsApp.
 
