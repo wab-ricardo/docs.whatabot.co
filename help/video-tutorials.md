@@ -35,6 +35,6 @@ description: 'Last Updated: May 2020'
 ## How to Create a Broadcast 
 
 {% hint style="danger" %}
-This option is not available due to current WhatsApp and Facebook Messenger restrictions to prevent spam. 
+This option requires a WABA and opted-in users.  Please contact us to know how. . 
 {% endhint %}
 
