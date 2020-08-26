@@ -32,7 +32,13 @@ We count conversations as any number of messages interchanged by a single user a
 
 WhatABot is currently available on WhatsApp, Facebook Messenger and webchat. We will be adding new channels based on market demand.
 
-## 
+## What is a WABA?
+
+WABA stands for WhatsApp Business Account.  It refers to WhatsApp approved accounts associated to a phone number that have access to the official API for automation purposes. 
+
+## Does WhatABot support WABAs?
+
+Sure it does.  We have a partnership with GupShup.io, one of the biggest global WhatsApp official partners.   This partnership allow us to provide WABAs to our customers.   More information on the section [How To Deploy Your Bot](https://app.gitbook.com/@whatabot-1/s/docs/~/drafts/-MFfeZsTnBnfbHhIZ1eB/help/user-guide#how-to-deploy-your-bot) in the User Guide.
 
 ###  <a id="definitions"></a>
 
