@@ -407,7 +407,7 @@ In order to add lines to your subscription, please go to your Subscription page 
 
 ![Add WhatsApp Lines to Your Subscription](../.gitbook/assets/change-subscription-plan%20%281%29.jpg)
 
-Once you have purchased lines, click on WhatsApp to start the process of requesting a WABA \(WhatsApp Business Account\).  This process is done thru our WhatsApp Official Partner, GupShup.io.  
+Once you have purchased lines, click on WhatsApp to start the process of requesting a WABA \(WhatsApp Business Account\).  This process is done thru our partnership with GupShup.io, one of the biggest WhatsApp Official Partners.  
 
 You will need the following information:
 
@@ -418,7 +418,7 @@ You will need the following information:
 * This might take between 2 to 5 working days, but it usually is approved within 2 working days.
 * When approved, the last step will be to receive a verification code that WhatsApp sends to the phone number via WhatsApp.  This must be coordinated as we need to enter that code in our system before it expires. 
 
-After the WABA has been approved, it will be available in Chat-Bots within 1 hour under the left menu Resources/Channels/WhatsApp Lines.
+After the WABA has been approved, it will be available in Chat-Bots within 1 hour under the left menu Channels/WhatsApp.
 
 ![Available WhatsApp Lines](../.gitbook/assets/whatsapp-lines.jpg)
 

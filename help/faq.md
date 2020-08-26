@@ -40,5 +40,16 @@ WABA stands for WhatsApp Business Account.  It refers to WhatsApp approved accou
 
 Sure it does.  We have a partnership with GupShup.io, one of the biggest global WhatsApp official partners.   This partnership allow us to provide WABAs to our customers.   More information on the section [How To Deploy Your Bot](https://app.gitbook.com/@whatabot-1/s/docs/~/drafts/-MFfeZsTnBnfbHhIZ1eB/help/user-guide#how-to-deploy-your-bot) in the User Guide.
 
-###  <a id="definitions"></a>
+## How to request a WABA?
+
+This process is done thru GupShup.io.  To start the process, please click on option Channels/WhatsApp.  Then click on  Create a Line.  You will need the following information:
+
+* Provide the ID number of your Facebook Business verified account. [ Learn how to verify your business on Facebook](https://www.facebook.com/business/help/2058515294227817?id=180505742745347).
+* Provide the phone number you want to have your WABA associated to.  This number must not be registered to a WhatsApp account.  If so, please close the account related to that number and wait for 7 days to make it usable in a WABA.
+* Provide contact information \(e-mail address, phone number, legal name, address, city, postal code, and type of business\)
+* Once we receive the Facebook Business ID, the valid phone number, and the contact information, we will request your WABA to WhatsApp.  During the process we will send a link to approve GupShup to request your WABA in your name. This will be sent via SMS. 
+* This might take between 2 to 5 working days, but it usually is approved within 2 working days.
+* When approved, the last step will be to receive a verification code that WhatsApp sends to the phone number via WhatsApp.  This must be coordinated as we need to enter that code in our system before it expires. 
+
+After the WABA has been approved, it will be available in Chat-Bots within 1 hour under the left menu Channels/WhatsApp Lines.
 
